@@ -1,0 +1,146 @@
+[
+  {
+    "page": 63,
+    "label": "Table P1.1",
+    "kind": "table",
+    "bbox": [
+      65,
+      480,
+      515,
+      610
+    ],
+    "description": "World Bank country classifications, 2022. Columns are income group; share of global population (%); share of global GDP (%); share of people in extreme poverty globally (%); share of global CO2 emissions (%). Low-income: 8.9, 0.6, 36.5, 0.5. Lower-middle-income: 40.3, 8.3, 55.4, 15.7. Upper-middle-income: 35.1, 30.3, 7.1, 48.6. High-income: 15.7, 60.8, 1.0, 35.2."
+  },
+  {
+    "page": 86,
+    "label": "Table 2.1",
+    "kind": "table",
+    "bbox": [
+      65,
+      500,
+      515,
+      670
+    ],
+    "description": "Priority dials for investment, infusion, and innovation by income group. Low-income: investment higher, infusion lower, innovation lower. Lower-middle-income: investment higher, infusion higher, innovation lower. Upper-middle-income: investment higher, infusion higher, innovation higher. Orange dials mean higher priority; blue dials mean lower priority."
+  },
+  {
+    "page": 88,
+    "label": "Figure 2.2",
+    "kind": "diagram",
+    "bbox": [
+      50,
+      410,
+      540,
+      720
+    ],
+    "description": "The conceptual diagram places proximity to the technology frontier on the horizontal axis and relative contributions to growth on the vertical axis. The progression is 1i investment, then 2i investment plus infusion, then 3i investment plus infusion plus innovation. Capital's relative contribution falls and productivity's rises toward the frontier."
+  },
+  {
+    "page": 107,
+    "label": "Figure 3.4",
+    "kind": "chart",
+    "bbox": [
+      75,
+      85,
+      535,
+      390
+    ],
+    "description": "Line chart of projected debt-service interest expense for emerging markets and middle-income countries. In 2028, interest expense is 2.6% of GDP and 9.7% of general government revenues. The revenue share is much higher than the GDP share."
+  },
+  {
+    "page": 108,
+    "label": "Figure 3.5",
+    "kind": "chart",
+    "bbox": [
+      75,
+      85,
+      535,
+      370
+    ],
+    "description": "Two bar charts. Panel a, energy intensity in exajoules per trillion US dollars: LMICs 12.1, UMICs 9.0, HICs 5.1. Panel b, carbon intensity of energy consumption in GtCO2 equivalent per exajoule: LMICs 0.098, UMICs 0.086, HICs 0.056."
+  },
+  {
+    "page": 115,
+    "label": "Figure P2.1",
+    "kind": "diagram",
+    "bbox": [
+      65,
+      80,
+      510,
+      380
+    ],
+    "description": "Two circular arrangements of creation, preservation, and destruction illustrate rebalancing for creative destruction. In the first, preservation is the largest circle and destruction the smallest. In the second, preservation shrinks and creation and destruction become more balanced."
+  },
+  {
+    "page": 135,
+    "label": "Table 4.1",
+    "kind": "table",
+    "bbox": [
+      65,
+      535,
+      515,
+      690
+    ],
+    "description": "Examples of effects of market power on development outcomes. Columns: outcome, pros, cons. Productivity: mergers and acquisitions may improve efficiency; conglomerates may cross-subsidize unproductive firms. Consumer welfare: efficient structures may lower prices; fewer players make cartels easier. Innovation: innovation can create market power; incentives to innovate and firm entry may fall. Jobs: demand for highly skilled workers grows; lower-skilled wages are depressed while talented workers are captured."
+  },
+  {
+    "page": 173,
+    "label": "Map 6.1",
+    "kind": "map",
+    "bbox": [
+      65,
+      120,
+      535,
+      415
+    ],
+    "description": "A world map of low-carbon technology job postings in 2022 uses bubbles and four income-group colors: gray for high-income, orange for upper-middle-income, teal for lower-middle-income, green for low-income. The biggest visible cluster is Europe, with large concentrations also in East Asia and North America. The caption says one-third of the postings were in middle-income countries."
+  },
+  {
+    "page": 182,
+    "label": "Map 6.2",
+    "kind": "map",
+    "bbox": [
+      45,
+      375,
+      550,
+      655
+    ],
+    "description": "A world map of 2023 electricity transmission lines shows dense red networks in North America, Europe, and eastern Asia, sparse networks in much of Africa, and two insets for regional detail. The map illustrates geographic disparities and barriers to new renewable generation."
+  },
+  {
+    "page": 186,
+    "label": "Map 6.3",
+    "kind": "map",
+    "bbox": [
+      55,
+      345,
+      530,
+      675
+    ],
+    "description": "Two maps of China compare 2019 shares of online postings for low-carbon technology jobs and fossil-fuel jobs. Low-carbon jobs cluster in east-coast manufacturing hubs including Guangdong and Shanghai; Beijing is a separate northern hub. Fossil-fuel jobs concentrate around inland coal-mining areas including Shanxi and western Guizhou."
+  },
+  {
+    "page": 195,
+    "label": "Figure 7.2",
+    "kind": "diagram",
+    "bbox": [
+      50,
+      360,
+      540,
+      700
+    ],
+    "description": "The contestability framework diagram names three levers: institutions, incentives, and interventions. Its goal is disciplining incumbency and promoting contestability."
+  },
+  {
+    "page": 267,
+    "label": "Figure 9.12",
+    "kind": "chart",
+    "bbox": [
+      75,
+      350,
+      535,
+      670
+    ],
+    "description": "Stacked area chart of global primary energy consumption by source from 1800 to 2022, in TWh. In 2022 fossil fuels (coal, oil, natural gas) dominate the total and account for more than 75%; wind and solar are still much smaller despite recent growth."
+  }
+]

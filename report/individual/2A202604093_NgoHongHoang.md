@@ -60,4 +60,4 @@ Ban đầu model `deepseek/deepseek-chat-v3.1` trả `402 (openrouter_credits)` 
 
 Trace và nhãn phản ánh một lượt chạy trên model có tính ngẫu nhiên và provider routing; kết quả khác có thể đổi khi chạy lại. Agent đã dùng `temperature=0` nhưng vẫn có biến động giữa các lượt thử. Cần kiểm tra lại citation khi đổi model, prompt hoặc context budget.
 
-Thử thách nâng cao 100 trang chưa thực hiện; corpus ban đầu có 35 trang nội dung và bản OCR mở rộng bao phủ 48 trang vật lý. Bản mở rộng mới đo OCR và retrieval, chưa chạy hoặc chấm agent trên bộ câu hỏi OCR.
+Phần nâng cao được làm riêng trên [World Development Report 2024, 276 trang](advanced_wdr2024.md): test thay thế đã chốt đạt 29/30 câu. Corpus du lịch ban đầu có 35 trang nội dung và bản OCR mở rộng bao phủ 48 trang vật lý; phép đo OCR vẫn tách khỏi benchmark nâng cao.

@@ -1,0 +1,25 @@
+{
+  "document": "World Bank, World Development Report 2024: The Middle-Income Trap",
+  "document_sha256": "dc69d858e364a1534a57c49fbb72237f69d88165a63933a98f01f3c20262aded",
+  "benchmark_sha256": "51f7fa26c8fbb22e126dabc7e4fb88dc1e5b24523b2f7b4f9de694debabfc84a",
+  "index_sha256": "f2dffad538a0ca1ac34e80c27b3312c6615bacd5104df16f0778db19da78a6f7",
+  "chosen_after_dev": {
+    "retriever": "TF-IDF with exact figure/table/map label boost, front matter penalty, distinct-page rerank",
+    "top_k": 3,
+    "context_budget_chars": 10000,
+    "max_searches": 3,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "reasoning": "off",
+    "temperature": 0
+  },
+  "dev_observations": {
+    "answerable": 15,
+    "semantically_correct": 15,
+    "no_evidence": 3,
+    "semantic_refusals": 3,
+    "system_errors": 0,
+    "median_elapsed_ms": 3865.745,
+    "cost_usd": 0.00796553
+  },
+  "status": "frozen_before_test"
+}

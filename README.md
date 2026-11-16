@@ -1,5 +1,9 @@
 # Day 7 — Agentic RAG
 
+## Thử thách nâng cao: WDR 2024
+
+Đã index *World Development Report 2024* (276 trang) và chấm agent trên bộ test thay thế 30 câu: **29/30 = 96,67%**, gồm bảng, sơ đồ/bản đồ, biểu đồ, multi-hop, text và câu thiếu evidence. Xem [báo cáo nâng cao](report/individual/advanced_wdr2024.md), [benchmark](data/advanced_questions.json) và [nhãn test](report/individual/advanced_test_reviews.json). PDF gốc tải từ World Bank theo URL trong báo cáo; không commit vào repo.
+
 ## Bài làm hiện tại · Ngô Hồng Hoàng · 2A202604093
 
 Kết quả Day 7 đã công bố dùng 142 chunk từ 35 trang và được giữ riêng trong [báo cáo](report/individual/2A202604093_NgoHongHoang.md). Bản mở rộng hiện nay nạp 48 trang: OCR sáu trang không có lớp chữ (40–44, 47) và bổ sung chữ trong ảnh ở 23 trang hỗn hợp. Index `B_OCR` có 215 chunk. Xem [đánh giá OCR](report/individual/ocr_extension.md). Điểm cũ không áp dụng cho corpus mới.

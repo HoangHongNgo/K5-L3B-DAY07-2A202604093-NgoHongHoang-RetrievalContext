@@ -1,0 +1,38 @@
+{
+  "test_questions": 30,
+  "passed": 29,
+  "pass_rate": 0.9666666666666667,
+  "by_group": {
+    "table": {
+      "passed": 6,
+      "total": 6
+    },
+    "image_diagram": {
+      "passed": 5,
+      "total": 5
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5
+    },
+    "multi_hop": {
+      "passed": 3,
+      "total": 4
+    },
+    "text": {
+      "passed": 4,
+      "total": 4
+    },
+    "no_evidence": {
+      "passed": 6,
+      "total": 6
+    }
+  },
+  "errors": 0,
+  "median_elapsed_ms": 2481.75,
+  "total_cost_usd": 0.01495956,
+  "search_calls": 55,
+  "model_calls": 85,
+  "selection_sha256": "351884327a45e3f9e3ee0d0be58658fff17c4e64d8e5f1ee0397d926248c6d02",
+  "note": "Human review; status=answered can still be a semantic refusal."
+}

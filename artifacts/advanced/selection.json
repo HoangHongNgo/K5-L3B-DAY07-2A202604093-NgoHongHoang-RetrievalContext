@@ -1,0 +1,27 @@
+{
+  "document_sha256": "dc69d858e364a1534a57c49fbb72237f69d88165a63933a98f01f3c20262aded",
+  "benchmark_sha256": "a54a13e6e5a251662b53b6c73f53c8a60de9bcc258cae8fca18fbea21c3c598a",
+  "index_sha256": "44668c63be304bd76d884cd729cc9cadf2c35aaf5f1c6d51d61ab51b88034955",
+  "pilot_test_inspected": true,
+  "replacement_test": "data/advanced_questions.json; all 30 test items differ from the pilot",
+  "chosen_after_dev": {
+    "retriever": "TF-IDF with exact source-label boost, front-matter penalty, distinct-page rerank",
+    "top_k": 3,
+    "context_budget_chars": 10000,
+    "max_searches": 3,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "reasoning": "off",
+    "temperature": 0,
+    "max_output_tokens": 600
+  },
+  "dev_observations": {
+    "answerable": 15,
+    "semantically_correct": 14,
+    "no_evidence": 3,
+    "semantic_refusals": 3,
+    "system_errors": 0,
+    "median_elapsed_ms": 2875.98,
+    "cost_usd": 0.009134275
+  },
+  "status": "frozen_before_replacement_test"
+}

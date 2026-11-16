@@ -1,0 +1,827 @@
+[
+  {
+    "id": "adv_dev_01",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table P1.1, what share of global GDP belongs to lower-middle-income economies in 2022?",
+    "answerable": true,
+    "expected_answer": "8.3%",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1; lower-middle-income row, global GDP column",
+        "evidence": "8.3"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_02",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table P1.1, what share of global CO2 emissions belongs to high-income economies in 2022?",
+    "answerable": true,
+    "expected_answer": "35.2%",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1; high-income row, CO2 column",
+        "evidence": "35.2"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_03",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 2.1, which two strategies are higher priorities for lower-middle-income countries?",
+    "answerable": true,
+    "expected_answer": "Investment and infusion.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 86,
+        "region": "Table 2.1; lower-middle-income row",
+        "evidence": "Higher priority for investment and infusion"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_04",
+    "split": "dev",
+    "group": "image_diagram",
+    "question": "In Figure 2.2, what is the middle stage labeled between 1i and 3i?",
+    "answerable": true,
+    "expected_answer": "2i: investment plus infusion.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 88,
+        "region": "Figure 2.2, central stage",
+        "evidence": "2i Investment + Infusion"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_05",
+    "split": "dev",
+    "group": "image_diagram",
+    "question": "In Map 6.2, which broad continent has sparse electricity transmission lines compared with Europe?",
+    "answerable": true,
+    "expected_answer": "Africa.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 182,
+        "region": "Map 6.2, world map",
+        "evidence": "Sparse transmission lines across much of Africa"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_06",
+    "split": "dev",
+    "group": "image_diagram",
+    "question": "In the left arrangement of Figure P2.1, which force has the largest circle?",
+    "answerable": true,
+    "expected_answer": "Preservation.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 115,
+        "region": "Figure P2.1, left arrangement",
+        "evidence": "Preservation is the largest circle"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_07",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 3.5 panel a, what is the energy intensity of lower-middle-income countries?",
+    "answerable": true,
+    "expected_answer": "12.1 exajoules per trillion US dollars.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 108,
+        "region": "Figure 3.5a, LMIC bar",
+        "evidence": "12.1 exajoules/trillion US$"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_08",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 3.2, did harmful semiconductor trade interventions rise or fall after 2019?",
+    "answerable": true,
+    "expected_answer": "They rose sharply.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 105,
+        "region": "Figure 3.2b, harmful interventions",
+        "evidence": "Harmful interventions skyrocketed since 2019"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_09",
+    "split": "dev",
+    "group": "chart",
+    "question": "What two series are plotted in Figure 6.2's panels?",
+    "answerable": true,
+    "expected_answer": "Share of online job postings related to low-carbon technologies and share of listed firms mentioning them in shareholder meetings.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 172,
+        "region": "Figure 6.2 panels a and b",
+        "evidence": "Job postings and listed-firm shareholder meetings"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_10",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Using Table P1.1, what is the combined 2022 global population share of lower- and upper-middle-income economies?",
+    "answerable": true,
+    "expected_answer": "75.4% (40.3% + 35.1%).",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1, population column, two middle-income rows",
+        "evidence": "40.3 + 35.1 = 75.4"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_11",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "What does Table 2.1 prioritize for upper-middle-income countries, and how is that stage labeled in Figure 2.2?",
+    "answerable": true,
+    "expected_answer": "All three: investment, infusion, and innovation; the 3i stage.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 86,
+        "region": "Table 2.1, upper-middle-income row",
+        "evidence": "Three higher priorities"
+      },
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 88,
+        "region": "Figure 2.2, right stage",
+        "evidence": "3i Investment + Infusion + Innovation"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_12",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "According to the 2022 jobs discussion, how many new job openings were related to low-carbon technologies, and what share-based measure appears in Figure 6.2 panel a?",
+    "answerable": true,
+    "expected_answer": "3.3 million new related job openings in 2022; Figure 6.2 tracks the share of online job postings mentioning low-carbon technologies.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 171,
+        "region": "Text, low-carbon jobs paragraph",
+        "evidence": "3.3 million new job openings"
+      },
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 172,
+        "region": "Figure 6.2a",
+        "evidence": "Share of job postings related to LCTs"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_13",
+    "split": "dev",
+    "group": "text",
+    "question": "How many countries did the report classify as middle-income at the time of publication?",
+    "answerable": true,
+    "expected_answer": "108.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Part 1 opening paragraph",
+        "evidence": "108 countries"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_14",
+    "split": "dev",
+    "group": "text",
+    "question": "What does the report mean by technology infusion in lower-middle-income countries?",
+    "answerable": true,
+    "expected_answer": "Importing modern technologies and business models and spreading them domestically at scale.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 88,
+        "region": "Infuse first, then innovate",
+        "evidence": "Importing and diffusing technology domestically"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_15",
+    "split": "dev",
+    "group": "text",
+    "question": "What was the estimated record global fossil-fuel subsidy amount in 2022?",
+    "answerable": true,
+    "expected_answer": "US$1 trillion.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 241,
+        "region": "Fossil-fuel subsidy paragraph",
+        "evidence": "US$1 trillion"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_dev_16",
+    "split": "dev",
+    "group": "no_evidence",
+    "question": "What was the measured global fossil-fuel subsidy total in 2027?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The 2024 report cannot contain a measured 2027 global total."
+  },
+  {
+    "id": "adv_dev_17",
+    "split": "dev",
+    "group": "no_evidence",
+    "question": "Who won the 2026 Nobel Prize in Economics according to this report?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The prize is after the report's 2024 publication."
+  },
+  {
+    "id": "adv_dev_18",
+    "split": "dev",
+    "group": "no_evidence",
+    "question": "What exact share of global GDP did lower-middle-income countries have in 2035?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "2035 is beyond the report and no actual share is reported."
+  },
+  {
+    "id": "adv_test_01",
+    "split": "test",
+    "group": "table",
+    "question": "In Table P1.1, what percent of the world's people in extreme poverty lived in low-income economies in 2022?",
+    "answerable": true,
+    "expected_answer": "36.5%.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1; low-income row, extreme-poverty column",
+        "evidence": "36.5"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_02",
+    "split": "test",
+    "group": "table",
+    "question": "In Table P1.1, what share of 2022 global CO2 emissions came from upper-middle-income economies?",
+    "answerable": true,
+    "expected_answer": "48.6%.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1; upper-middle-income row, CO2 column",
+        "evidence": "48.6"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_03",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table P1.1, what was high-income economies' share of global GDP in 2022?",
+    "answerable": true,
+    "expected_answer": "60.8%.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1; high-income row, GDP column",
+        "evidence": "60.8"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_04",
+    "split": "test",
+    "group": "table",
+    "question": "What share of global population was in lower-middle-income economies in Table P1.1?",
+    "answerable": true,
+    "expected_answer": "40.3%.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1; lower-middle-income row, population column",
+        "evidence": "40.3"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_05",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 4.1, what is the listed downside of market power for lower-skilled workers under jobs?",
+    "answerable": true,
+    "expected_answer": "Their wages are depressed.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 135,
+        "region": "Table 4.1; Jobs row, Cons column",
+        "evidence": "Wages for lower-skilled workers are depressed"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_06",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 2.1, is innovation a higher or lower priority for upper-middle-income economies?",
+    "answerable": true,
+    "expected_answer": "Higher priority.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 86,
+        "region": "Table 2.1; upper-middle-income row, innovation column",
+        "evidence": "Higher priority"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_07",
+    "split": "test",
+    "group": "image_diagram",
+    "question": "In Map 6.3, where are China's fossil-fuel jobs concentrated relative to low-carbon technology jobs?",
+    "answerable": true,
+    "expected_answer": "Fossil-fuel jobs cluster near coal mines, especially around Shanxi and western Guizhou; low-carbon jobs cluster on the southeast coast.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 186,
+        "region": "Map 6.3 panels a and b",
+        "evidence": "Coal regions versus southeast coast"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_08",
+    "split": "test",
+    "group": "image_diagram",
+    "question": "In Map 6.1, which region shows the largest visible concentration of low-carbon job-posting bubbles?",
+    "answerable": true,
+    "expected_answer": "Europe.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 173,
+        "region": "Map 6.1, Europe bubble cluster",
+        "evidence": "Largest visible cluster in Europe"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_09",
+    "split": "test",
+    "group": "image_diagram",
+    "question": "Which three levers feed into contestability in Figure 7.2?",
+    "answerable": true,
+    "expected_answer": "Institutions, incentives, and interventions.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 195,
+        "region": "Figure 7.2, lower three boxes",
+        "evidence": "Institutions, incentives, interventions"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_10",
+    "split": "test",
+    "group": "image_diagram",
+    "question": "As economies move closer to the frontier in Figure 2.2, which contribution rises and which falls?",
+    "answerable": true,
+    "expected_answer": "Productivity rises; capital falls.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 88,
+        "region": "Figure 2.2, two curves",
+        "evidence": "Productivity rises and capital falls"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_11",
+    "split": "test",
+    "group": "image_diagram",
+    "question": "In the right arrangement of Figure P2.1, how does preservation change compared with the left?",
+    "answerable": true,
+    "expected_answer": "Its circle becomes much smaller, while destruction becomes larger.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 115,
+        "region": "Figure P2.1, left and right arrangements",
+        "evidence": "Preservation shrinks and destruction grows"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_12",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 3.5 panel b, what is the carbon intensity of high-income countries' energy consumption?",
+    "answerable": true,
+    "expected_answer": "0.056 GtCO2 equivalent per exajoule.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 108,
+        "region": "Figure 3.5b, HIC bar",
+        "evidence": "0.056 GtCO2 equivalent/exajoule"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_13",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 7.1, how do the two fitted trends change as Italian firms become market leaders?",
+    "answerable": true,
+    "expected_answer": "Patents per 100 workers decrease while local politicians employed per 100 workers increase.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 194,
+        "region": "Figure 7.1, fitted patent and politician lines",
+        "evidence": "Patents down, politicians up toward market leader"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_14",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 3.1, which type of new trade policy is more numerous globally: helpful or harmful?",
+    "answerable": true,
+    "expected_answer": "Harmful policies.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 104,
+        "region": "Figure 3.1, two series",
+        "evidence": "Harmful policies outnumber helpful"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_15",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 6.1, what happens to the investment prices of solar PV and onshore wind over time?",
+    "answerable": true,
+    "expected_answer": "They decline substantially.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 171,
+        "region": "Figure 6.1, solar and wind curves",
+        "evidence": "Solar PV and onshore wind prices decline"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_16",
+    "split": "test",
+    "group": "chart",
+    "question": "According to Figure 8.6, which indirect carbon-pricing instrument sends the strongest positive price signal?",
+    "answerable": true,
+    "expected_answer": "Energy taxes.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 241,
+        "region": "Figure 8.6, energy taxes series",
+        "evidence": "Energy taxes send strongest price signal"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_17",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "From Table P1.1, what is the combined CO2 emissions share of lower- and upper-middle-income economies in 2022?",
+    "answerable": true,
+    "expected_answer": "64.3% (15.7% + 48.6%).",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1, CO2 column, two middle-income rows",
+        "evidence": "15.7 + 48.6 = 64.3"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_18",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "From Table P1.1, what is the combined global GDP share of lower- and upper-middle-income economies?",
+    "answerable": true,
+    "expected_answer": "38.6% (8.3% + 30.3%).",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 63,
+        "region": "Table P1.1, GDP column, two middle-income rows",
+        "evidence": "8.3 + 30.3 = 38.6"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_19",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "How does lower-middle-income energy intensity compare with high-income energy intensity in Figure 3.5, and what financing barrier does Figure 3.6 identify for middle-income solar projects?",
+    "answerable": true,
+    "expected_answer": "12.1 versus 5.1 exajoules per trillion US dollars (about 2.4 times); solar projects face a substantially higher weighted average cost of capital.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 108,
+        "region": "Figure 3.5a, LMIC and HIC bars",
+        "evidence": "12.1 and 5.1"
+      },
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 109,
+        "region": "Figure 3.6 caption and plot",
+        "evidence": "Higher weighted average cost of capital"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_20",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "What trend does Figure 6.1 show for low-carbon technology prices, and what trend does Figure 6.2 show for low-carbon technology job postings?",
+    "answerable": true,
+    "expected_answer": "Investment prices decline, while the share of related online job postings rises.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 171,
+        "region": "Figure 6.1, investment price curves",
+        "evidence": "Prices decline"
+      },
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 172,
+        "region": "Figure 6.2a, job postings series",
+        "evidence": "Job share rises"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_21",
+    "split": "test",
+    "group": "text",
+    "question": "How many economies reached high-income status between 1990 and 2021 according to the report?",
+    "answerable": true,
+    "expected_answer": "34.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 68,
+        "region": "Middle-income headwinds paragraph",
+        "evidence": "34 economies"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_22",
+    "split": "test",
+    "group": "text",
+    "question": "How many new online job openings were related to low-carbon technologies in 2022?",
+    "answerable": true,
+    "expected_answer": "3.3 million.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 171,
+        "region": "Low-carbon jobs discussion",
+        "evidence": "3.3 million"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_23",
+    "split": "test",
+    "group": "text",
+    "question": "At least how many countries increased or reintroduced general fuel-price subsidies during the energy shock?",
+    "answerable": true,
+    "expected_answer": "At least 60.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 241,
+        "region": "Energy-related measures paragraph",
+        "evidence": "at least 60 countries"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_24",
+    "split": "test",
+    "group": "text",
+    "question": "In Korea's 1950s school reform, approximately how did enrollment change in ten years?",
+    "answerable": true,
+    "expected_answer": "From about 40% to about 90%.",
+    "expected_behavior": null,
+    "gold": [
+      {
+        "source_id": "wdr2024-middle-income-trap",
+        "page": 223,
+        "region": "Foundational skills and Korea paragraph",
+        "evidence": "40 percent to 90 percent in 10 years"
+      }
+    ],
+    "reason": ""
+  },
+  {
+    "id": "adv_test_25",
+    "split": "test",
+    "group": "no_evidence",
+    "question": "What was the actual 2030 global fossil-fuel subsidy total in US dollars?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The document predates 2030; no actual 2030 total is available."
+  },
+  {
+    "id": "adv_test_26",
+    "split": "test",
+    "group": "no_evidence",
+    "question": "Who won the 2027 Nobel Prize in Economics?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The event is after the report's 2024 publication."
+  },
+  {
+    "id": "adv_test_27",
+    "split": "test",
+    "group": "no_evidence",
+    "question": "What exact percentage of global GDP did upper-middle-income economies have in 2032?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The report has 2022 values, not an actual 2032 value."
+  },
+  {
+    "id": "adv_test_28",
+    "split": "test",
+    "group": "no_evidence",
+    "question": "What was the measured 2029 global average carbon tax per ton?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "2029 measured data are beyond the report's publication date."
+  },
+  {
+    "id": "adv_test_29",
+    "split": "test",
+    "group": "no_evidence",
+    "question": "Which country had the most low-carbon job postings in 2031?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The 2024 report cannot establish a 2031 observed ranking."
+  },
+  {
+    "id": "adv_test_30",
+    "split": "test",
+    "group": "no_evidence",
+    "question": "How many countries became high-income between 2025 and 2035?",
+    "answerable": false,
+    "expected_answer": null,
+    "expected_behavior": "abstain",
+    "gold": [],
+    "reason": "The interval is beyond the report and no observed count is given."
+  }
+]

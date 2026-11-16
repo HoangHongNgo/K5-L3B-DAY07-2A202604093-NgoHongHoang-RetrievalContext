@@ -1,0 +1,4461 @@
+[
+  {
+    "query_id": "adv_dev_01",
+    "group": "table",
+    "question": "In Table P1.1, what share of global GDP belongs to lower-middle-income economies in 2022?",
+    "status": "answered",
+    "answer": "Based on Table P1.1, lower-middle-income economies accounted for **8.3%** of global GDP in 2022 [57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940].",
+    "citations": [
+      "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2395.95,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 496,
+          "completion_tokens": 77,
+          "total_tokens": 573,
+          "cost": 9.1e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.1e-05,
+            "upstream_inference_prompt_cost": 6.944e-05,
+            "upstream_inference_completions_cost": 2.156e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1396.33
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1237,
+          "completion_tokens": 67,
+          "total_tokens": 1304,
+          "cost": 0.00017402,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00017402,
+            "upstream_inference_prompt_cost": 0.00015526,
+            "upstream_inference_completions_cost": 1.876e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 940.95
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table P1.1 share of global GDP lower-middle-income economies 2022",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b"
+        ],
+        "context_sha256": "7da6a36a446eca75a503047ef32b9da101351838e15acefcd593648f5d4c832c",
+        "context_length": 2698,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.9638937042185942,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6569922445021925,
+            "strategy": "tfidf",
+            "text_sha256": "9703132fa596eaa55e2567de3ea09e60bf7bd15b6d8d68b5d73014474e6be705",
+            "text_length": 1500
+          },
+          {
+            "id": "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 86,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                500,
+                515,
+                670
+              ],
+              "label": "Table 2.1"
+            },
+            "score": 0.20053096955696886,
+            "strategy": "tfidf",
+            "text_sha256": "c47ef579bcea949619d11fee6978c9896d0aecd9f23c94f789019d0f4ccdbe98",
+            "text_length": 374
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_02",
+    "group": "table",
+    "question": "In Table P1.1, what share of global CO2 emissions belongs to high-income economies in 2022?",
+    "status": "answered",
+    "answer": "Based on Table P1.1, high-income economies accounted for **35.2%** of global CO2 emissions in 2022 [57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940].",
+    "citations": [
+      "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2426.4,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 497,
+          "completion_tokens": 76,
+          "total_tokens": 573,
+          "cost": 7.294e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.294e-05,
+            "upstream_inference_prompt_cost": 5.166e-05,
+            "upstream_inference_completions_cost": 2.128e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1162.88
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1391,
+          "completion_tokens": 68,
+          "total_tokens": 1459,
+          "cost": 0.00019586,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00019586,
+            "upstream_inference_prompt_cost": 0.00017682,
+            "upstream_inference_completions_cost": 1.904e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1212.92
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table P1.1 global CO2 emissions high-income economies 2022",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+          "df75d51c7b2e379fc212eb5560f7212cfef6abfe023f95d8cef2c062f201e116"
+        ],
+        "context_sha256": "34c7ce59a59b39cbd504eb3e69f39ab3bc13042361c5678a48dd0be6f1ab1100",
+        "context_length": 3365,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.8732976520270115,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6665868493797908,
+            "strategy": "tfidf",
+            "text_sha256": "9703132fa596eaa55e2567de3ea09e60bf7bd15b6d8d68b5d73014474e6be705",
+            "text_length": 1500
+          },
+          {
+            "id": "df75d51c7b2e379fc212eb5560f7212cfef6abfe023f95d8cef2c062f201e116",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 80,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.16730549054951585,
+            "strategy": "tfidf",
+            "text_sha256": "0134dad991d0f903f49e13faeba41ff80e6d9b30fa4f68ff612ef1a333012d3c",
+            "text_length": 1041
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_03",
+    "group": "table",
+    "question": "According to Table 2.1, which two strategies are higher priorities for lower-middle-income countries?",
+    "status": "answered",
+    "answer": "Based on the evidence from Table 2.1, the two strategies that are higher priorities for lower-middle-income countries are **investment** and **infusion**.\n\n[970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b]",
+    "citations": [
+      "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2432.2,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 73,
+          "total_tokens": 566,
+          "cost": 7.154e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.154e-05,
+            "upstream_inference_prompt_cost": 5.11e-05,
+            "upstream_inference_completions_cost": 2.044e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 852.16
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1164,
+          "completion_tokens": 67,
+          "total_tokens": 1231,
+          "cost": 0.0001638,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001638,
+            "upstream_inference_prompt_cost": 0.00014504,
+            "upstream_inference_completions_cost": 1.876e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1519.98
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 2.1 strategies lower-middle-income countries priorities",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "462a59eef6df2a36e895957fe84872f748ffb82f0095618231d08332df06c552"
+        ],
+        "context_sha256": "a57d83abe7bb5f6e41a0089a35f5de3666f4567c009c8295beaf354d21a523fe",
+        "context_length": 2498,
+        "results": [
+          {
+            "id": "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 86,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                500,
+                515,
+                670
+              ],
+              "label": "Table 2.1"
+            },
+            "score": 0.6664639698442769,
+            "strategy": "tfidf",
+            "text_sha256": "c47ef579bcea949619d11fee6978c9896d0aecd9f23c94f789019d0f4ccdbe98",
+            "text_length": 374
+          },
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.22895936913743586,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "462a59eef6df2a36e895957fe84872f748ffb82f0095618231d08332df06c552",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 69,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.22001338611479354,
+            "strategy": "tfidf",
+            "text_sha256": "b48b0bd54f60c41f8ca4b3a459d01b43b5981b14158c47f4d37a9dc92c371f8e",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_04",
+    "group": "image_diagram",
+    "question": "In Figure 2.2, what is the middle stage labeled between 1i and 3i?",
+    "status": "answered",
+    "answer": "Based on the evidence, Figure 2.2 shows the middle stage labeled between 1i and 3i as **2i: Investment + Infusion** [bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0].",
+    "citations": [
+      "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 1884.3,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 495,
+          "completion_tokens": 69,
+          "total_tokens": 564,
+          "cost": 7.07e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.07e-05,
+            "upstream_inference_prompt_cost": 5.138e-05,
+            "upstream_inference_completions_cost": 1.932e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 826.93
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1271,
+          "completion_tokens": 72,
+          "total_tokens": 1343,
+          "cost": 0.00018018,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00018018,
+            "upstream_inference_prompt_cost": 0.00016002,
+            "upstream_inference_completions_cost": 2.016e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 996.88
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 2.2 middle stage labeled between 1i and 3i",
+        "filter": null,
+        "context_ids": [
+          "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+          "9685f4ac4baf99cfdfad21fea5f3b488768fc49ed66f2d784e99057c77d5606e",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a"
+        ],
+        "context_sha256": "491cf398dae426110c0d679fb3bda26cdda563b34800360dcb31af02428cf3a3",
+        "context_length": 2479,
+        "results": [
+          {
+            "id": "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 88,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6688236891192465,
+            "strategy": "tfidf",
+            "text_sha256": "9b13ba3a85e9f64330fe96cdd9f0d0e940b5cd26477ddbc623adcc7bef26a44f",
+            "text_length": 368
+          },
+          {
+            "id": "9685f4ac4baf99cfdfad21fea5f3b488768fc49ed66f2d784e99057c77d5606e",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 243,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.1411040213687652,
+            "strategy": "tfidf",
+            "text_sha256": "2c77f64215a8bf931726b86a53c9a1a5e5a0d049a35112076053a13894fd0564",
+            "text_length": 371
+          },
+          {
+            "id": "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.1280297288378219,
+            "strategy": "tfidf",
+            "text_sha256": "c6fe3eacc7ab3c8a7e9dcd6e2cf61faf97f08a73c95eba97d25b2ab8a8fd1878",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_05",
+    "group": "image_diagram",
+    "question": "In Map 6.2, which broad continent has sparse electricity transmission lines compared with Europe?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2457.2,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 492,
+          "completion_tokens": 66,
+          "total_tokens": 558,
+          "cost": 6.944e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.944e-05,
+            "upstream_inference_prompt_cost": 5.096e-05,
+            "upstream_inference_completions_cost": 1.848e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1069.44
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1137,
+          "completion_tokens": 71,
+          "total_tokens": 1208,
+          "cost": 0.00016114,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00016114,
+            "upstream_inference_prompt_cost": 0.00014126,
+            "upstream_inference_completions_cost": 1.988e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1357.23
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Map 6.2 electricity transmission lines",
+        "filter": null,
+        "context_ids": [
+          "f9df5a9615124bea2c7699b9b2d79cbc8953e9f0b96514ffefd7258af0267a43",
+          "592f2e849caac4152d23b29353ca53186c8071559b0a3fb9f9e746ae6305a8b7",
+          "b4f21e612c6e4fbdd2ee121da78b0dcaebb876236565e17d702f7b500a36a3ac"
+        ],
+        "context_sha256": "453221b25860879c06a70b5cdb5c9b60277a41289de05919edc9fabcd7839451",
+        "context_length": 2631,
+        "results": [
+          {
+            "id": "f9df5a9615124bea2c7699b9b2d79cbc8953e9f0b96514ffefd7258af0267a43",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 182,
+            "metadata": {
+              "kind": "map",
+              "start_char": 0,
+              "bbox": [
+                45,
+                375,
+                550,
+                655
+              ],
+              "label": "Map 6.2"
+            },
+            "score": 0.9942687437656477,
+            "strategy": "tfidf",
+            "text_sha256": "b23c2a792500774fa908b8d050fdfde417c91fe1843479ba760b2027e9175743",
+            "text_length": 290
+          },
+          {
+            "id": "592f2e849caac4152d23b29353ca53186c8071559b0a3fb9f9e746ae6305a8b7",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 173,
+            "metadata": {
+              "kind": "map",
+              "start_char": 0,
+              "bbox": [
+                65,
+                120,
+                535,
+                415
+              ],
+              "label": "Map 6.1"
+            },
+            "score": 0.25873860327299103,
+            "strategy": "tfidf",
+            "text_sha256": "ec2134a3b57bda2887451a0a447a2a5faece79b616b392e30eae8a1cc6eef97e",
+            "text_length": 399
+          },
+          {
+            "id": "b4f21e612c6e4fbdd2ee121da78b0dcaebb876236565e17d702f7b500a36a3ac",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 269,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.1913539302780427,
+            "strategy": "tfidf",
+            "text_sha256": "679c4e15b5ee8ab3ba6ce7d9e16fe44e3127d0811e0fb55d115ffe041769ac49",
+            "text_length": 1500
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "f9df5a9615124bea2c7699b9b2d79cbc8953e9f0b96514ffefd7258af0267a43",
+          "592f2e849caac4152d23b29353ca53186c8071559b0a3fb9f9e746ae6305a8b7",
+          "b4f21e612c6e4fbdd2ee121da78b0dcaebb876236565e17d702f7b500a36a3ac"
+        ],
+        "attempted_answer_sha256": "7ecedb390497520354474779beff89e9313149a5ef4f23605630bf25b9fa6b04"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_06",
+    "group": "image_diagram",
+    "question": "In the left arrangement of Figure P2.1, which force has the largest circle?",
+    "status": "answered",
+    "answer": "Based on the evidence, in the left arrangement of Figure P2.1, **preservation** is the largest circle.\n\n[986fa56d8ceda6dac29c63ef7fd1d67661b1bfae6251413b486ffd8636f9dcdf]",
+    "citations": [
+      "986fa56d8ceda6dac29c63ef7fd1d67661b1bfae6251413b486ffd8636f9dcdf"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 1955.83,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 491,
+          "completion_tokens": 63,
+          "total_tokens": 554,
+          "cost": 6.846e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.846e-05,
+            "upstream_inference_prompt_cost": 5.082e-05,
+            "upstream_inference_completions_cost": 1.764e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 867.63
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1393,
+          "completion_tokens": 65,
+          "total_tokens": 1458,
+          "cost": 0.0001953,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001953,
+            "upstream_inference_prompt_cost": 0.0001771,
+            "upstream_inference_completions_cost": 1.82e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1052.36
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure P2.1 left arrangement force largest circle",
+        "filter": null,
+        "context_ids": [
+          "986fa56d8ceda6dac29c63ef7fd1d67661b1bfae6251413b486ffd8636f9dcdf",
+          "5412a4d708c41c69615cd5e46cc0b04a02669293e978916f2dad581cc926a959",
+          "a32c3f742d40ab55747bce88b45c42f715d78b56044bc2d129b95a28d7774570"
+        ],
+        "context_sha256": "4b859e56bdc6a6052c16d84f6859f87f0292a02021a68d20baf679e0335a1629",
+        "context_length": 3747,
+        "results": [
+          {
+            "id": "986fa56d8ceda6dac29c63ef7fd1d67661b1bfae6251413b486ffd8636f9dcdf",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 115,
+            "metadata": {
+              "kind": "diagram",
+              "start_char": 0,
+              "bbox": [
+                65,
+                80,
+                510,
+                380
+              ],
+              "label": "Figure P2.1"
+            },
+            "score": 0.6980503738115947,
+            "strategy": "tfidf",
+            "text_sha256": "a4ef853ef1cafbba3f68f44b965fb4af2434e0b5122028b2574b855837f7fea6",
+            "text_length": 306
+          },
+          {
+            "id": "5412a4d708c41c69615cd5e46cc0b04a02669293e978916f2dad581cc926a959",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 113,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.48479829516789913,
+            "strategy": "tfidf",
+            "text_sha256": "22ba9a2130cc974ba475b666ba03fe71fedaf71004a77b7c0a65e8106a50ce45",
+            "text_length": 1500
+          },
+          {
+            "id": "a32c3f742d40ab55747bce88b45c42f715d78b56044bc2d129b95a28d7774570",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 202,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.07848602876700062,
+            "strategy": "tfidf",
+            "text_sha256": "67661cfcd69cff3006e7938dabd78aea4d4153b4cced399b6c3e80d6f6317de9",
+            "text_length": 1499
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_07",
+    "group": "chart",
+    "question": "In Figure 3.5 panel a, what is the energy intensity of lower-middle-income countries?",
+    "status": "answered",
+    "answer": "Based on the evidence, in Figure 3.5 panel a (Energy intensity), the energy intensity of lower-middle-income countries (LMICs) is **12.1** exajoules/trillion US$ [9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef].",
+    "citations": [
+      "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 4857.22,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Inceptron",
+        "usage": {
+          "prompt_tokens": 494,
+          "completion_tokens": 55,
+          "total_tokens": 549,
+          "cost": 9.1445e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.1445e-05,
+            "upstream_inference_prompt_cost": 6.422e-05,
+            "upstream_inference_completions_cost": 2.7225e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 3575.59
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1665,
+          "completion_tokens": 83,
+          "total_tokens": 1748,
+          "cost": 0.00023842,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00023842,
+            "upstream_inference_prompt_cost": 0.00021518,
+            "upstream_inference_completions_cost": 2.324e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1225.78
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 3.5 panel a energy intensity lower-middle-income countries",
+        "filter": null,
+        "context_ids": [
+          "b3a5b0cfd1686bfddf0ff49e31d6b6c6166ad6676475120d05ab091502eaf154",
+          "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1"
+        ],
+        "context_sha256": "ccd69c74a04540347e302c83c14a4e9be04ea5c9e5066ae8c63cb5274380def4",
+        "context_length": 4472,
+        "results": [
+          {
+            "id": "b3a5b0cfd1686bfddf0ff49e31d6b6c6166ad6676475120d05ab091502eaf154",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 107,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.8182977079960275,
+            "strategy": "tfidf",
+            "text_sha256": "38ef72beea625f1dc4e052307b5e681d3ac2d1e786f3b3e9a9a7be275b538d5f",
+            "text_length": 1431
+          },
+          {
+            "id": "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 108,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.7844911975226543,
+            "strategy": "tfidf",
+            "text_sha256": "a2fa68473861a8c1fbbcd8756d4df07ba7195901d8bb19bdc925739cd21c5128",
+            "text_length": 1299
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.29654441562763767,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_08",
+    "group": "chart",
+    "question": "In Figure 3.2, did harmful semiconductor trade interventions rise or fall after 2019?",
+    "status": "answered",
+    "answer": "Based on the evidence, harmful semiconductor trade interventions **rose** (skyrocketed) after 2019.\n\nThe figure title states: \"Harmful interventions in the global semiconductor trade have skyrocketed since 2019\" [164268e2e750ea995685dbb828a8d114e3967f0284815049f181654bc61826aa].",
+    "citations": [
+      "164268e2e750ea995685dbb828a8d114e3967f0284815049f181654bc61826aa"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2472.56,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 493,
+          "completion_tokens": 66,
+          "total_tokens": 559,
+          "cost": 6.958e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.958e-05,
+            "upstream_inference_prompt_cost": 5.11e-05,
+            "upstream_inference_completions_cost": 1.848e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1279.82
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1577,
+          "completion_tokens": 78,
+          "total_tokens": 1655,
+          "cost": 0.0002247,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002247,
+            "upstream_inference_prompt_cost": 0.00020286,
+            "upstream_inference_completions_cost": 2.184e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1157.88
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 3.2 semiconductor trade interventions",
+        "filter": null,
+        "context_ids": [
+          "164268e2e750ea995685dbb828a8d114e3967f0284815049f181654bc61826aa",
+          "65013f1ae18a08dd0b5f5fa1ca7b9c56f93989aec7c21c6d1f248945e8796318",
+          "499c328aa305a92094eecb78f508a2dc1f5f5fb44e049606328f2edd9c03e023"
+        ],
+        "context_sha256": "15aaa71e6bfe03a9f9771634cfb6c93923526b405429d038007f47b2a0ce4a3e",
+        "context_length": 4126,
+        "results": [
+          {
+            "id": "164268e2e750ea995685dbb828a8d114e3967f0284815049f181654bc61826aa",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 105,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.7878691091616673,
+            "strategy": "tfidf",
+            "text_sha256": "8d18d143bdfda7c5102e703e53fbdd906dbf90d77e4bdb21a985c1f22f336ee6",
+            "text_length": 1499
+          },
+          {
+            "id": "65013f1ae18a08dd0b5f5fa1ca7b9c56f93989aec7c21c6d1f248945e8796318",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 104,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.20468744240633674,
+            "strategy": "tfidf",
+            "text_sha256": "5a3404c842da09f9ef0da254954bf11832d93bdb2a30d93eb779f99f7eed4bf1",
+            "text_length": 687
+          },
+          {
+            "id": "499c328aa305a92094eecb78f508a2dc1f5f5fb44e049606328f2edd9c03e023",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 11,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.16702843650727742,
+            "strategy": "tfidf",
+            "text_sha256": "de4baf0fac7ff14fdf9c5234b8687864ab7ca91de94ad9d4af5f09d1091beec2",
+            "text_length": 1499
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_09",
+    "group": "chart",
+    "question": "What two series are plotted in Figure 6.2's panels?",
+    "status": "answered",
+    "answer": "Based on the evidence, Figure 6.2 has two panels plotting different series:\n\n- **Panel a**: The share of online job postings in 35 countries that mention low-carbon technologies (LCTs) [d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d]\n- **Panel b**: The share of shareholder meeting transcripts from publicly listed firms that mention these technologies [d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d]",
+    "citations": [
+      "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2853.35,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 61,
+          "total_tokens": 548,
+          "cost": 6.734e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.734e-05,
+            "upstream_inference_prompt_cost": 5.026e-05,
+            "upstream_inference_completions_cost": 1.708e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1077.58
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1481,
+          "completion_tokens": 135,
+          "total_tokens": 1616,
+          "cost": 0.00022722,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00022722,
+            "upstream_inference_prompt_cost": 0.00018942,
+            "upstream_inference_completions_cost": 3.78e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1743.96
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Figure 6.2 series plotted panels",
+        "filter": null,
+        "context_ids": [
+          "5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8",
+          "e2888a689a72220eb7b97cf10a9ec277a7aede5c653646a057248012182e5b7f",
+          "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d"
+        ],
+        "context_sha256": "d82f029075baa0374fd5da23dadbb6937665ad658a427e173e42f8b35c0d4997",
+        "context_length": 3709,
+        "results": [
+          {
+            "id": "5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 169,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.53351865080126,
+            "strategy": "tfidf",
+            "text_sha256": "39f3d05410899695e69098034b93a92d745dc0d57a9f2bb78535d78d5243e578",
+            "text_length": 1498
+          },
+          {
+            "id": "e2888a689a72220eb7b97cf10a9ec277a7aede5c653646a057248012182e5b7f",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 170,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.5139207590386061,
+            "strategy": "tfidf",
+            "text_sha256": "e88893a1da9ced76e186aa76755f4f134dcdb56312ed27f8986fcfc00fdac4da",
+            "text_length": 694
+          },
+          {
+            "id": "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 172,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.48510783056332374,
+            "strategy": "tfidf",
+            "text_sha256": "f65816d40a957b63b2e8cc086750c1276db26dc74f8722a8ba6a59d647570b32",
+            "text_length": 1075
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_10",
+    "group": "multi_hop",
+    "question": "What CO2 emissions share does Table P1.1 report for upper-middle-income economies, and what carbon intensity does Figure 3.5 show for that income group?",
+    "status": "answered",
+    "answer": "Table P1.1 reports that upper-middle-income economies account for 48.6% of global CO2 emissions [57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940]. Figure 3.5 shows the carbon intensity of energy consumption for upper-middle-income countries (UMICs) is 0.086 GtCO2 equivalent/exajoule [9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef].",
+    "citations": [
+      "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+      "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 5202.83,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 507,
+          "completion_tokens": 66,
+          "total_tokens": 573,
+          "cost": 7.154e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.154e-05,
+            "upstream_inference_prompt_cost": 5.306e-05,
+            "upstream_inference_completions_cost": 1.848e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 864.5
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1489,
+          "completion_tokens": 74,
+          "total_tokens": 1563,
+          "cost": 0.00021126,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00021126,
+            "upstream_inference_prompt_cost": 0.00019054,
+            "upstream_inference_completions_cost": 2.072e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1380.0
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 2291,
+          "completion_tokens": 74,
+          "total_tokens": 2365,
+          "cost": 0.00032354,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00032354,
+            "upstream_inference_prompt_cost": 0.00030282,
+            "upstream_inference_completions_cost": 2.072e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1009.64
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 2031,
+          "completion_tokens": 136,
+          "total_tokens": 2167,
+          "cost": 0.00032242,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00032242,
+            "upstream_inference_prompt_cost": 0.00028434,
+            "upstream_inference_completions_cost": 3.808e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1794.33
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table P1.1 CO2 emissions share upper-middle-income economies",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1"
+        ],
+        "context_sha256": "488e7df59bc9f30dc57a08f5449a20010cdb2bd53e5097314404c0d73683594b",
+        "context_length": 3625,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.9322454510377254,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6535187165282994,
+            "strategy": "tfidf",
+            "text_sha256": "9703132fa596eaa55e2567de3ea09e60bf7bd15b6d8d68b5d73014474e6be705",
+            "text_length": 1500
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.21935051825312465,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 3.5 carbon intensity upper-middle-income",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+          "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef",
+          "b3a5b0cfd1686bfddf0ff49e31d6b6c6166ad6676475120d05ab091502eaf154"
+        ],
+        "context_sha256": "28d270de9ae568cea8dd12165caeffbb259e1564795ecb25a422ba13e5f9df6d",
+        "context_length": 6651,
+        "results": [
+          {
+            "id": "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 108,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.7742645594084223,
+            "strategy": "tfidf",
+            "text_sha256": "a2fa68473861a8c1fbbcd8756d4df07ba7195901d8bb19bdc925739cd21c5128",
+            "text_length": 1299
+          },
+          {
+            "id": "b3a5b0cfd1686bfddf0ff49e31d6b6c6166ad6676475120d05ab091502eaf154",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 107,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6944206073857837,
+            "strategy": "tfidf",
+            "text_sha256": "38ef72beea625f1dc4e052307b5e681d3ac2d1e786f3b3e9a9a7be275b538d5f",
+            "text_length": 1431
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.3813563170641287,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Table P1.1 upper-middle-income CO2 emissions share 48.6",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+          "9210c70c1859ad6312d4b0f028fba2056ef359e4078191b97e508132e4f74fef",
+          "b3a5b0cfd1686bfddf0ff49e31d6b6c6166ad6676475120d05ab091502eaf154"
+        ],
+        "context_sha256": "28d270de9ae568cea8dd12165caeffbb259e1564795ecb25a422ba13e5f9df6d",
+        "context_length": 6651,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.9767868334015124,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "e996e3dce19d7b2148e803fea5bbb51b2c710ff5d27b3454452209d1955d9389",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6211881178507646,
+            "strategy": "tfidf",
+            "text_sha256": "9703132fa596eaa55e2567de3ea09e60bf7bd15b6d8d68b5d73014474e6be705",
+            "text_length": 1500
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2038720516153074,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_11",
+    "group": "multi_hop",
+    "question": "What does Table 2.1 prioritize for upper-middle-income countries, and how is that stage labeled in Figure 2.2?",
+    "status": "answered",
+    "answer": "Based on the provided evidence, Table 2.1 prioritizes investment, infusion, and innovation all as \"higher\" priority for upper-middle-income countries [970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b]. In Figure 2.2, this stage is labeled \"3i: Investment + Infusion + Innovation\" [bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0].",
+    "citations": [
+      "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+      "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 5939.96,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 500,
+          "completion_tokens": 70,
+          "total_tokens": 570,
+          "cost": 7.168e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.168e-05,
+            "upstream_inference_prompt_cost": 5.208e-05,
+            "upstream_inference_completions_cost": 1.96e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1812.07
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1212,
+          "completion_tokens": 78,
+          "total_tokens": 1290,
+          "cost": 0.0001736,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001736,
+            "upstream_inference_prompt_cost": 0.00015176,
+            "upstream_inference_completions_cost": 2.184e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 954.28
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1709,
+          "completion_tokens": 73,
+          "total_tokens": 1782,
+          "cost": 0.00024178,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00024178,
+            "upstream_inference_prompt_cost": 0.00022134,
+            "upstream_inference_completions_cost": 2.044e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1702.76
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1862,
+          "completion_tokens": 125,
+          "total_tokens": 1987,
+          "cost": 0.00029568,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00029568,
+            "upstream_inference_prompt_cost": 0.00026068,
+            "upstream_inference_completions_cost": 3.5e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1329.4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Table 2.1 upper-middle-income countries prioritize",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940"
+        ],
+        "context_sha256": "9f2b1f6ac498698faed00067c439b3ba50de0ab61eb6f5516756fce7ccd56eaa",
+        "context_length": 2499,
+        "results": [
+          {
+            "id": "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 86,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                500,
+                515,
+                670
+              ],
+              "label": "Table 2.1"
+            },
+            "score": 0.6977539642771629,
+            "strategy": "tfidf",
+            "text_sha256": "c47ef579bcea949619d11fee6978c9896d0aecd9f23c94f789019d0f4ccdbe98",
+            "text_length": 374
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.369147782189053,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          },
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.3636233321730768,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.2 stage label upper-middle-income",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a"
+        ],
+        "context_sha256": "6475475f1f376da74e2e1ec7228ee9b7cbe73598f85b918bd5ed9c9a6f4424dc",
+        "context_length": 4461,
+        "results": [
+          {
+            "id": "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 88,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.5606836494944752,
+            "strategy": "tfidf",
+            "text_sha256": "9b13ba3a85e9f64330fe96cdd9f0d0e940b5cd26477ddbc623adcc7bef26a44f",
+            "text_length": 368
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2185454038024482,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          },
+          {
+            "id": "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.18610171603767298,
+            "strategy": "tfidf",
+            "text_sha256": "c6fe3eacc7ab3c8a7e9dcd6e2cf61faf97f08a73c95eba97d25b2ab8a8fd1878",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 2.2 stage label upper-middle-income innovation",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "44fad7febf74d40fe2e2b10e1fc95b54db5ee5dcb30af5c354e933e0fea511a8"
+        ],
+        "context_sha256": "1fc2f45de0bb251b954fac776cc732fc804319921d6f602a420df099e383ee9a",
+        "context_length": 5908,
+        "results": [
+          {
+            "id": "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 88,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.5966560001398516,
+            "strategy": "tfidf",
+            "text_sha256": "9b13ba3a85e9f64330fe96cdd9f0d0e940b5cd26477ddbc623adcc7bef26a44f",
+            "text_length": 368
+          },
+          {
+            "id": "929b55251117e88d3a6502497317aa77b785b68663d82ed85a85ebf234ab31d1",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 264,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2129883516060385,
+            "strategy": "tfidf",
+            "text_sha256": "56df126bcb033cceee828b148417e6d9f581e63e835714403adbc457a59c5b33",
+            "text_length": 1300
+          },
+          {
+            "id": "44fad7febf74d40fe2e2b10e1fc95b54db5ee5dcb30af5c354e933e0fea511a8",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 96,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.18742379318172647,
+            "strategy": "tfidf",
+            "text_sha256": "ae1a2e51580c4c71091a3b3c5daba717eb507ba23a9954ffff011a58e4b368dc",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_12",
+    "group": "multi_hop",
+    "question": "According to the 2022 jobs discussion, how many new job openings were related to low-carbon technologies, and what share-based measure appears in Figure 6.2 panel a?",
+    "status": "answered",
+    "answer": "Based on the retrieved evidence, in 2022, 3.3 million new job openings were related to low-carbon technologies, which was just under 2 percent of jobs posted online in 2022 [b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850]. \n\nRegarding Figure 6.2 panel a, the figure displays the share of online job postings in 35 countries that mention low-carbon technologies (LCTs) [d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d]. The text also notes that this share increased by more than 50 percent from 2021 to 2022 [5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8].",
+    "citations": [
+      "b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850",
+      "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d",
+      "5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 6499.03,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 509,
+          "completion_tokens": 68,
+          "total_tokens": 577,
+          "cost": 7.238e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.238e-05,
+            "upstream_inference_prompt_cost": 5.334e-05,
+            "upstream_inference_completions_cost": 1.904e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 923.08
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1633,
+          "completion_tokens": 75,
+          "total_tokens": 1708,
+          "cost": 0.0002317,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0002317,
+            "upstream_inference_prompt_cost": 0.0002107,
+            "upstream_inference_completions_cost": 2.1e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2623.22
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 2636,
+          "completion_tokens": 78,
+          "total_tokens": 2714,
+          "cost": 0.00037296,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00037296,
+            "upstream_inference_prompt_cost": 0.00035112,
+            "upstream_inference_completions_cost": 2.184e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 927.53
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 2484,
+          "completion_tokens": 216,
+          "total_tokens": 2700,
+          "cost": 0.00040824,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00040824,
+            "upstream_inference_prompt_cost": 0.00034776,
+            "upstream_inference_completions_cost": 6.048e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1878.4
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "2022 jobs low-carbon technologies new job openings",
+        "filter": null,
+        "context_ids": [
+          "a3b8583653a0f29322652a3d7514022ce2d5c9e5871d8fd12d1298fb84cf7c55",
+          "b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850",
+          "ff9357564c26314322e9f9e24f35d6ee61ca6fb390cd12ecb57785b6a47f3cc2"
+        ],
+        "context_sha256": "702aa885d1d1765ac690c39e11e00fbd5e1f4b8b2d6a5985911c551dc4723822",
+        "context_length": 4540,
+        "results": [
+          {
+            "id": "a3b8583653a0f29322652a3d7514022ce2d5c9e5871d8fd12d1298fb84cf7c55",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 228,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.3151906348968977,
+            "strategy": "tfidf",
+            "text_sha256": "545503576b456c28b5382e3882d265cb0950c16b79bc2c6b6de27cba4ab08953",
+            "text_length": 1300
+          },
+          {
+            "id": "b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 171,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.3052460708606848,
+            "strategy": "tfidf",
+            "text_sha256": "9efed57992a3919691a9e4ce96e3a4366d3c3635bcb5adde0df14acda2804230",
+            "text_length": 1499
+          },
+          {
+            "id": "ff9357564c26314322e9f9e24f35d6ee61ca6fb390cd12ecb57785b6a47f3cc2",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 186,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.27973087534507246,
+            "strategy": "tfidf",
+            "text_sha256": "04d45d72254529cd12c0fa61c5b4822128f0799aedd3e4e14339a2aae7b6465b",
+            "text_length": 1299
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Figure 6.2 panel a low-carbon technology jobs share",
+        "filter": null,
+        "context_ids": [
+          "a3b8583653a0f29322652a3d7514022ce2d5c9e5871d8fd12d1298fb84cf7c55",
+          "b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850",
+          "ff9357564c26314322e9f9e24f35d6ee61ca6fb390cd12ecb57785b6a47f3cc2",
+          "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d",
+          "e2888a689a72220eb7b97cf10a9ec277a7aede5c653646a057248012182e5b7f",
+          "5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8"
+        ],
+        "context_sha256": "01539a71a030017d002cea02d759478f02e91426e87f8385692681ae12be9306",
+        "context_length": 8251,
+        "results": [
+          {
+            "id": "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 172,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.7391829801609677,
+            "strategy": "tfidf",
+            "text_sha256": "f65816d40a957b63b2e8cc086750c1276db26dc74f8722a8ba6a59d647570b32",
+            "text_length": 1075
+          },
+          {
+            "id": "e2888a689a72220eb7b97cf10a9ec277a7aede5c653646a057248012182e5b7f",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 170,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6315538527449724,
+            "strategy": "tfidf",
+            "text_sha256": "e88893a1da9ced76e186aa76755f4f134dcdb56312ed27f8986fcfc00fdac4da",
+            "text_length": 694
+          },
+          {
+            "id": "5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 169,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.6196155124700005,
+            "strategy": "tfidf",
+            "text_sha256": "39f3d05410899695e69098034b93a92d745dc0d57a9f2bb78535d78d5243e578",
+            "text_length": 1498
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "3.3 million new job openings low-carbon technologies 2022",
+        "filter": null,
+        "context_ids": [
+          "a3b8583653a0f29322652a3d7514022ce2d5c9e5871d8fd12d1298fb84cf7c55",
+          "b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850",
+          "ff9357564c26314322e9f9e24f35d6ee61ca6fb390cd12ecb57785b6a47f3cc2",
+          "d874df549964a09e7486e8ce5201c1cf02490ef28341dc1defe3db90081b118d",
+          "e2888a689a72220eb7b97cf10a9ec277a7aede5c653646a057248012182e5b7f",
+          "5817f401d365d5f924bcc39bdec70cfbdd6e7e01ca01f3a5d3bc8c60cb448fa8",
+          "ea6d29a2483b78c2944f99a608b621dcae0327a351d5528e2265289b4f44f400"
+        ],
+        "context_sha256": "a93bbc575b773deea510a14ee485d562693e28bcb35bb321f39f7d39c13b66b5",
+        "context_length": 8612,
+        "results": [
+          {
+            "id": "b3f59788c030ee4d9d14882b93b50f912a25e0ef1066ee12f9637af30d8dc850",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 171,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.28352276008978944,
+            "strategy": "tfidf",
+            "text_sha256": "9efed57992a3919691a9e4ce96e3a4366d3c3635bcb5adde0df14acda2804230",
+            "text_length": 1499
+          },
+          {
+            "id": "a3b8583653a0f29322652a3d7514022ce2d5c9e5871d8fd12d1298fb84cf7c55",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 228,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2777423685766419,
+            "strategy": "tfidf",
+            "text_sha256": "545503576b456c28b5382e3882d265cb0950c16b79bc2c6b6de27cba4ab08953",
+            "text_length": 1300
+          },
+          {
+            "id": "ea6d29a2483b78c2944f99a608b621dcae0327a351d5528e2265289b4f44f400",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 169,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 3900,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.22865949782041572,
+            "strategy": "tfidf",
+            "text_sha256": "104014eefa2c2020bdafb4dba1179724d831d92104194104e24ae6ad5fae72b2",
+            "text_length": 213
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_13",
+    "group": "text",
+    "question": "How many countries did the report classify as middle-income at the time of publication?",
+    "status": "answered",
+    "answer": "Based on the current evidence, the report classified **108 countries** as middle-income at the time of publication.\n\n- \"As classified by the World Bank, 108 countries qualify as middle-income.\" [6d7c5876e72e894eca18666b96473988af856f8e22b8af422db28f952aaf84b8]",
+    "citations": [
+      "6d7c5876e72e894eca18666b96473988af856f8e22b8af422db28f952aaf84b8"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 1924.77,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 489,
+          "completion_tokens": 62,
+          "total_tokens": 551,
+          "cost": 6.79e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.79e-05,
+            "upstream_inference_prompt_cost": 5.054e-05,
+            "upstream_inference_completions_cost": 1.736e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 854.96
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1522,
+          "completion_tokens": 78,
+          "total_tokens": 1600,
+          "cost": 0.000217,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.000217,
+            "upstream_inference_prompt_cost": 0.00019516,
+            "upstream_inference_completions_cost": 2.184e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1014.72
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "middle-income countries classified report",
+        "filter": null,
+        "context_ids": [
+          "6d7c5876e72e894eca18666b96473988af856f8e22b8af422db28f952aaf84b8",
+          "b49abbf5579f3afa078e3d337716deb543ae57564673634f48b977485d6a2be8",
+          "d8ee547ccd5cb75da264acce77a38d7251c5613823f6510426ea41cbe649cf9a"
+        ],
+        "context_sha256": "240bc0c6035ff559342cf595163a752ebbed2992cb13d2a00de173f39b8d461e",
+        "context_length": 4102,
+        "results": [
+          {
+            "id": "6d7c5876e72e894eca18666b96473988af856f8e22b8af422db28f952aaf84b8",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.24805181434224577,
+            "strategy": "tfidf",
+            "text_sha256": "9cee980e8057d5f9e435000db215a540cc7205c238cf7020403efe72b24dc11e",
+            "text_length": 1300
+          },
+          {
+            "id": "b49abbf5579f3afa078e3d337716deb543ae57564673634f48b977485d6a2be8",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 68,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.24700679566641684,
+            "strategy": "tfidf",
+            "text_sha256": "52e9aec40bfa249e48f41c927580a41349d142b6b883cd9cdfa79130e109d0c2",
+            "text_length": 863
+          },
+          {
+            "id": "d8ee547ccd5cb75da264acce77a38d7251c5613823f6510426ea41cbe649cf9a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 65,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.19434413638411752,
+            "strategy": "tfidf",
+            "text_sha256": "b05de1eee8ed326467025ffd151a3182cec041f49f3a9a4bc01f4e85d1907e1e",
+            "text_length": 1500
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_14",
+    "group": "text",
+    "question": "What does the report mean by technology infusion in lower-middle-income countries?",
+    "status": "answered",
+    "answer": "Based on the retrieved evidence, the report describes \"infusion\" as a distinct stage in a country's development, specifically for lower-middle-income countries. The report's framework (Figure 2.2) outlines a progression where a middle-income country must engineer two successive transitions to achieve high-income status: first \"Infusion,\" followed by \"Innovation\" [bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0]. \n\nIn the context of lower-middle-income countries, the priority dials table (Table 2.1) indicates that for this income group, \"investment\" and \"infusion\" are higher priorities, while \"innovation\" is a lower priority [970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b]. This suggests that for lower-middle-income countries, \"infusion\" refers to the adoption and diffusion of existing technologies, as opposed to creating new ones (innovation). This is supported by evidence discussing the \"diffusion of downstream low-carbon energy technologies in middle-income countries\" and the limited \"adoption of low-carbon technologies by firms and households\" compared to high-income countries [53505b8870fc04a46690e838b9df29fa22d353e81de7108072cae4367efcd588].",
+    "citations": [
+      "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+      "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+      "53505b8870fc04a46690e838b9df29fa22d353e81de7108072cae4367efcd588"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 5441.14,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 61,
+          "total_tokens": 548,
+          "cost": 6.734e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.734e-05,
+            "upstream_inference_prompt_cost": 5.026e-05,
+            "upstream_inference_completions_cost": 1.708e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1325.67
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1103,
+          "completion_tokens": 67,
+          "total_tokens": 1170,
+          "cost": 0.00015526,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00015526,
+            "upstream_inference_prompt_cost": 0.0001365,
+            "upstream_inference_completions_cost": 1.876e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 936.82
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1815,
+          "completion_tokens": 73,
+          "total_tokens": 1888,
+          "cost": 0.00025662,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00025662,
+            "upstream_inference_prompt_cost": 0.00023618,
+            "upstream_inference_completions_cost": 2.044e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1007.2
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1720,
+          "completion_tokens": 301,
+          "total_tokens": 2021,
+          "cost": 0.00032508,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00032508,
+            "upstream_inference_prompt_cost": 0.0002408,
+            "upstream_inference_completions_cost": 8.428e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2019.16
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "technology infusion lower-middle-income countries",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a"
+        ],
+        "context_sha256": "b85adc261be49ab394dffefa957964248955059497fdfe05bc8d4c8bea7366c7",
+        "context_length": 2481,
+        "results": [
+          {
+            "id": "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 86,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                500,
+                515,
+                670
+              ],
+              "label": "Table 2.1"
+            },
+            "score": 0.3770634796952157,
+            "strategy": "tfidf",
+            "text_sha256": "c47ef579bcea949619d11fee6978c9896d0aecd9f23c94f789019d0f4ccdbe98",
+            "text_length": 374
+          },
+          {
+            "id": "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 88,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2648694137415705,
+            "strategy": "tfidf",
+            "text_sha256": "9b13ba3a85e9f64330fe96cdd9f0d0e940b5cd26477ddbc623adcc7bef26a44f",
+            "text_length": 368
+          },
+          {
+            "id": "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2594106681865885,
+            "strategy": "tfidf",
+            "text_sha256": "c6fe3eacc7ab3c8a7e9dcd6e2cf61faf97f08a73c95eba97d25b2ab8a8fd1878",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "infusion technology adoption lower-middle-income countries definition",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "53505b8870fc04a46690e838b9df29fa22d353e81de7108072cae4367efcd588",
+          "7276eb09dca2de840eb65d0040dd76ff03e1f21b4ea2aadf90b2ef840d0d09af"
+        ],
+        "context_sha256": "18672a2198d4dc2b64936f40f7467dd6fd98f73b641c0963e2ed6ff633ca94bc",
+        "context_length": 5577,
+        "results": [
+          {
+            "id": "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 86,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                500,
+                515,
+                670
+              ],
+              "label": "Table 2.1"
+            },
+            "score": 0.22633816635760992,
+            "strategy": "tfidf",
+            "text_sha256": "c47ef579bcea949619d11fee6978c9896d0aecd9f23c94f789019d0f4ccdbe98",
+            "text_length": 374
+          },
+          {
+            "id": "53505b8870fc04a46690e838b9df29fa22d353e81de7108072cae4367efcd588",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 176,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2162282576018213,
+            "strategy": "tfidf",
+            "text_sha256": "69fd49d437ef173ecab25265e5ee01aa18b2a7f78a1fb512452b0a513011e570",
+            "text_length": 1500
+          },
+          {
+            "id": "7276eb09dca2de840eb65d0040dd76ff03e1f21b4ea2aadf90b2ef840d0d09af",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 145,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.1961877713168717,
+            "strategy": "tfidf",
+            "text_sha256": "985a3d0ff62d3efea320367d400dff753653f18e182ed937026a9ea6b7638247",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "infusion definition technology adoption middle-income countries",
+        "filter": null,
+        "context_ids": [
+          "970aea159bcc026f4ac96862217c7bb0460620daabe42bb1ac5bd0198cdac35b",
+          "bf8b6fe4234e2ec6036bd30fce5cb07dc7af3fab808477221f680263d87d50e0",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "53505b8870fc04a46690e838b9df29fa22d353e81de7108072cae4367efcd588",
+          "7276eb09dca2de840eb65d0040dd76ff03e1f21b4ea2aadf90b2ef840d0d09af",
+          "fc24972d2d37130e735e44d61cae897bfadfa74877f495b3417bbb90f582a3a8"
+        ],
+        "context_sha256": "7d62abee0e1eff812a3a9fb21b0d56f0bb277b79c99cb50fb1377949682e1e0c",
+        "context_length": 6329,
+        "results": [
+          {
+            "id": "53505b8870fc04a46690e838b9df29fa22d353e81de7108072cae4367efcd588",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 176,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.21438236088736592,
+            "strategy": "tfidf",
+            "text_sha256": "69fd49d437ef173ecab25265e5ee01aa18b2a7f78a1fb512452b0a513011e570",
+            "text_length": 1500
+          },
+          {
+            "id": "7276eb09dca2de840eb65d0040dd76ff03e1f21b4ea2aadf90b2ef840d0d09af",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 145,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.20458927432480242,
+            "strategy": "tfidf",
+            "text_sha256": "985a3d0ff62d3efea320367d400dff753653f18e182ed937026a9ea6b7638247",
+            "text_length": 1300
+          },
+          {
+            "id": "fc24972d2d37130e735e44d61cae897bfadfa74877f495b3417bbb90f582a3a8",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 266,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.1985519624908233,
+            "strategy": "tfidf",
+            "text_sha256": "8c34175ff1a9d2f79d70037d34b87ea18f0ec202e9f2fcf940b433c204706392",
+            "text_length": 604
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_15",
+    "group": "text",
+    "question": "What was the estimated record global fossil-fuel subsidy amount in 2022?",
+    "status": "answered",
+    "answer": "Based on the retrieved evidence, the estimated record global fossil-fuel subsidy amount in 2022 was **US$1 trillion**.\n\nThe source states: \"global fossil fuel subsidies for 2022 doubled from the previous year to an all-time high of US$1 trillion, as indicated by preliminary estimates\" [92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150].",
+    "citations": [
+      "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 2898.61,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 488,
+          "completion_tokens": 66,
+          "total_tokens": 554,
+          "cost": 6.888e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.888e-05,
+            "upstream_inference_prompt_cost": 5.04e-05,
+            "upstream_inference_completions_cost": 1.848e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 750.81
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1656,
+          "completion_tokens": 73,
+          "total_tokens": 1729,
+          "cost": 0.00023436,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00023436,
+            "upstream_inference_prompt_cost": 0.00021392,
+            "upstream_inference_completions_cost": 2.044e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 968.5
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1670,
+          "completion_tokens": 98,
+          "total_tokens": 1768,
+          "cost": 0.00024332,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00024332,
+            "upstream_inference_prompt_cost": 0.00021588,
+            "upstream_inference_completions_cost": 2.744e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1115.32
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "global fossil-fuel subsidy record 2022",
+        "filter": null,
+        "context_ids": [
+          "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+          "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+          "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf"
+        ],
+        "context_sha256": "ecdd641e874b5b20758db1d551ed56d0e20cc7acd4f5cd0c47622e6534016b9a",
+        "context_length": 4742,
+        "results": [
+          {
+            "id": "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 178,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.21962633333951964,
+            "strategy": "tfidf",
+            "text_sha256": "59d542cf38a2e57f45ffdfd49b7ac13f3fa9810dbc26f25e4321954234bed957",
+            "text_length": 1500
+          },
+          {
+            "id": "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 241,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.19246866365865498,
+            "strategy": "tfidf",
+            "text_sha256": "60ab2bb97d85f89cb978fa158468cc75d68a2eeed6a0ffeeb8ff7c9888ec311e",
+            "text_length": 1500
+          },
+          {
+            "id": "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 180,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.17630199504678004,
+            "strategy": "tfidf",
+            "text_sha256": "accaf63381075ad64c4dc30bb7a4466fc23db68daeeac58837f293a6267a2120",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "fossil fuel subsidies 2022 all-time high trillion",
+        "filter": null,
+        "context_ids": [
+          "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+          "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+          "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf"
+        ],
+        "context_sha256": "ecdd641e874b5b20758db1d551ed56d0e20cc7acd4f5cd0c47622e6534016b9a",
+        "context_length": 4742,
+        "results": [
+          {
+            "id": "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 241,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.3287184454988627,
+            "strategy": "tfidf",
+            "text_sha256": "60ab2bb97d85f89cb978fa158468cc75d68a2eeed6a0ffeeb8ff7c9888ec311e",
+            "text_length": 1500
+          },
+          {
+            "id": "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 180,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.23985843626470882,
+            "strategy": "tfidf",
+            "text_sha256": "accaf63381075ad64c4dc30bb7a4466fc23db68daeeac58837f293a6267a2120",
+            "text_length": 1300
+          },
+          {
+            "id": "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 178,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.22559796326793577,
+            "strategy": "tfidf",
+            "text_sha256": "59d542cf38a2e57f45ffdfd49b7ac13f3fa9810dbc26f25e4321954234bed957",
+            "text_length": 1500
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_16",
+    "group": "no_evidence",
+    "question": "What was the measured global fossil-fuel subsidy total in 2027?",
+    "status": "answered",
+    "answer": "The available evidence does not contain a measured global fossil-fuel subsidy total for 2027. The provided excerpts only reference figures for 2022, such as a global total of US$900 billion for consumer fossil fuel subsidies [4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf] and an all-time high of US$1 trillion in global fossil fuel subsidies [92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150]. No data for 2027 is present in the current evidence.",
+    "citations": [
+      "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf",
+      "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 4344.52,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 50,
+          "total_tokens": 537,
+          "cost": 6.426e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.426e-05,
+            "upstream_inference_prompt_cost": 5.026e-05,
+            "upstream_inference_completions_cost": 1.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 806.62
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1655,
+          "completion_tokens": 65,
+          "total_tokens": 1720,
+          "cost": 0.00023198,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00023198,
+            "upstream_inference_prompt_cost": 0.00021378,
+            "upstream_inference_completions_cost": 1.82e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1022.15
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1666,
+          "completion_tokens": 64,
+          "total_tokens": 1730,
+          "cost": 0.00023324,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00023324,
+            "upstream_inference_prompt_cost": 0.00021532,
+            "upstream_inference_completions_cost": 1.792e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1056.9
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1398,
+          "completion_tokens": 148,
+          "total_tokens": 1546,
+          "cost": 0.00023716,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00023716,
+            "upstream_inference_prompt_cost": 0.00019572,
+            "upstream_inference_completions_cost": 4.144e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1419.96
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "global fossil-fuel subsidy total 2027",
+        "filter": null,
+        "context_ids": [
+          "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+          "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+          "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf"
+        ],
+        "context_sha256": "ecdd641e874b5b20758db1d551ed56d0e20cc7acd4f5cd0c47622e6534016b9a",
+        "context_length": 4742,
+        "results": [
+          {
+            "id": "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 178,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.21454149128280478,
+            "strategy": "tfidf",
+            "text_sha256": "59d542cf38a2e57f45ffdfd49b7ac13f3fa9810dbc26f25e4321954234bed957",
+            "text_length": 1500
+          },
+          {
+            "id": "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 241,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.181756008682438,
+            "strategy": "tfidf",
+            "text_sha256": "60ab2bb97d85f89cb978fa158468cc75d68a2eeed6a0ffeeb8ff7c9888ec311e",
+            "text_length": 1500
+          },
+          {
+            "id": "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 180,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.17974705557119733,
+            "strategy": "tfidf",
+            "text_sha256": "accaf63381075ad64c4dc30bb7a4466fc23db68daeeac58837f293a6267a2120",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "fossil fuel subsidies 2027 total",
+        "filter": null,
+        "context_ids": [
+          "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+          "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+          "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf"
+        ],
+        "context_sha256": "ecdd641e874b5b20758db1d551ed56d0e20cc7acd4f5cd0c47622e6534016b9a",
+        "context_length": 4742,
+        "results": [
+          {
+            "id": "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 241,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.2636678309120625,
+            "strategy": "tfidf",
+            "text_sha256": "60ab2bb97d85f89cb978fa158468cc75d68a2eeed6a0ffeeb8ff7c9888ec311e",
+            "text_length": 1500
+          },
+          {
+            "id": "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 180,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.24591008415167676,
+            "strategy": "tfidf",
+            "text_sha256": "accaf63381075ad64c4dc30bb7a4466fc23db68daeeac58837f293a6267a2120",
+            "text_length": 1300
+          },
+          {
+            "id": "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 178,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.22178339428201443,
+            "strategy": "tfidf",
+            "text_sha256": "59d542cf38a2e57f45ffdfd49b7ac13f3fa9810dbc26f25e4321954234bed957",
+            "text_length": 1500
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "fossil fuel subsidies 2027",
+        "filter": null,
+        "context_ids": [
+          "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+          "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+          "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf"
+        ],
+        "context_sha256": "ecdd641e874b5b20758db1d551ed56d0e20cc7acd4f5cd0c47622e6534016b9a",
+        "context_length": 4742,
+        "results": [
+          {
+            "id": "92661f019041f83e1977ecba76ad9e2bb6cacc4d979e0ae858ba21f29fffe150",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 241,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.26346520552374225,
+            "strategy": "tfidf",
+            "text_sha256": "60ab2bb97d85f89cb978fa158468cc75d68a2eeed6a0ffeeb8ff7c9888ec311e",
+            "text_length": 1500
+          },
+          {
+            "id": "5a5e59c5044ed10ae714ee0b77308b19823ae7d25da9c512fcaa4bf026801b0c",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 178,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.21820316236111328,
+            "strategy": "tfidf",
+            "text_sha256": "59d542cf38a2e57f45ffdfd49b7ac13f3fa9810dbc26f25e4321954234bed957",
+            "text_length": 1500
+          },
+          {
+            "id": "4666dcf536a4973ff3c74953dcf4bdea44c4bb911f8162feea4357dcf7f394bf",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 180,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.21692299037680704,
+            "strategy": "tfidf",
+            "text_sha256": "accaf63381075ad64c4dc30bb7a4466fc23db68daeeac58837f293a6267a2120",
+            "text_length": 1300
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_17",
+    "group": "no_evidence",
+    "question": "Who won the 2026 Nobel Prize in Economics according to this report?",
+    "status": "answered",
+    "answer": "Based on the provided evidence, the report does not mention the winner of the 2026 Nobel Prize in Economics. The evidence only references Nobel Laureates in the context of a 2019 statement on carbon taxation [b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0]. Therefore, the evidence is insufficient to answer the question.",
+    "citations": [
+      "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 4429.3,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 488,
+          "completion_tokens": 62,
+          "total_tokens": 550,
+          "cost": 6.776e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.776e-05,
+            "upstream_inference_prompt_cost": 5.04e-05,
+            "upstream_inference_completions_cost": 1.736e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 778.49
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Inceptron",
+        "usage": {
+          "prompt_tokens": 1751,
+          "completion_tokens": 48,
+          "total_tokens": 1799,
+          "cost": 0.00025139,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00025139,
+            "upstream_inference_prompt_cost": 0.00022763,
+            "upstream_inference_completions_cost": 2.376e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1468.95
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 2253,
+          "completion_tokens": 64,
+          "total_tokens": 2317,
+          "cost": 0.00031542,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00031542,
+            "upstream_inference_prompt_cost": 0.0002975,
+            "upstream_inference_completions_cost": 1.792e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 928.16
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1984,
+          "completion_tokens": 96,
+          "total_tokens": 2080,
+          "cost": 0.00030464,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00030464,
+            "upstream_inference_prompt_cost": 0.00027776,
+            "upstream_inference_completions_cost": 2.688e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1140.64
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "2026 Nobel Prize in Economics",
+        "filter": null,
+        "context_ids": [
+          "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0",
+          "18640a6803b0ab9c1e1ae5d1eb740e8518a80df1e37d737d0899f1f2fbe4d212",
+          "2c4236179826a41e5fe32b9b40420417a76d8a153e79f9c8d2db4eb805657d34"
+        ],
+        "context_sha256": "ac05c8a6ab70d735603eee019b9e1012b0f20096e9e9761d3f46f1eab8784df0",
+        "context_length": 4458,
+        "results": [
+          {
+            "id": "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 239,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.0760281048789544,
+            "strategy": "tfidf",
+            "text_sha256": "5022f3c8d0b0b8bca158c2fd1202f5f46871262902cdcd93945fe946569d826c",
+            "text_length": 1500
+          },
+          {
+            "id": "18640a6803b0ab9c1e1ae5d1eb740e8518a80df1e37d737d0899f1f2fbe4d212",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 139,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 3900,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.07119880832008676,
+            "strategy": "tfidf",
+            "text_sha256": "6d4bc3750e54db5cd3d2392f7d9d93826aac85e5ab74920dcaaf51c3f6e75120",
+            "text_length": 1499
+          },
+          {
+            "id": "2c4236179826a41e5fe32b9b40420417a76d8a153e79f9c8d2db4eb805657d34",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 164,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 5200,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.055632549319771914,
+            "strategy": "tfidf",
+            "text_sha256": "010526c245227dce713a4550cf570b70ff9f91b02bd7d492e23eae9acf2d9eac",
+            "text_length": 1017
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "2026 Nobel Prize Economics winner",
+        "filter": null,
+        "context_ids": [
+          "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0",
+          "18640a6803b0ab9c1e1ae5d1eb740e8518a80df1e37d737d0899f1f2fbe4d212",
+          "2c4236179826a41e5fe32b9b40420417a76d8a153e79f9c8d2db4eb805657d34",
+          "47981944e61560b63206c4095bd4a056e5f71ec03338b1b9e33fc3c59b315d11"
+        ],
+        "context_sha256": "2aa3f09c89fbbbf8031ab40485c681f0887695f9f4d41a9927a4bfde18669ea5",
+        "context_length": 6106,
+        "results": [
+          {
+            "id": "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 239,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.06807582241341768,
+            "strategy": "tfidf",
+            "text_sha256": "5022f3c8d0b0b8bca158c2fd1202f5f46871262902cdcd93945fe946569d826c",
+            "text_length": 1500
+          },
+          {
+            "id": "18640a6803b0ab9c1e1ae5d1eb740e8518a80df1e37d737d0899f1f2fbe4d212",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 139,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 3900,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.062052507237405,
+            "strategy": "tfidf",
+            "text_sha256": "6d4bc3750e54db5cd3d2392f7d9d93826aac85e5ab74920dcaaf51c3f6e75120",
+            "text_length": 1499
+          },
+          {
+            "id": "47981944e61560b63206c4095bd4a056e5f71ec03338b1b9e33fc3c59b315d11",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 247,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.050394635175899684,
+            "strategy": "tfidf",
+            "text_sha256": "5bf3629c3f6362d9671f9c1a3beea0583bd149f24829be595cbb1d182d6d8ad9",
+            "text_length": 1500
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "2026 Nobel Prize in Economics winner",
+        "filter": null,
+        "context_ids": [
+          "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0",
+          "18640a6803b0ab9c1e1ae5d1eb740e8518a80df1e37d737d0899f1f2fbe4d212",
+          "2c4236179826a41e5fe32b9b40420417a76d8a153e79f9c8d2db4eb805657d34",
+          "47981944e61560b63206c4095bd4a056e5f71ec03338b1b9e33fc3c59b315d11"
+        ],
+        "context_sha256": "2aa3f09c89fbbbf8031ab40485c681f0887695f9f4d41a9927a4bfde18669ea5",
+        "context_length": 6106,
+        "results": [
+          {
+            "id": "b6d0e233b881d5a6d25ee80534a227dc5b462ca95731e9da70e3836c4e7220a0",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 239,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 1300,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.0760281048789544,
+            "strategy": "tfidf",
+            "text_sha256": "5022f3c8d0b0b8bca158c2fd1202f5f46871262902cdcd93945fe946569d826c",
+            "text_length": 1500
+          },
+          {
+            "id": "18640a6803b0ab9c1e1ae5d1eb740e8518a80df1e37d737d0899f1f2fbe4d212",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 139,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 3900,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.07119880832008676,
+            "strategy": "tfidf",
+            "text_sha256": "6d4bc3750e54db5cd3d2392f7d9d93826aac85e5ab74920dcaaf51c3f6e75120",
+            "text_length": 1499
+          },
+          {
+            "id": "2c4236179826a41e5fe32b9b40420417a76d8a153e79f9c8d2db4eb805657d34",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 164,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 5200,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.055632549319771914,
+            "strategy": "tfidf",
+            "text_sha256": "010526c245227dce713a4550cf570b70ff9f91b02bd7d492e23eae9acf2d9eac",
+            "text_length": 1017
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "adv_dev_18",
+    "group": "no_evidence",
+    "question": "What exact share of global GDP did lower-middle-income countries have in 2035?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "config": {
+      "top_k": 3,
+      "budget": 10000,
+      "max_searches": 3,
+      "max_tokens": 600
+    },
+    "elapsed_ms": 4543.51,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 490,
+          "completion_tokens": 72,
+          "total_tokens": 562,
+          "cost": 7.084e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.084e-05,
+            "upstream_inference_prompt_cost": 5.068e-05,
+            "upstream_inference_completions_cost": 2.016e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 869.38
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1185,
+          "completion_tokens": 78,
+          "total_tokens": 1263,
+          "cost": 0.00016982,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00016982,
+            "upstream_inference_prompt_cost": 0.00014798,
+            "upstream_inference_completions_cost": 2.184e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1340.51
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1199,
+          "completion_tokens": 73,
+          "total_tokens": 1272,
+          "cost": 0.00017038,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00017038,
+            "upstream_inference_prompt_cost": 0.00014994,
+            "upstream_inference_completions_cost": 2.044e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 868.66
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 934,
+          "completion_tokens": 75,
+          "total_tokens": 1009,
+          "cost": 0.00015176,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00015176,
+            "upstream_inference_prompt_cost": 0.00013076,
+            "upstream_inference_completions_cost": 2.1e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1280.6
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "lower-middle-income countries share of global GDP 2035",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d"
+        ],
+        "context_sha256": "7b2768010b216768e0fecdcfa05d6a67f2b4fbf3c71fc74a2c799ebb08e9ef0e",
+        "context_length": 2504,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.3031109914165556,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.24002553005524954,
+            "strategy": "tfidf",
+            "text_sha256": "c6fe3eacc7ab3c8a7e9dcd6e2cf61faf97f08a73c95eba97d25b2ab8a8fd1878",
+            "text_length": 1300
+          },
+          {
+            "id": "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 108,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.20140936389921713,
+            "strategy": "tfidf",
+            "text_sha256": "fea163b458a8edad82dee4b1c1485aebc8904245604388b81263ec52f4333ceb",
+            "text_length": 379
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "lower-middle-income countries share of global GDP 2035 projection",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d"
+        ],
+        "context_sha256": "7b2768010b216768e0fecdcfa05d6a67f2b4fbf3c71fc74a2c799ebb08e9ef0e",
+        "context_length": 2504,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.3031109914165556,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.24002553005524954,
+            "strategy": "tfidf",
+            "text_sha256": "c6fe3eacc7ab3c8a7e9dcd6e2cf61faf97f08a73c95eba97d25b2ab8a8fd1878",
+            "text_length": 1300
+          },
+          {
+            "id": "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 108,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.20140936389921713,
+            "strategy": "tfidf",
+            "text_sha256": "fea163b458a8edad82dee4b1c1485aebc8904245604388b81263ec52f4333ceb",
+            "text_length": 379
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "lower-middle-income countries share of global GDP 2035",
+        "filter": null,
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d"
+        ],
+        "context_sha256": "7b2768010b216768e0fecdcfa05d6a67f2b4fbf3c71fc74a2c799ebb08e9ef0e",
+        "context_length": 2504,
+        "results": [
+          {
+            "id": "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 63,
+            "metadata": {
+              "kind": "table",
+              "start_char": 0,
+              "bbox": [
+                65,
+                480,
+                515,
+                610
+              ],
+              "label": "Table P1.1"
+            },
+            "score": 0.3031109914165556,
+            "strategy": "tfidf",
+            "text_sha256": "251dbe82b7312fe5bde6ae11a3033b84cd0e687a3c99ddf4b397a16b254f0a7a",
+            "text_length": 385
+          },
+          {
+            "id": "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 66,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 0,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.24002553005524954,
+            "strategy": "tfidf",
+            "text_sha256": "c6fe3eacc7ab3c8a7e9dcd6e2cf61faf97f08a73c95eba97d25b2ab8a8fd1878",
+            "text_length": 1300
+          },
+          {
+            "id": "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d",
+            "source_id": "wdr2024-middle-income-trap",
+            "source": "World Bank, World Development Report 2024: The Middle-Income Trap",
+            "page": 108,
+            "metadata": {
+              "kind": "page_text",
+              "start_char": 2600,
+              "bbox": [
+                0,
+                0,
+                576,
+                756
+              ],
+              "label": null
+            },
+            "score": 0.20140936389921713,
+            "strategy": "tfidf",
+            "text_sha256": "fea163b458a8edad82dee4b1c1485aebc8904245604388b81263ec52f4333ceb",
+            "text_length": 379
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "57a3fefbfc3d83959d1ac959e5e222679296a89fe7933f069ee0ceb9e5906940",
+          "375de42ce2140e9047777735629bf2f818bb330dce0c55fa46f5a00ecb7e659a",
+          "4b8696ff4679741c1c97f8ea6ba875ccf398862e6b7c15b4e2394deb65d7dc1d"
+        ],
+        "attempted_answer_sha256": "238510c295ccdc659fffec42186f75b126f77f80b4653bb68911d9d1ef2b2ae6"
+      }
+    ]
+  }
+]

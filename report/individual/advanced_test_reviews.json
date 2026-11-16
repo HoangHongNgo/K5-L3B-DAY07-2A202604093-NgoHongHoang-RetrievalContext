@@ -1,0 +1,388 @@
+[
+  {
+    "query_id": "adv_test_01",
+    "group": "table",
+    "passed": true,
+    "reason": "Table P1.1, low-income population cell is 8.9%; cited table region on PDF page 63.",
+    "required_pdf_pages": [
+      63
+    ],
+    "cited_pdf_pages": [
+      63
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_02",
+    "group": "table",
+    "passed": true,
+    "reason": "Table P1.1, lower-middle-income extreme-poverty cell is 55.4%; citation supports the unit.",
+    "required_pdf_pages": [
+      63
+    ],
+    "cited_pdf_pages": [
+      63
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_03",
+    "group": "table",
+    "passed": true,
+    "reason": "Table P1.1, upper-middle-income global-GDP cell is 30.3%; cited table region.",
+    "required_pdf_pages": [
+      63
+    ],
+    "cited_pdf_pages": [
+      63
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_04",
+    "group": "table",
+    "passed": true,
+    "reason": "Table P1.1, high-income population cell is 15.7%; cited table region.",
+    "required_pdf_pages": [
+      63
+    ],
+    "cited_pdf_pages": [
+      63
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_05",
+    "group": "table",
+    "passed": true,
+    "reason": "Table 2.1 shows the blue/lower-priority innovation dial for lower-middle-income economies.",
+    "required_pdf_pages": [
+      86
+    ],
+    "cited_pdf_pages": [
+      86
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_06",
+    "group": "table",
+    "passed": true,
+    "reason": "Table 4.1 consumer-welfare cons cell says fewer players ease cartel formation.",
+    "required_pdf_pages": [
+      135
+    ],
+    "cited_pdf_pages": [
+      135
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_07",
+    "group": "image_diagram",
+    "passed": true,
+    "reason": "Figure 2.2 horizontal axis is proximity to the frontier; citation points to the diagram.",
+    "required_pdf_pages": [
+      88
+    ],
+    "cited_pdf_pages": [
+      88
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_08",
+    "group": "image_diagram",
+    "passed": true,
+    "reason": "Figure P2.1 left arrangement has the smallest circle for destruction.",
+    "required_pdf_pages": [
+      115
+    ],
+    "cited_pdf_pages": [
+      115
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_09",
+    "group": "image_diagram",
+    "passed": true,
+    "reason": "Map 6.2 legend identifies the red marks as power transmission lines; cited map page.",
+    "required_pdf_pages": [
+      182
+    ],
+    "cited_pdf_pages": [
+      182
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_10",
+    "group": "image_diagram",
+    "passed": true,
+    "reason": "Map 6.1 legend uses orange for upper-middle-income economies; cited map region.",
+    "required_pdf_pages": [
+      173
+    ],
+    "cited_pdf_pages": [
+      173
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_11",
+    "group": "image_diagram",
+    "passed": true,
+    "reason": "Figure 7.2 top box reads disciplining incumbency; cited diagram region.",
+    "required_pdf_pages": [
+      195
+    ],
+    "cited_pdf_pages": [
+      195
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_12",
+    "group": "chart",
+    "passed": true,
+    "reason": "Figure 3.5a UMIC bar is 9.0 exajoules per trillion US dollars.",
+    "required_pdf_pages": [
+      108
+    ],
+    "cited_pdf_pages": [
+      108
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_13",
+    "group": "chart",
+    "passed": true,
+    "reason": "Figure 3.5b LMIC bar is 0.098 GtCO2 equivalent per exajoule.",
+    "required_pdf_pages": [
+      108
+    ],
+    "cited_pdf_pages": [
+      108
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_14",
+    "group": "chart",
+    "passed": true,
+    "reason": "Figure 3.4 2028 endpoints are 9.7% of revenue and 2.6% of GDP; comparison and citation correct.",
+    "required_pdf_pages": [
+      107
+    ],
+    "cited_pdf_pages": [
+      107
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_15",
+    "group": "chart",
+    "passed": true,
+    "reason": "Figure 8.6 and accompanying paragraph show subsidies' negative price signal.",
+    "required_pdf_pages": [
+      241
+    ],
+    "cited_pdf_pages": [
+      241
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_16",
+    "group": "chart",
+    "passed": true,
+    "reason": "Figure 9.12 stacked areas label coal, oil, and natural gas as the dominant fossil fuels.",
+    "required_pdf_pages": [
+      267
+    ],
+    "cited_pdf_pages": [
+      267
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_17",
+    "group": "multi_hop",
+    "passed": true,
+    "reason": "Table P1.1 gives 8.3 + 30.3 = 38.6%; Figure 1.2 supports the stagnant relative-income trend; both pages cited.",
+    "required_pdf_pages": [
+      63,
+      68
+    ],
+    "cited_pdf_pages": [
+      63,
+      66,
+      68
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_18",
+    "group": "multi_hop",
+    "passed": true,
+    "reason": "Table 4.1 supports weaker innovation incentives; Figure 7.1 supports fewer patents among market leaders; both regions cited.",
+    "required_pdf_pages": [
+      135,
+      194
+    ],
+    "cited_pdf_pages": [
+      135,
+      193,
+      194
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_19",
+    "group": "multi_hop",
+    "passed": true,
+    "reason": "Map 6.2 shows grid constraints and Figure 3.6 shows higher solar WACC; both PDF pages cited.",
+    "required_pdf_pages": [
+      109,
+      182
+    ],
+    "cited_pdf_pages": [
+      109,
+      182
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_20",
+    "group": "multi_hop",
+    "passed": false,
+    "reason": "The answer includes an unfinished US savings sentence and cites pages 169/254/255 but not Figure 6.1 on page 171; fails complete answer and figure citation.",
+    "required_pdf_pages": [
+      171,
+      255
+    ],
+    "cited_pdf_pages": [
+      169,
+      254,
+      255
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_21",
+    "group": "text",
+    "passed": true,
+    "reason": "Part 1 says approximately three-fourths of the world's population; cited page 63 supports this.",
+    "required_pdf_pages": [
+      63
+    ],
+    "cited_pdf_pages": [
+      63,
+      66
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_22",
+    "group": "text",
+    "passed": true,
+    "reason": "Chapter 3 states over 300 million people still lack electricity; cited page 107.",
+    "required_pdf_pages": [
+      107
+    ],
+    "cited_pdf_pages": [
+      107
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_23",
+    "group": "text",
+    "passed": true,
+    "reason": "Page 171 states the IEA revised the 2023-24 renewable-capacity forecast upward by 38%.",
+    "required_pdf_pages": [
+      171
+    ],
+    "cited_pdf_pages": [
+      171
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_24",
+    "group": "text",
+    "passed": true,
+    "reason": "Page 223 states Korea devoted nearly 80% of its 1950s education budget to primary education.",
+    "required_pdf_pages": [
+      223
+    ],
+    "cited_pdf_pages": [
+      223
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_25",
+    "group": "no_evidence",
+    "passed": true,
+    "reason": "Explicitly refuses a 2034 observed population share; no unsupported claim.",
+    "required_pdf_pages": [],
+    "cited_pdf_pages": [],
+    "status": "abstain"
+  },
+  {
+    "query_id": "adv_test_26",
+    "group": "no_evidence",
+    "passed": true,
+    "reason": "Explicitly says 2029 observed low-carbon job count is unavailable; the cited 2022 comparison is supported.",
+    "required_pdf_pages": [],
+    "cited_pdf_pages": [
+      171
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_27",
+    "group": "no_evidence",
+    "passed": true,
+    "reason": "Explicitly refuses a post-publication 2028 prize winner; no unsupported claim.",
+    "required_pdf_pages": [],
+    "cited_pdf_pages": [],
+    "status": "abstain"
+  },
+  {
+    "query_id": "adv_test_28",
+    "group": "no_evidence",
+    "passed": true,
+    "reason": "Explicitly says 2032 observed CO2 share is unavailable; cited 2022 value is correct.",
+    "required_pdf_pages": [],
+    "cited_pdf_pages": [
+      63
+    ],
+    "status": "answered"
+  },
+  {
+    "query_id": "adv_test_29",
+    "group": "no_evidence",
+    "passed": true,
+    "reason": "Explicitly refuses an observed 2035 solar-electricity share; no unsupported claim.",
+    "required_pdf_pages": [],
+    "cited_pdf_pages": [],
+    "status": "abstain"
+  },
+  {
+    "query_id": "adv_test_30",
+    "group": "no_evidence",
+    "passed": true,
+    "reason": "Explicitly refuses a 2030 cross-country fossil-fuel-jobs ranking; supplementary claims are supported by cited pages.",
+    "required_pdf_pages": [],
+    "cited_pdf_pages": [
+      173,
+      178,
+      186
+    ],
+    "status": "answered"
+  }
+]
