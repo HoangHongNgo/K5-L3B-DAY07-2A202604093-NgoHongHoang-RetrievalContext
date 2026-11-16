@@ -7,3 +7,5 @@ Các file `example_*.json` chỉ minh họa định dạng, không đủ để n
 - **Câu thiếu evidence:** `id`, `split`, `question`, `answerable: false`, `expected_behavior: "search_and_abstain"`, `absence_reason`. Xem `agent_cases_example.json`.
 
 Không đưa `gold` hoặc nhãn đáp án vào model và retrieval tool. Ghi nguồn dữ liệu và quyền sử dụng. Cách chuyển một số định dạng Day 6: [starter/README.md](../starter/README.md).
+
+`day7_ocr_questions.json` là bộ câu hỏi riêng cho chữ OCR. `group: ocr_text` là evidence từ trang không có lớp chữ; `group: ocr_mixed_text` là chữ trong ảnh của trang vẫn có lớp chữ PDF. Cả hai nhóm đo đọc chữ trong ảnh, không đo suy luận thị giác. Số trang là số trang vật lý, bắt đầu từ 1.

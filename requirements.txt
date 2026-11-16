@@ -1,0 +1,6 @@
+psycopg[binary]>=3.3,<4
+pypdf>=6,<7
+pymupdf>=1.28,<2
+rapidocr-onnxruntime==1.4.4
+python-dotenv>=1,<2
+sentence-transformers>=5,<6

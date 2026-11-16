@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ocr_mixed_dev_6", "split": "dev", "group": "ocr_mixed_text", "question": "Which metro system's route map is shown alongside the Taoyuan Metro map?", "expected_answer": "Kaohsiung Metro.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 6, "evidence": "Kaohsiung Metro Route Map"}]
+  },
+  {
+    "id": "ocr_mixed_dev_45", "split": "dev", "group": "ocr_mixed_text", "question": "How many deluxe guest rooms does Hotel National in Taichung advertise?", "expected_answer": "178.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 45, "evidence": "Ithas178stylishdeluxeguestrooms"}]
+  },
+  {
+    "id": "ocr_dev_40", "split": "dev", "group": "ocr_text", "question": "Which MRT station is next door to Brother Hotel?", "expected_answer": "Nanjing Fuxing Station.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 40, "evidence": "(Nanjing Fuxing Station) is just next door."}]
+  },
+  {
+    "id": "ocr_dev_41", "split": "dev", "group": "ocr_text", "question": "How far is Cosmos Hotel Taipei from Taipei Main Station on foot?", "expected_answer": "One minute's walk.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 41, "evidence": "1 min walk to Taipei Main Station"}]
+  },
+  {
+    "id": "ocr_dev_43", "split": "dev", "group": "ocr_text", "question": "How many rooms does The Landis Taipei have?", "expected_answer": "209 rooms.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 43, "evidence": "There are 209 rooms in the hotel with 7 room types."}]
+  },
+  {
+    "id": "ocr_dev_44", "split": "dev", "group": "ocr_text", "question": "How many rooms does Cuncyue Hot Spring Resort have?", "expected_answer": "453 rooms.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 44, "evidence": "There are totally 453 rooms in this 24-story high building"}]
+  },
+  {
+    "id": "ocr_dev_abs", "split": "dev", "group": "no_evidence", "question": "What was Brother Hotel's room rate in 2025?", "expected_answer": "Insufficient evidence; the guide's promotion is from 2020.", "gold": [], "answerable": false,
+    "absence_reason": "The 2020 brochure does not provide 2025 rates."
+  },
+  {
+    "id": "ocr_mixed_test_39", "split": "test", "group": "ocr_mixed_text", "question": "Which airline has a 60th-anniversary advertisement on the hotel directory spread?", "expected_answer": "China Airlines.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 39, "evidence": "CHINAAIRLINES"}]
+  },
+  {
+    "id": "ocr_mixed_test_46", "split": "test", "group": "ocr_mixed_text", "question": "How many rooms does The Splendor Hotel Taichung list?", "expected_answer": "222.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 46, "evidence": "房間數（NO.OFROOMS/部屋数）：222"}]
+  },
+  {
+    "id": "ocr_test_40", "split": "test", "group": "ocr_text", "question": "What room rate does the 2020 guide list as the starting rate for Emperor Hotel?", "expected_answer": "NT$3,600 plus 10%.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 40, "evidence": "Room Rate from:NT $3600+10%"}]
+  },
+  {
+    "id": "ocr_test_41", "split": "test", "group": "ocr_text", "question": "What starting room rate does the guide list for Grand Cosmos Resort?", "expected_answer": "NT$32,000 plus 10%.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 41, "evidence": "Room Ratesfrom NT$32,000+10%"}]
+  },
+  {
+    "id": "ocr_test_42", "split": "test", "group": "ocr_text", "question": "How many guest rooms does Radium Kagaya International Hotel have?", "expected_answer": "90 guest rooms.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 42, "evidence": "Equipped with 90 guest rooms"}]
+  },
+  {
+    "id": "ocr_test_47", "split": "test", "group": "ocr_text", "question": "Which hotel group displays the website www.parkview-hotel.com in the guide?", "expected_answer": "Parkview Hotels & Resorts.",
+    "gold": [{"source_id": "taiwan-tourism-guide-2020", "page": 47, "evidence": "PARKVIEW"}]
+  },
+  {
+    "id": "ocr_test_abs", "split": "test", "group": "no_evidence", "question": "What was Grand Cosmos Resort's room rate in 2026?", "expected_answer": "Insufficient evidence; the 2020 guide does not state a 2026 rate.", "gold": [], "answerable": false,
+    "absence_reason": "The brochure only states rates in its 2020 edition."
+  }
+]

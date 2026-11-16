@@ -1,0 +1,312 @@
+{
+  "benchmark_version": "v2",
+  "split_note": "q01-q20 were inspected in v1 and are dev in v2. q21-q25 are the new test set, written before the first v2 run.",
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "direct",
+      "question": "What is the maximum stay allowed by a visitor visa?",
+      "expected_answer": "Up to 180 days.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 3,
+      "evidence_quote": "Visitor visa: a short-term visa with a duration of stay of up to 180 days"
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "How long does the high-speed rail journey from Taipei to Kaohsiung take?",
+      "expected_answer": "About 105 minutes.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 5,
+      "evidence_quote": "one-way journey between Taipei and Kaohsi- ung only within 105 minutes."
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "filter",
+      "question": "In the festivals section, which city hosted the Taiwan Lantern Festival in 2020?",
+      "expected_answer": "Taichung.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 8,
+      "evidence_quote": "Taichung will host the festival in 2020",
+      "filter": {
+        "category": "festivals"
+      }
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "direct",
+      "question": "In which month is the Neimen Songjiang Battle Array competition held?",
+      "expected_answer": "March.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 9,
+      "evidence_quote": "Songjiang Battle Array competition held in Neimen each March."
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "direct",
+      "question": "How long does the Taipei Baosheng Cultural Festival last?",
+      "expected_answer": "Two months.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 10,
+      "evidence_quote": "The festival lasts for two months"
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Which landscapes do Taiwan Cycling Festival routes pass through?",
+      "expected_answer": "The East Coast, East Rift Valley, Taroko Gorge, and New Central Cross-Island Highway.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 11,
+      "evidence_quote": "these routes wind along the East Coast, East Rift Valley, Taroko Gorge, and New Central Cross-Island Highway."
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "direct",
+      "question": "About how long is the Sun Moon Lake swimming course?",
+      "expected_answer": "Approximately 3,000 meters.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 12,
+      "evidence_quote": "approximately 3,000-meter course across Sun Moon Lake towards Dehua Wharf."
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "direct",
+      "question": "What certification does the Taipei International Marathon have?",
+      "expected_answer": "AIMS/IAAF certification.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 13,
+      "evidence_quote": "The Taipei International Marathon is an AIMS/IAAF-certified city road race"
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "filter",
+      "question": "In the souvenirs section, what is the filling of pineapple cake made from?",
+      "expected_answer": "Winter melon and pineapple preserves.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 15,
+      "evidence_quote": "filling made of winter melon and pineapple preserves.",
+      "filter": {
+        "category": "souvenirs"
+      }
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "direct",
+      "question": "How long is Xiluo soy sauce fermented in jugs?",
+      "expected_answer": "180 days.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 16,
+      "evidence_quote": "jug fer - mentation over a period of 180 days."
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "direct",
+      "question": "How many days does it take to hike Holy Ridge?",
+      "expected_answer": "Five to seven days.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 18,
+      "evidence_quote": "Holy Ridge takes between five to seven days to hike."
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Which two places were linked by the Paoma Historic Trail as the only cross-mountain route?",
+      "expected_answer": "Tamsui Subprefecture (Taipei) and Kavalan (Yilan).",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 20,
+      "evidence_quote": "only cross-mountain link between Tamsui Subprefecture (Taipei) and Kavalan (Yilan)."
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "direct",
+      "question": "How many Hehuan Mountain peaks are over 3,000 meters high?",
+      "expected_answer": "Seven.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 22,
+      "evidence_quote": "The mountain has seven peaks over 3,000 meters high."
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "direct",
+      "question": "About how high above sea level is Cingjing Farm?",
+      "expected_answer": "About 1,700 meters.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 23,
+      "evidence_quote": "Rising about 1,700 meters above sea level"
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "direct",
+      "question": "What is the total length of the Batongguan Trail?",
+      "expected_answer": "125.44 kilometers.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 24,
+      "evidence_quote": "The Batongguan Trail extends 125.44 kilometers."
+    },
+    {
+      "id": "q16",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "What views do visitors seek along the Eryanping Trail?",
+      "expected_answer": "Sunset and cloud formations.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 26,
+      "evidence_quote": "enjoy the sunset and cloud formation views along the Eryanping Trail."
+    },
+    {
+      "id": "q17",
+      "split": "dev",
+      "type": "filter",
+      "question": "In the mountain tourism section, what two landscapes does the Alangyi Historic Trail combine?",
+      "expected_answer": "Coastal and mountain views.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 28,
+      "evidence_quote": "both coastal and mountain views on a one-day hike.",
+      "filter": {
+        "category": "mountain_tourism"
+      },
+      "gold_evidence": [
+        {
+          "source_id": "taiwan-tourism-guide-2020",
+          "page": 28,
+          "evidence_quote": "both coastal and mountain views on a one-day hike."
+        },
+        {
+          "source_id": "taiwan-tourism-guide-2020",
+          "page": 29,
+          "evidence_quote": "The main part of the trail is the gravel path along the coast. The Guanyinbis - han Xuhai section is more challenging. A steep rope-as- sisted climb takes one up 70 meters to the top of Hero Hill, where a panoramic view of the mountains and sea awaits."
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "split": "dev",
+      "type": "direct",
+      "question": "How many tunnels does the Baiyang Trail pass through?",
+      "expected_answer": "Seven tunnels.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 30,
+      "evidence_quote": "through a series of seven tunnels"
+    },
+    {
+      "id": "q19",
+      "split": "dev",
+      "type": "filter",
+      "question": "In the outlying islands section, during which months do green sea turtles lay eggs on Xiaoliuqiu?",
+      "expected_answer": "May through October.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 34,
+      "evidence_quote": "Each year between May and October, the turtles lay their eggs on the beaches here",
+      "filter": {
+        "category": "outlying_islands"
+      }
+    },
+    {
+      "id": "q20",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "How do the stone weirs in Penghu trap fish?",
+      "expected_answer": "They admit fish at high tide and block the exit as the water ebbs.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 36,
+      "evidence_quote": "The arc-shaped weirs catch fish by admitting them at high tide and shutting off the exit path when the waters ebb."
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "direct",
+      "question": "According to the guide, about how many endemic wildlife species live on Taiwan?",
+      "expected_answer": "More than 3,000.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 2,
+      "evidence_quote": "more than 3,000 endemic species of wildlife on the island"
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "filter",
+      "question": "In the transport section, which means of travel can visitors take from the airport to major cities?",
+      "expected_answer": "Intercity bus, THSR, MRT, and taxi.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 4,
+      "evidence_quote": "including intercity bus, THSR, MRT, and taxi, to major cities around the island.",
+      "filter": {
+        "category": "transport"
+      }
+    },
+    {
+      "id": "q23",
+      "split": "test",
+      "type": "filter",
+      "question": "In the festivals section, over which bridge are fireworks displayed during the Penghu Fireworks and Music Festival?",
+      "expected_answer": "Xiying Rainbow Bridge.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 10,
+      "evidence_quote": "fireworks colorfully light up the night sky over Xiying Rainbow Bridge accompanied by live music",
+      "filter": {
+        "category": "festivals"
+      }
+    },
+    {
+      "id": "q24",
+      "split": "test",
+      "type": "filter",
+      "question": "In the souvenirs section, which Hakka specialty is named among the gift items?",
+      "expected_answer": "Dried persimmons.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 14,
+      "evidence_quote": "Hakka dried persimmons and indigenous millet mochi",
+      "filter": {
+        "category": "souvenirs"
+      }
+    },
+    {
+      "id": "q25",
+      "split": "test",
+      "type": "filter",
+      "question": "In the outlying islands section, during which months does the Kuroshio bring flying fish to the Yami people?",
+      "expected_answer": "March to June.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 35,
+      "evidence_quote": "The Yami people depend on the flying fish brought by the Kuroshio Current each year from March to June as an important food source.",
+      "filter": {
+        "category": "outlying_islands"
+      }
+    },
+    {
+      "id": "q26",
+      "split": "dev",
+      "type": "conditional",
+      "question": "For a self-planned trip using Taiwan Tourist Shuttle, which card provides unlimited rides for one day?",
+      "expected_answer": "The One-day Pass card.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 5,
+      "evidence_quote": "One-day Pass cards are good for an unlimited number of rides during one day and strongly recommended for a self-planned tour."
+    },
+    {
+      "id": "q27",
+      "split": "dev",
+      "type": "exception",
+      "question": "Can a 60-day visa marked \"No extension will be granted\" be extended directly at a local service center under the guide's rule?",
+      "expected_answer": "No. Direct extension applies only when that marking is absent and the relevant documents are provided.",
+      "gold_source_id": "taiwan-tourism-guide-2020",
+      "gold_page": 3,
+      "evidence_quote": "Holders of visas which are valid for 60 days and which do not bear “No extension will be granted” can di- rectly apply for an extension of their visa at local service centers of the National Immigration Agency with the relevant documents."
+    }
+  ]
+}

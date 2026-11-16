@@ -1,0 +1,15 @@
+{
+  "method": "dense",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 1800,
+  "answerable": 27,
+  "unanswerable": 2,
+  "hit1": 23,
+  "hit3": 25,
+  "context_hit": 25,
+  "median_ms": 118.14,
+  "service_cost_usd": 0,
+  "hypothesis": "Day 6 dense baseline",
+  "key": "dense-k3-b1800"
+}

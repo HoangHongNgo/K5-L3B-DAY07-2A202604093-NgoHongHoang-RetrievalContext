@@ -1,0 +1,15 @@
+{
+  "method": "tfidf",
+  "split": "dev",
+  "top_k": 3,
+  "budget_chars": 1800,
+  "answerable": 27,
+  "unanswerable": 2,
+  "hit1": 24,
+  "hit3": 27,
+  "context_hit": 27,
+  "median_ms": 0.72,
+  "service_cost_usd": 0,
+  "hypothesis": "Lexical method",
+  "key": "tfidf-k3-b1800"
+}

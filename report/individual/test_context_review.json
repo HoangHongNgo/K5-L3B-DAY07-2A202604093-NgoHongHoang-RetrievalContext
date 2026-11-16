@@ -1,0 +1,19 @@
+{
+  "method": "Manual reading of all five answerable test contexts for baseline and selected configuration; grade 2 means sufficient evidence and source, 0 means no answer evidence.",
+  "reviews": [
+    {"config": "dense-k3-b1800", "query_id": "test_1", "grade": 2, "reason": "Page 8 excerpt explicitly connects the Yanshui festival with a cholera outbreak."},
+    {"config": "dense-k3-b1800", "query_id": "test_2", "grade": 0, "reason": "Page 11 excerpt stops before the Formosa Summer Festival date; the visible June to December date belongs to the Cycling Festival."},
+    {"config": "dense-k3-b1800", "query_id": "test_3", "grade": 0, "reason": "Retrieved mochi excerpt omits the Amis attribution; the other excerpt mentions indigenous mochi without naming Amis."},
+    {"config": "dense-k3-b1800", "query_id": "test_4", "grade": 2, "reason": "Page 25 excerpt says Yunlong Waterfall descends in three stages."},
+    {"config": "dense-k3-b1800", "query_id": "test_5", "grade": 2, "reason": "Page 35 excerpt calls goats a symbol of property in the Yami tribe."},
+    {"config": "tfidf-k3-b1800", "query_id": "test_1", "grade": 2, "reason": "Page 8 excerpt explicitly connects the Yanshui festival with a cholera outbreak."},
+    {"config": "tfidf-k3-b1800", "query_id": "test_2", "grade": 0, "reason": "The retrieved Page 11 chunk ends before the Formosa Summer Festival date, so the nearby Cycling Festival date is unsafe to use."},
+    {"config": "tfidf-k3-b1800", "query_id": "test_3", "grade": 2, "reason": "Page 16 excerpt names millet mochi as a traditional Amis snack."},
+    {"config": "tfidf-k3-b1800", "query_id": "test_4", "grade": 2, "reason": "Page 25 excerpt states that Yunlong Waterfall descends in three stages."},
+    {"config": "tfidf-k3-b1800", "query_id": "test_5", "grade": 2, "reason": "Page 35 excerpt calls goats a symbol of property in the Yami tribe."}
+  ],
+  "unanswerable_check": [
+    {"query_id": "test_abs_1", "reason": "2020 guide contains no 2026 fare; extracted corpus has no 2026 occurrence."},
+    {"query_id": "test_abs_2", "reason": "2020 guide contains no 2025 winner; extracted corpus has no 2025 occurrence."}
+  ]
+}

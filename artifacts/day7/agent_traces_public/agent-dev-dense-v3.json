@@ -1,0 +1,4959 @@
+[
+  {
+    "query_id": "q01",
+    "question": "What is the maximum stay allowed by a visitor visa?",
+    "status": "answered",
+    "citations": [
+      "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 4263.49,
+    "answer_sha256": "ac44d1c1a3773263e3df1fb14a44bb87982388eb544c46da748eee02c9fb985c",
+    "answer_length": 132,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 71,
+          "total_tokens": 552,
+          "cost": 6.93e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.93e-05,
+            "upstream_inference_prompt_cost": 4.942e-05,
+            "upstream_inference_completions_cost": 1.988e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 23,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1524.08
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1034,
+          "completion_tokens": 190,
+          "total_tokens": 1224,
+          "cost": 0.00018004,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00018004,
+            "upstream_inference_prompt_cost": 0.00012684,
+            "upstream_inference_completions_cost": 5.32e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 130,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2457.77
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "visitor visa maximum stay",
+        "filter": null,
+        "context_ids": [
+          "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59",
+          "ef8126182343b19fbfeb85913980f00fddbfee74bdeb4256c9293b52ca64add5",
+          "6f27d5d85182bf87632d3bccdfe9ca800c7f00d2793aeb45b92b9351851bfcbf"
+        ],
+        "context_sha256": "9c97d91d318856af73e436ac6f2afdfab5bf35ef081de5c89a287cbefca632a5",
+        "context_length": 1796,
+        "results": [
+          {
+            "id": "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 372,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.47311854522713825,
+            "text_sha256": "2862e69c6ceb03399fbab5d166ed5ebc9362396110326089867741717c9c2d29",
+            "text_length": 371
+          },
+          {
+            "id": "ef8126182343b19fbfeb85913980f00fddbfee74bdeb4256c9293b52ca64add5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 29,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1658,
+              "language": "en",
+              "start_char": 1169,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.21027303215586757,
+            "text_sha256": "25d6de04620b19677afa8c6dd329d90abbe3f87126fb71a2915093b81ed63a99",
+            "text_length": 488
+          },
+          {
+            "id": "6f27d5d85182bf87632d3bccdfe9ca800c7f00d2793aeb45b92b9351851bfcbf",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1069,
+              "language": "en",
+              "start_char": 487,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.1825930069331526,
+            "text_sha256": "0dd824971bae6ed574951d979d964f920787653acf9d9b8180dbca9c7c07e533",
+            "text_length": 581
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q02",
+    "question": "How long does the high-speed rail journey from Taipei to Kaohsiung take?",
+    "status": "answered",
+    "citations": [
+      "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 19891.8,
+    "answer_sha256": "ece943529a4b7d8b2eac283b6898590db6c7d6e46f64636af5bc247d4b469e57",
+    "answer_length": 215,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 74,
+          "total_tokens": 561,
+          "cost": 7.098e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.098e-05,
+            "upstream_inference_prompt_cost": 5.026e-05,
+            "upstream_inference_completions_cost": 2.072e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 7995.79
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Inceptron",
+        "usage": {
+          "prompt_tokens": 1041,
+          "completion_tokens": 126,
+          "total_tokens": 1167,
+          "cost": 0.0001977,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001977,
+            "upstream_inference_prompt_cost": 0.00013533,
+            "upstream_inference_completions_cost": 6.237e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 56,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 11770.63
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "high-speed rail Taipei to Kaohsiung travel time",
+        "filter": null,
+        "context_ids": [
+          "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f",
+          "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7",
+          "05fb97679bd869294cecc75037141e2d588e08389c2df7a7a2ecd11a0dbe1a3a"
+        ],
+        "context_sha256": "0ab988f2b44b87a16096297e1239689cf4014ebb772277e26c109f78a4939916",
+        "context_length": 1705,
+        "results": [
+          {
+            "id": "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 1036,
+              "language": "en",
+              "start_char": 478,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.709105393561882,
+            "text_sha256": "33b9eb820f1a63bcff3e03eb9ae9f2026dbd739dfa1a8a781deca7c156214d6d",
+            "text_length": 557
+          },
+          {
+            "id": "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 3611,
+              "language": "en",
+              "start_char": 3295,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.606378949068722,
+            "text_sha256": "ab87091a0b593c3cb35c8377d169e001ca6952c4b442c7ddf2596fb454f0b253",
+            "text_length": 316
+          },
+          {
+            "id": "05fb97679bd869294cecc75037141e2d588e08389c2df7a7a2ecd11a0dbe1a3a",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 478,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6047436414735449,
+            "text_sha256": "5f7d88c90e563b24b387318c306bc148455236ea56363924c76c030826d2903b",
+            "text_length": 477
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q03",
+    "question": "In the festivals section, which city hosted the Taiwan Lantern Festival in 2020?",
+    "status": "abstain",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 4539.02,
+    "answer_sha256": "9234620e7fee682b22e64cb70d25b50bb029d7c0a35e40813f89c332a27594a2",
+    "answer_length": 31,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 488,
+          "completion_tokens": 89,
+          "total_tokens": 577,
+          "cost": 7.532e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.532e-05,
+            "upstream_inference_prompt_cost": 5.04e-05,
+            "upstream_inference_completions_cost": 2.492e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 36,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 811.83
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 800,
+          "completion_tokens": 105,
+          "total_tokens": 905,
+          "cost": 0.00012348,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00012348,
+            "upstream_inference_prompt_cost": 9.408e-05,
+            "upstream_inference_completions_cost": 2.94e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 53,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 962.14
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 800,
+          "completion_tokens": 117,
+          "total_tokens": 917,
+          "cost": 9.1e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 768,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.1e-05,
+            "upstream_inference_prompt_cost": 5.824e-05,
+            "upstream_inference_completions_cost": 3.276e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 63,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 918.05
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 522,
+          "completion_tokens": 70,
+          "total_tokens": 592,
+          "cost": 9.268e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 9.268e-05,
+            "upstream_inference_prompt_cost": 7.308e-05,
+            "upstream_inference_completions_cost": 1.96e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 49,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1472.3
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Taiwan Lantern Festival 2020 city hosted",
+        "filter": null,
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+        ],
+        "context_sha256": "832b203f88bd5decbeafa714036b9bee48ddd7247e604daeedd7d049e4ce3827",
+        "context_length": 1102,
+        "results": [
+          {
+            "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 572,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.8330854525242645,
+            "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+            "text_length": 571
+          },
+          {
+            "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1966,
+              "language": "en",
+              "start_char": 1671,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7519753947265359,
+            "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+            "text_length": 295
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6831177080606734,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "2020 Taiwan Lantern Festival host city",
+        "filter": null,
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+        ],
+        "context_sha256": "832b203f88bd5decbeafa714036b9bee48ddd7247e604daeedd7d049e4ce3827",
+        "context_length": 1102,
+        "results": [
+          {
+            "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 572,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.8127880804069009,
+            "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+            "text_length": 571
+          },
+          {
+            "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1966,
+              "language": "en",
+              "start_char": 1671,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7448578628982401,
+            "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+            "text_length": 295
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.667980432510376,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Taiwan Lantern Festival 2020 host city",
+        "filter": null,
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+        ],
+        "context_sha256": "832b203f88bd5decbeafa714036b9bee48ddd7247e604daeedd7d049e4ce3827",
+        "context_length": 1102,
+        "results": [
+          {
+            "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 572,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.8251835808048513,
+            "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+            "text_length": 571
+          },
+          {
+            "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1966,
+              "language": "en",
+              "start_char": 1671,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7568563963856474,
+            "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+            "text_length": 295
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.682288646697998,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+        ],
+        "attempted_answer_sha256": "01540e0ed46f75cd1df3bf04fd94f214da952ce2953782a6183c06f781ac5c18",
+        "attempted_answer_length": 80
+      }
+    ]
+  },
+  {
+    "query_id": "q04",
+    "question": "In which month is the Neimen Songjiang Battle Array competition held?",
+    "status": "answered",
+    "citations": [
+      "c19069ffa27c4d9aa1c5e745e4ac0e864967c9e4d3583dda2e50e68cae59120c"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 1980.89,
+    "answer_sha256": "c6f62b805c339a6e8fcf36e641c73b084662318881bec91e6ad19b9aa46f61ad",
+    "answer_length": 307,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 484,
+          "completion_tokens": 67,
+          "total_tokens": 551,
+          "cost": 6.86e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.86e-05,
+            "upstream_inference_prompt_cost": 4.984e-05,
+            "upstream_inference_completions_cost": 1.876e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 16,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 810.74
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 853,
+          "completion_tokens": 117,
+          "total_tokens": 970,
+          "cost": 0.00013426,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013426,
+            "upstream_inference_prompt_cost": 0.0001015,
+            "upstream_inference_completions_cost": 3.276e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 29,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1052.82
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Neimen Songjiang Battle Array competition month",
+        "filter": null,
+        "context_ids": [
+          "c19069ffa27c4d9aa1c5e745e4ac0e864967c9e4d3583dda2e50e68cae59120c",
+          "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7"
+        ],
+        "context_sha256": "813c16ec9a2dd9876d42f0d4f30425736398d1f8c66d79ec2d67dad96db9a2c0",
+        "context_length": 1350,
+        "results": [
+          {
+            "id": "c19069ffa27c4d9aa1c5e745e4ac0e864967c9e4d3583dda2e50e68cae59120c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 487,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.8244564847129924,
+            "text_sha256": "2566c8209282a9889d59d16ed761249abf7a8f6325d172ddef0abfa81d240de9",
+            "text_length": 486
+          },
+          {
+            "id": "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1895,
+              "language": "en",
+              "start_char": 1267,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46364552215987187,
+            "text_sha256": "1191b886ac5a672dad5c1100a6af58c884b183159842a1e911f9e6e84fdf1bee",
+            "text_length": 627
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4583887780673048,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q05",
+    "question": "How long does the Taipei Baosheng Cultural Festival last?",
+    "status": "answered",
+    "citations": [
+      "9a73e66e3e56c5bf23921c520ca8c376ed769900d71a4a8e69aec471c47d2f4d"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 1958.12,
+    "answer_sha256": "5d01be8aaa5ec6020178b75736cae5e979e4bd92b9d8b43c16be39580603f308",
+    "answer_length": 315,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 68,
+          "total_tokens": 550,
+          "cost": 6.86e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.86e-05,
+            "upstream_inference_prompt_cost": 4.956e-05,
+            "upstream_inference_completions_cost": 1.904e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 18,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 750.22
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1040,
+          "completion_tokens": 133,
+          "total_tokens": 1173,
+          "cost": 0.00016492,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00016492,
+            "upstream_inference_prompt_cost": 0.00012768,
+            "upstream_inference_completions_cost": 3.724e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 42,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1090.83
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Taipei Baosheng Cultural Festival",
+        "filter": null,
+        "context_ids": [
+          "9a73e66e3e56c5bf23921c520ca8c376ed769900d71a4a8e69aec471c47d2f4d",
+          "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+          "7a2ac77b0cebc6da3b761ad2db151e0dc42168b52025a008f52aabe42653ec5f"
+        ],
+        "context_sha256": "9cb49f45ae40ea439cb3d11c269dbb77ece0338cf7cbac40d721d9db2106cc93",
+        "context_length": 1765,
+        "results": [
+          {
+            "id": "9a73e66e3e56c5bf23921c520ca8c376ed769900d71a4a8e69aec471c47d2f4d",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 10,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 575,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7738829851150513,
+            "text_sha256": "d8572428a40d7a00f64d4a0e693b5bdba43567b3469e433adc6bdebfbd581154",
+            "text_length": 574
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7599719762802124,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          },
+          {
+            "id": "7a2ac77b0cebc6da3b761ad2db151e0dc42168b52025a008f52aabe42653ec5f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 10,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 2443,
+              "language": "en",
+              "start_char": 2246,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7174620628356934,
+            "text_sha256": "78e62cda4cf966ac08b0e0cd85b6e5a2142cb6ed9890ee986fdd4ebe2e38f4af",
+            "text_length": 197
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q06",
+    "question": "Which landscapes do Taiwan Cycling Festival routes pass through?",
+    "status": "answered",
+    "citations": [
+      "bd72b35008e2b85842dba679821a0fc030076400bc3df11279cd49382bc3a7c5"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2522.87,
+    "answer_sha256": "f8ce179495f11902811d0e13ad12e9552be4757a5890837cf9b149bd74385e41",
+    "answer_length": 397,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 480,
+          "completion_tokens": 85,
+          "total_tokens": 565,
+          "cost": 7.308e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.308e-05,
+            "upstream_inference_prompt_cost": 4.928e-05,
+            "upstream_inference_completions_cost": 2.38e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 35,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 970.11
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 870,
+          "completion_tokens": 165,
+          "total_tokens": 1035,
+          "cost": 0.00015008,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00015008,
+            "upstream_inference_prompt_cost": 0.00010388,
+            "upstream_inference_completions_cost": 4.62e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 61,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1438.82
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Taiwan Cycling Festival routes landscapes",
+        "filter": null,
+        "context_ids": [
+          "bd72b35008e2b85842dba679821a0fc030076400bc3df11279cd49382bc3a7c5",
+          "b201ff4d0d97e583a70ce9919681c4831617e296d6e795b9504faf053fd68298"
+        ],
+        "context_sha256": "e55155b3841d3ad1bae3df6ccb800cf0a0dbf051334e63c38ec2a2cf7db41882",
+        "context_length": 1524,
+        "results": [
+          {
+            "id": "bd72b35008e2b85842dba679821a0fc030076400bc3df11279cd49382bc3a7c5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 641,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.8277298910778841,
+            "text_sha256": "1ebb77180f0e2dfe5dc7a97ce64566fa6ee0115a9ca8fb52b96f48a102fba015",
+            "text_length": 640
+          },
+          {
+            "id": "b201ff4d0d97e583a70ce9919681c4831617e296d6e795b9504faf053fd68298",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 3119,
+              "language": "en",
+              "start_char": 2471,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6809978269341247,
+            "text_sha256": "49e176d7e1b0549223098c2ad451ef855a8a3a285a050cb87aad64c6e11a7cfb",
+            "text_length": 647
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6790995001792908,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q07",
+    "question": "About how long is the Sun Moon Lake swimming course?",
+    "status": "answered",
+    "citations": [
+      "e7f37852c9d9ac15d484a5d425074a0ae6a57fd0d817f3de78b87b57c968429b"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2544.27,
+    "answer_sha256": "a3418b78ba3bd7664c1b81d87c63f563e54f4163cb67b5015f587b77d51f0471",
+    "answer_length": 179,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 64,
+          "total_tokens": 545,
+          "cost": 6.734e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.734e-05,
+            "upstream_inference_prompt_cost": 4.942e-05,
+            "upstream_inference_completions_cost": 1.792e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 15,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 797.04
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 959,
+          "completion_tokens": 113,
+          "total_tokens": 1072,
+          "cost": 0.00014798,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014798,
+            "upstream_inference_prompt_cost": 0.00011634,
+            "upstream_inference_completions_cost": 3.164e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 45,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1630.05
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Sun Moon Lake swimming course length",
+        "filter": null,
+        "context_ids": [
+          "e7f37852c9d9ac15d484a5d425074a0ae6a57fd0d817f3de78b87b57c968429b",
+          "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+          "6445140292783eadf30b7f9d8e13357355fe8202e4ac85612b44445af1125d57"
+        ],
+        "context_sha256": "31a7f5b68bf8025a6cea9c90c1871f6e91c1d0bc69ff101e501fe2e5509c3062",
+        "context_length": 1600,
+        "results": [
+          {
+            "id": "e7f37852c9d9ac15d484a5d425074a0ae6a57fd0d817f3de78b87b57c968429b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 12,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 478,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6504158973693848,
+            "text_sha256": "ef01ca041da16fc1b1353e64dcfcd1013317b1c681ba364a07dc11a69b094b69",
+            "text_length": 477
+          },
+          {
+            "id": "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 2878,
+              "language": "en",
+              "start_char": 2314,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.33289257687970597,
+            "text_sha256": "eccb1a5c62e709c0476e7c52099bd10080cd4b8024d6297c60c9f33e9d7ddf0e",
+            "text_length": 563
+          },
+          {
+            "id": "6445140292783eadf30b7f9d8e13357355fe8202e4ac85612b44445af1125d57",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 23,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1941,
+              "language": "en",
+              "start_char": 1739,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.28916562860216977,
+            "text_sha256": "8d16c9c160ddfcd0047fa489a6a0a8f0d18685c2426620d3fea9ef416cd9b85d",
+            "text_length": 202
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q08",
+    "question": "What certification does the Taipei International Marathon have?",
+    "status": "answered",
+    "citations": [
+      "5f2d3c5d88e9f37d015a2ba7470a44ae1ecba124382ef81d376279ae03e60f1c"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2321.73,
+    "answer_sha256": "d38d562b7a838f1cf03d8cdc1196c24a9a50818ce44d3407e4b5eac06b5034c1",
+    "answer_length": 146,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 479,
+          "completion_tokens": 75,
+          "total_tokens": 554,
+          "cost": 7.014e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.014e-05,
+            "upstream_inference_prompt_cost": 4.914e-05,
+            "upstream_inference_completions_cost": 2.1e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 27,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1232.43
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 990,
+          "completion_tokens": 96,
+          "total_tokens": 1086,
+          "cost": 0.00014756,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014756,
+            "upstream_inference_prompt_cost": 0.00012068,
+            "upstream_inference_completions_cost": 2.688e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 35,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 965.8
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Taipei International Marathon certification",
+        "filter": null,
+        "context_ids": [
+          "5f2d3c5d88e9f37d015a2ba7470a44ae1ecba124382ef81d376279ae03e60f1c",
+          "1bc8db8c9f02b832661fa5e695b3b7cf3ddd6a885160fe2ff3e058f885fd034c",
+          "f5cf6b2b603d83aff4dd912304ed7fa4040ee11325b5dc2f5a77ced4a8cac286"
+        ],
+        "context_sha256": "0ae6c8e8c453193be6b23c45dd8473bb6a8856b86dcee4e809e8c453a4f0b65f",
+        "context_length": 1752,
+        "results": [
+          {
+            "id": "5f2d3c5d88e9f37d015a2ba7470a44ae1ecba124382ef81d376279ae03e60f1c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 13,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 471,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7505396157181505,
+            "text_sha256": "bf9d7e6057b75e4d4df217c68d5b2bc3f87e1805ad8a101796090d92b6014341",
+            "text_length": 470
+          },
+          {
+            "id": "1bc8db8c9f02b832661fa5e695b3b7cf3ddd6a885160fe2ff3e058f885fd034c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1754,
+              "language": "en",
+              "start_char": 1202,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46623659133911133,
+            "text_sha256": "8238c6ad6dce8181c85f59fa2e035063553095f3d9458c007cf4fd7d09f9c0f5",
+            "text_length": 551
+          },
+          {
+            "id": "f5cf6b2b603d83aff4dd912304ed7fa4040ee11325b5dc2f5a77ced4a8cac286",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 3788,
+              "language": "en",
+              "start_char": 3414,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4413392280734053,
+            "text_sha256": "93a906321ab91912c01e31ac5dc36afc801877ad013ee83f2e32023cc2c066bc",
+            "text_length": 374
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q09",
+    "question": "In the souvenirs section, what is the filling of pineapple cake made from?",
+    "status": "answered",
+    "citations": [
+      "ce8fc5ce278ab39c54c43421307e52fa200c5f7c8cbe0e61fa7ab100626237d2"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2151.48,
+    "answer_sha256": "30baca1c394d56f4d8f4486b9d65660baa5d00b27931d3c3a08c72e3ad1c3e25",
+    "answer_length": 237,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 485,
+          "completion_tokens": 76,
+          "total_tokens": 561,
+          "cost": 7.126e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.126e-05,
+            "upstream_inference_prompt_cost": 4.998e-05,
+            "upstream_inference_completions_cost": 2.128e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 28,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 896.53
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 909,
+          "completion_tokens": 151,
+          "total_tokens": 1060,
+          "cost": 0.00015162,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00015162,
+            "upstream_inference_prompt_cost": 0.00010934,
+            "upstream_inference_completions_cost": 4.228e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 74,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1131.78
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "pineapple cake filling souvenirs",
+        "filter": null,
+        "context_ids": [
+          "ce8fc5ce278ab39c54c43421307e52fa200c5f7c8cbe0e61fa7ab100626237d2",
+          "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b"
+        ],
+        "context_sha256": "7ea2ca4498f55f269436e91b03fa68c5cb5da0b942b09b3ab4785ffbddd9e002",
+        "context_length": 1307,
+        "results": [
+          {
+            "id": "ce8fc5ce278ab39c54c43421307e52fa200c5f7c8cbe0e61fa7ab100626237d2",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 15,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 586,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5544537836964388,
+            "text_sha256": "7d67d4f625b853618f80538fac3cf2d31e476db4ade41f07f2df9d08a85d6a73",
+            "text_length": 585
+          },
+          {
+            "id": "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 906,
+              "language": "en",
+              "start_char": 422,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4925397638952882,
+            "text_sha256": "ad20c895f5f334b5ef4adaf955fdc49957b31c400fd39a3463859d269d02a4c7",
+            "text_length": 484
+          },
+          {
+            "id": "b2408080c106fda4e1de04c3dde421b068b36ac4d144d51f95a81829a9581e9b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 15,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 2989,
+              "language": "en",
+              "start_char": 2429,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4275968800311907,
+            "text_sha256": "86aaa70b7e1773b619a89955e9764e6d1148ebe2f1dbd3493b455de3dcc20a01",
+            "text_length": 559
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q10",
+    "question": "How long is Xiluo soy sauce fermented in jugs?",
+    "status": "answered",
+    "citations": [
+      "a9abe228b03a2a5e7abdee1ba240ef8e755e33bc52f29b680932908801a59bc8"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 3053.89,
+    "answer_sha256": "2dac17f8bdf9434766004c2164f8066a01912a72567e72522f4162f2079d40e9",
+    "answer_length": 166,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 483,
+          "completion_tokens": 68,
+          "total_tokens": 551,
+          "cost": 6.874e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.874e-05,
+            "upstream_inference_prompt_cost": 4.97e-05,
+            "upstream_inference_completions_cost": 1.904e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 17,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1840.36
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 913,
+          "completion_tokens": 96,
+          "total_tokens": 1009,
+          "cost": 0.00013678,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013678,
+            "upstream_inference_prompt_cost": 0.0001099,
+            "upstream_inference_completions_cost": 2.688e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 31,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1088.0
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Xiluo soy sauce fermented jugs",
+        "filter": null,
+        "context_ids": [
+          "a9abe228b03a2a5e7abdee1ba240ef8e755e33bc52f29b680932908801a59bc8",
+          "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b"
+        ],
+        "context_sha256": "28be36edaadb65ad43f06ed5999f91e7c05fe1b34dda8990169753de741e1b92",
+        "context_length": 1277,
+        "results": [
+          {
+            "id": "a9abe228b03a2a5e7abdee1ba240ef8e755e33bc52f29b680932908801a59bc8",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 16,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 556,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6250522136688232,
+            "text_sha256": "279937f5bd57dab5dfd1d76680bb4d787133d1288aea0110d87bb21abe51e01b",
+            "text_length": 555
+          },
+          {
+            "id": "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 906,
+              "language": "en",
+              "start_char": 422,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.33278071880340576,
+            "text_sha256": "ad20c895f5f334b5ef4adaf955fdc49957b31c400fd39a3463859d269d02a4c7",
+            "text_length": 484
+          },
+          {
+            "id": "639d16403bea789ba1138e15a36950b383d4505e36b35a68968100d7f77f7b31",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 16,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 2233,
+              "language": "en",
+              "start_char": 1592,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.33158413579558577,
+            "text_sha256": "ed39b7f9273a23e018163bfe7ad8799abb6ed061a7045568e143a8134e1240dd",
+            "text_length": 640
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q11",
+    "question": "How many days does it take to hike Holy Ridge?",
+    "status": "answered",
+    "citations": [
+      "4a76d7bbb3e851ad26847b946b63bc43edf8a8be5ef7a0cb07799df4f01632a6"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 6272.85,
+    "answer_sha256": "d7ce8058858651eae29840ceedc2475319e340c1e84894edad0e084b92c0d0f1",
+    "answer_length": 123,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 78,
+          "total_tokens": 559,
+          "cost": 7.126e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.126e-05,
+            "upstream_inference_prompt_cost": 4.942e-05,
+            "upstream_inference_completions_cost": 2.184e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 30,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2027.22
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 892,
+          "completion_tokens": 96,
+          "total_tokens": 988,
+          "cost": 0.00013384,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013384,
+            "upstream_inference_prompt_cost": 0.00010696,
+            "upstream_inference_completions_cost": 2.688e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 41,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 4122.71
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Holy Ridge hike days",
+        "filter": null,
+        "context_ids": [
+          "4a76d7bbb3e851ad26847b946b63bc43edf8a8be5ef7a0cb07799df4f01632a6",
+          "ad45a2edf3f3f1032cf69fe0e563f5f001ffef15ee3d4f68a5b97041fd65209b"
+        ],
+        "context_sha256": "b112b0ba49f94e12b15855624b04e6be4254f580adf100341f5bb0648f05861f",
+        "context_length": 1427,
+        "results": [
+          {
+            "id": "4a76d7bbb3e851ad26847b946b63bc43edf8a8be5ef7a0cb07799df4f01632a6",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 18,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 583,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5359113450208891,
+            "text_sha256": "156f164a3264159fc81703e65737ac66d2676552016fdcc4762b6705515c365f",
+            "text_length": 582
+          },
+          {
+            "id": "ad45a2edf3f3f1032cf69fe0e563f5f001ffef15ee3d4f68a5b97041fd65209b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 33,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1834,
+              "language": "en",
+              "start_char": 1226,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.41808590781176713,
+            "text_sha256": "d3a8c97e83cde16cba93b73e4e3f7ad51e917df6b626cf84cdc3f01f894f56cc",
+            "text_length": 607
+          },
+          {
+            "id": "f4f7ca01775e37f1bdc2bd26344766d349066089ba5f516f836b6db98753c457",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 18,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 2155,
+              "language": "en",
+              "start_char": 1726,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.41157130988157287,
+            "text_sha256": "088afc4631ed3bec4b036815ebb61cfc4ff7dd96c96975b40c50e0c76c2add02",
+            "text_length": 429
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q12",
+    "question": "Which two places were linked by the Paoma Historic Trail as the only cross-mountain route?",
+    "status": "answered",
+    "citations": [
+      "1f0639c02441fccf4c5b58c7eff565f97cc9ff6d3a96903ee388f1a5437e84bf"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2328.72,
+    "answer_sha256": "f4bff0cc0ba3b0c3981f08c8e9cd911675f6759aab3cf15fcbd792169cb09798",
+    "answer_length": 223,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 489,
+          "completion_tokens": 77,
+          "total_tokens": 566,
+          "cost": 7.21e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.21e-05,
+            "upstream_inference_prompt_cost": 5.054e-05,
+            "upstream_inference_completions_cost": 2.156e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 26,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1049.83
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 860,
+          "completion_tokens": 167,
+          "total_tokens": 1027,
+          "cost": 0.00014924,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014924,
+            "upstream_inference_prompt_cost": 0.00010248,
+            "upstream_inference_completions_cost": 4.676e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 84,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1157.71
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Paoma Historic Trail cross-mountain route",
+        "filter": null,
+        "context_ids": [
+          "1f0639c02441fccf4c5b58c7eff565f97cc9ff6d3a96903ee388f1a5437e84bf",
+          "817d275c0beb407cc9fa2bc4f4404ab233d65425cbcab7714c67b871e4143c76"
+        ],
+        "context_sha256": "9232c422c961851ee6506be7ef0c621c0190ee560fda50918573c0e546cbc070",
+        "context_length": 1206,
+        "results": [
+          {
+            "id": "1f0639c02441fccf4c5b58c7eff565f97cc9ff6d3a96903ee388f1a5437e84bf",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 20,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 537,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7174655963500991,
+            "text_sha256": "f53f62519f8fe5830bc6b01d17f5b8c5900c9e67c4b1ab5cc230fc154397d505",
+            "text_length": 536
+          },
+          {
+            "id": "817d275c0beb407cc9fa2bc4f4404ab233d65425cbcab7714c67b871e4143c76",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 20,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 969,
+              "language": "en",
+              "start_char": 537,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5922859554120339,
+            "text_sha256": "fbea66d7baa426aa41e3324d5b8db117fd2e0285f1eb9d40d65938d91e7f67af",
+            "text_length": 432
+          },
+          {
+            "id": "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 29,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 647,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5351769605173502,
+            "text_sha256": "35ae5c81f612a76833881cbd9a972482620cbd0fb6d270c70673f99463c72d03",
+            "text_length": 646
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q13",
+    "question": "How many Hehuan Mountain peaks are over 3,000 meters high?",
+    "status": "answered",
+    "citations": [
+      "66d67dac4130781cbd837aa94cefbeeabef8980149fdf525369dc5b9ca1824c8"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2719.56,
+    "answer_sha256": "29801a9321446df44ad3497dbfa4a62cd4eb8d09fb77987336dde54be67aa32c",
+    "answer_length": 158,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 486,
+          "completion_tokens": 83,
+          "total_tokens": 569,
+          "cost": 7.336e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.336e-05,
+            "upstream_inference_prompt_cost": 5.012e-05,
+            "upstream_inference_completions_cost": 2.324e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 29,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1352.5
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 883,
+          "completion_tokens": 120,
+          "total_tokens": 1003,
+          "cost": 0.0001393,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001393,
+            "upstream_inference_prompt_cost": 0.0001057,
+            "upstream_inference_completions_cost": 3.36e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 56,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1219.84
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hehuan Mountain peaks over 3,000 meters",
+        "filter": null,
+        "context_ids": [
+          "66d67dac4130781cbd837aa94cefbeeabef8980149fdf525369dc5b9ca1824c8",
+          "4ab651129fcb89bbc4de8068bdd4d7908b9885935ff497cb0295dc29dad65936"
+        ],
+        "context_sha256": "cce57c3dc0a887ad6dc71e08530f1d9fa93dac7becf931d4320c8e350acad4f4",
+        "context_length": 1375,
+        "results": [
+          {
+            "id": "66d67dac4130781cbd837aa94cefbeeabef8980149fdf525369dc5b9ca1824c8",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 493,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7225025461612627,
+            "text_sha256": "9a07758e7651711262a71b6f89968e2c30d90b79ec3142d20d2677f2495772c9",
+            "text_length": 492
+          },
+          {
+            "id": "4ab651129fcb89bbc4de8068bdd4d7908b9885935ff497cb0295dc29dad65936",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 23,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1275,
+              "language": "en",
+              "start_char": 629,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6418115327582916,
+            "text_sha256": "691a41c5023271d33a801d6d138171870ccb6a9f14341a2b4e67df2afadc2d9b",
+            "text_length": 645
+          },
+          {
+            "id": "064dcbb38a930a3487adfb6af1cb59a5fc4e39fdb736f87e5b92e762ab30ee73",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 30,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 2118,
+              "language": "en",
+              "start_char": 1765,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5701332008679866,
+            "text_sha256": "55cab68657dc22f8e1a8f0a953a53f142068a82432f8fade8e60ba2f0565451c",
+            "text_length": 353
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q14",
+    "question": "About how high above sea level is Cingjing Farm?",
+    "status": "answered",
+    "citations": [
+      "a17a860f51e9374d7156417de7e4e0668424325f33798386fe2e3cf3e25df72b"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2327.66,
+    "answer_sha256": "fe3dac1534145b7e6cc6148cf4c34e6e9d14e99ec84695cb38b715b0df8c0d9a",
+    "answer_length": 126,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 68,
+          "total_tokens": 550,
+          "cost": 6.86e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.86e-05,
+            "upstream_inference_prompt_cost": 4.956e-05,
+            "upstream_inference_completions_cost": 1.904e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 17,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1082.65
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 848,
+          "completion_tokens": 108,
+          "total_tokens": 956,
+          "cost": 0.00013104,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013104,
+            "upstream_inference_prompt_cost": 0.0001008,
+            "upstream_inference_completions_cost": 3.024e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 52,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1126.9
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Cingjing Farm elevation above sea level",
+        "filter": null,
+        "context_ids": [
+          "a17a860f51e9374d7156417de7e4e0668424325f33798386fe2e3cf3e25df72b",
+          "064dcbb38a930a3487adfb6af1cb59a5fc4e39fdb736f87e5b92e762ab30ee73"
+        ],
+        "context_sha256": "43609fcbf98c7f79ac18f91f5d4a8358056af50049608ffe0b18d5a565052c54",
+        "context_length": 1219,
+        "results": [
+          {
+            "id": "a17a860f51e9374d7156417de7e4e0668424325f33798386fe2e3cf3e25df72b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 23,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 629,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7155748818986086,
+            "text_sha256": "34f076d792c0c1459928be979cfd80265c7ed294ec8e048d42bb4f3a007e9366",
+            "text_length": 628
+          },
+          {
+            "id": "064dcbb38a930a3487adfb6af1cb59a5fc4e39fdb736f87e5b92e762ab30ee73",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 30,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 2118,
+              "language": "en",
+              "start_char": 1765,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.48991277874036054,
+            "text_sha256": "55cab68657dc22f8e1a8f0a953a53f142068a82432f8fade8e60ba2f0565451c",
+            "text_length": 353
+          },
+          {
+            "id": "2cc6e9b687d94a977d2f5697ea804f7f3e2614761cd646534f9f664f3ea8c817",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 30,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1765,
+              "language": "en",
+              "start_char": 1166,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4568817615509033,
+            "text_sha256": "12cb24b13d02091beaf9b8056aefa74e67cd8b21c1fc50a8d4121e59d7114342",
+            "text_length": 598
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q15",
+    "question": "What is the total length of the Batongguan Trail?",
+    "status": "answered",
+    "citations": [
+      "14239ac6d9e7bf98196dcc87d4752f2bae64c0f81edfdcf4fc3b1901c361e40a"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2030.45,
+    "answer_sha256": "9247fd7d87b3d0205e6f2420057932419d580948dc828fafa8c8fb526de884a8",
+    "answer_length": 133,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 63,
+          "total_tokens": 545,
+          "cost": 6.72e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.72e-05,
+            "upstream_inference_prompt_cost": 4.956e-05,
+            "upstream_inference_completions_cost": 1.764e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 14,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 789.44
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 913,
+          "completion_tokens": 103,
+          "total_tokens": 1016,
+          "cost": 0.00013874,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013874,
+            "upstream_inference_prompt_cost": 0.0001099,
+            "upstream_inference_completions_cost": 2.884e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 42,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1121.6
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Batongguan Trail total length",
+        "filter": null,
+        "context_ids": [
+          "14239ac6d9e7bf98196dcc87d4752f2bae64c0f81edfdcf4fc3b1901c361e40a",
+          "6ad6e25591e919feb2d83ddcd99c5504456e90faa21dd23d3fc1ecc41b5b30f2"
+        ],
+        "context_sha256": "0947b97e4def3811db3a0f2996e78abfa11fc9ab39912c2eb8ab8ed82e4cfd97",
+        "context_length": 1457,
+        "results": [
+          {
+            "id": "14239ac6d9e7bf98196dcc87d4752f2bae64c0f81edfdcf4fc3b1901c361e40a",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 24,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 587,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6795008778572083,
+            "text_sha256": "5a47931f4ac6437df87b8ad630e52b92a35d60a6a796538b7852d0fcf0487352",
+            "text_length": 586
+          },
+          {
+            "id": "6ad6e25591e919feb2d83ddcd99c5504456e90faa21dd23d3fc1ecc41b5b30f2",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 25,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 634,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5519708395004272,
+            "text_sha256": "c3b752121690f6c33fb703b9eb32bf21231096d3597209560af528c62a1b1fde",
+            "text_length": 633
+          },
+          {
+            "id": "f4f7ca01775e37f1bdc2bd26344766d349066089ba5f516f836b6db98753c457",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 18,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 2155,
+              "language": "en",
+              "start_char": 1726,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4483044805163796,
+            "text_sha256": "088afc4631ed3bec4b036815ebb61cfc4ff7dd96c96975b40c50e0c76c2add02",
+            "text_length": 429
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q16",
+    "question": "What views do visitors seek along the Eryanping Trail?",
+    "status": "abstain",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 6534.38,
+    "answer_sha256": "9234620e7fee682b22e64cb70d25b50bb029d7c0a35e40813f89c332a27594a2",
+    "answer_length": 31,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 482,
+          "completion_tokens": 70,
+          "total_tokens": 552,
+          "cost": 6.916e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.916e-05,
+            "upstream_inference_prompt_cost": 4.956e-05,
+            "upstream_inference_completions_cost": 1.96e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 968.48
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 901,
+          "completion_tokens": 109,
+          "total_tokens": 1010,
+          "cost": 0.00013874,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013874,
+            "upstream_inference_prompt_cost": 0.00010822,
+            "upstream_inference_completions_cost": 3.052e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 60,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1039.13
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1040,
+          "completion_tokens": 145,
+          "total_tokens": 1185,
+          "cost": 0.00013244,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 768,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013244,
+            "upstream_inference_prompt_cost": 9.184e-05,
+            "upstream_inference_completions_cost": 4.06e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 96,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1843.37
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 762,
+          "completion_tokens": 300,
+          "total_tokens": 1062,
+          "cost": 0.00019068,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00019068,
+            "upstream_inference_prompt_cost": 0.00010668,
+            "upstream_inference_completions_cost": 8.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 265,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2329.68
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Eryanping Trail views visitors seek",
+        "filter": null,
+        "context_ids": [
+          "eb4f286f1bee3faf6a822c4a3a29b77e156d8bf108610ce10d6576de85b77e58",
+          "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+          "322421f3a9923bfc962d9004fe8a8fdd61982f898b96fcdabb6cdc523da60039"
+        ],
+        "context_sha256": "296856580dfba8e3453d96404f9a1b14799463e70b10c8dd99cecba2e3809ef4",
+        "context_length": 1342,
+        "results": [
+          {
+            "id": "eb4f286f1bee3faf6a822c4a3a29b77e156d8bf108610ce10d6576de85b77e58",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1859,
+              "language": "en",
+              "start_char": 1754,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4100205057847206,
+            "text_sha256": "b68bfc2f5a607df2492f9ab862dff1805db18b993a02c4237a71ac8742a8fcb2",
+            "text_length": 105
+          },
+          {
+            "id": "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 27,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 994,
+              "language": "en",
+              "start_char": 627,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4045749661579756,
+            "text_sha256": "bbd9fc47b6fbe79f186ae6cc491328684d6a8ff9339b29f05747ed7d3dadcf7d",
+            "text_length": 366
+          },
+          {
+            "id": "322421f3a9923bfc962d9004fe8a8fdd61982f898b96fcdabb6cdc523da60039",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 18,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1097,
+              "language": "en",
+              "start_char": 583,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4039068577345106,
+            "text_sha256": "98e4aa9e7b993b0f6bb116d52ce9c4dc9adf7fa1a0c4a863b1bdac76a1428783",
+            "text_length": 513
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Eryanping Trail views",
+        "filter": null,
+        "context_ids": [
+          "eb4f286f1bee3faf6a822c4a3a29b77e156d8bf108610ce10d6576de85b77e58",
+          "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+          "322421f3a9923bfc962d9004fe8a8fdd61982f898b96fcdabb6cdc523da60039",
+          "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948"
+        ],
+        "context_sha256": "b041d83dc2616dfab29830bb6dc12e8f0fe83ac58b82c6584fe7e0772e1b7a7c",
+        "context_length": 1762,
+        "results": [
+          {
+            "id": "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 29,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 647,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46740693048197524,
+            "text_sha256": "35ae5c81f612a76833881cbd9a972482620cbd0fb6d270c70673f99463c72d03",
+            "text_length": 646
+          },
+          {
+            "id": "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1951,
+              "language": "en",
+              "start_char": 1651,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46436164207916086,
+            "text_sha256": "ed94958cae5a2f6b54a375acf5a49e078eaa13c52d67569bffcbc94203511060",
+            "text_length": 300
+          },
+          {
+            "id": "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 27,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 994,
+              "language": "en",
+              "start_char": 627,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46414458751678467,
+            "text_sha256": "bbd9fc47b6fbe79f186ae6cc491328684d6a8ff9339b29f05747ed7d3dadcf7d",
+            "text_length": 366
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Eryanping Trail views",
+        "filter": null,
+        "context_ids": [
+          "eb4f286f1bee3faf6a822c4a3a29b77e156d8bf108610ce10d6576de85b77e58",
+          "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+          "322421f3a9923bfc962d9004fe8a8fdd61982f898b96fcdabb6cdc523da60039",
+          "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948"
+        ],
+        "context_sha256": "b041d83dc2616dfab29830bb6dc12e8f0fe83ac58b82c6584fe7e0772e1b7a7c",
+        "context_length": 1762,
+        "results": [
+          {
+            "id": "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 29,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 647,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46740693048197524,
+            "text_sha256": "35ae5c81f612a76833881cbd9a972482620cbd0fb6d270c70673f99463c72d03",
+            "text_length": 646
+          },
+          {
+            "id": "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1951,
+              "language": "en",
+              "start_char": 1651,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46436164207916086,
+            "text_sha256": "ed94958cae5a2f6b54a375acf5a49e078eaa13c52d67569bffcbc94203511060",
+            "text_length": 300
+          },
+          {
+            "id": "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 27,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 994,
+              "language": "en",
+              "start_char": 627,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.46414458751678467,
+            "text_sha256": "bbd9fc47b6fbe79f186ae6cc491328684d6a8ff9339b29f05747ed7d3dadcf7d",
+            "text_length": 366
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "eb4f286f1bee3faf6a822c4a3a29b77e156d8bf108610ce10d6576de85b77e58",
+          "2e1f9d5e200100e0fe70a5d1e4d2cf9f34651156e9dd4a19a7c2d4648d59ca1c",
+          "322421f3a9923bfc962d9004fe8a8fdd61982f898b96fcdabb6cdc523da60039",
+          "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948"
+        ],
+        "attempted_answer_sha256": "db6834cb91d30c0b83c32df2abc3e7a75dab412de7f15677a49082c8c6b8b255",
+        "attempted_answer_length": 140
+      }
+    ]
+  },
+  {
+    "query_id": "q17",
+    "question": "In the mountain tourism section, what two landscapes does the Alangyi Historic Trail combine?",
+    "status": "answered",
+    "citations": [
+      "dfecb634ac265ed28d4544b047ffe395bf9c3f2095d190c5b23b8dd93b99237b"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2685.99,
+    "answer_sha256": "b995e525a989808bc94ede3168a4386e0e98631c2105c07273e02fdd379a3f8e",
+    "answer_length": 191,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 487,
+          "completion_tokens": 69,
+          "total_tokens": 556,
+          "cost": 6.958e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.958e-05,
+            "upstream_inference_prompt_cost": 5.026e-05,
+            "upstream_inference_completions_cost": 1.932e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 18,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1230.63
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1030,
+          "completion_tokens": 188,
+          "total_tokens": 1218,
+          "cost": 0.00017892,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00017892,
+            "upstream_inference_prompt_cost": 0.00012628,
+            "upstream_inference_completions_cost": 5.264e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 123,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1337.94
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Alangyi Historic Trail mountain tourism landscapes",
+        "filter": null,
+        "context_ids": [
+          "dfecb634ac265ed28d4544b047ffe395bf9c3f2095d190c5b23b8dd93b99237b",
+          "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+          "1ef4768f57035ff4486b0c36e3dba93991df2f014639c32eeef5a9e0f30bebdf"
+        ],
+        "context_sha256": "0b0f974bca86edf545b35b51cfe1bebc15b6b4b83416a6e8e5d2c62e3489f038",
+        "context_length": 1758,
+        "results": [
+          {
+            "id": "dfecb634ac265ed28d4544b047ffe395bf9c3f2095d190c5b23b8dd93b99237b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 28,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 625,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6041291952133179,
+            "text_sha256": "ce94d164c511c90b5e6ebfcc6adae22a8928a013b3a994302fdae4720031fd48",
+            "text_length": 624
+          },
+          {
+            "id": "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 29,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 647,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5766607179247916,
+            "text_sha256": "35ae5c81f612a76833881cbd9a972482620cbd0fb6d270c70673f99463c72d03",
+            "text_length": 646
+          },
+          {
+            "id": "1ef4768f57035ff4486b0c36e3dba93991df2f014639c32eeef5a9e0f30bebdf",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 26,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1941,
+              "language": "en",
+              "start_char": 1811,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.558549549666075,
+            "text_sha256": "af9556b32bed435c5bec667301199777079fd51a83ec12cbffe1ebd3c7ca3ff0",
+            "text_length": 130
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q18",
+    "question": "How many tunnels does the Baiyang Trail pass through?",
+    "status": "answered",
+    "citations": [
+      "d2117799f0152c535ed71ab48920a6e77dec04e3a05de657386944e48f9c7b76"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 6133.16,
+    "answer_sha256": "3b9013816ee6e711af0a38ada099f59d7e657fcb4a1a4059dec035e1ceae363b",
+    "answer_length": 279,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 481,
+          "completion_tokens": 76,
+          "total_tokens": 557,
+          "cost": 7.07e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.07e-05,
+            "upstream_inference_prompt_cost": 4.942e-05,
+            "upstream_inference_completions_cost": 2.128e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 28,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 914.21
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 886,
+          "completion_tokens": 149,
+          "total_tokens": 1035,
+          "cost": 0.00014784,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014784,
+            "upstream_inference_prompt_cost": 0.00010612,
+            "upstream_inference_completions_cost": 4.172e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 45,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 5099.23
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Baiyang Trail tunnels",
+        "filter": null,
+        "context_ids": [
+          "d2117799f0152c535ed71ab48920a6e77dec04e3a05de657386944e48f9c7b76",
+          "317873dda1ad798256048f78b1229dd02782a07ead2eeee831c7d2997ac8940d"
+        ],
+        "context_sha256": "a82b96451ad7b5b5a7ac0d88295956b0dd0781fb043054bd4511297903606d1a",
+        "context_length": 1396,
+        "results": [
+          {
+            "id": "d2117799f0152c535ed71ab48920a6e77dec04e3a05de657386944e48f9c7b76",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 30,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 534,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7464387719108191,
+            "text_sha256": "b9ce99c80c6a70205d2d78d337e58156ceaf32930590d01f504f597c1caafe60",
+            "text_length": 533
+          },
+          {
+            "id": "317873dda1ad798256048f78b1229dd02782a07ead2eeee831c7d2997ac8940d",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 31,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1577,
+              "language": "en",
+              "start_char": 951,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7061674945154843,
+            "text_sha256": "f2d338bd7df7c23b8a04e87706c95d9684030b633104eff413f0d89b2746ada3",
+            "text_length": 625
+          },
+          {
+            "id": "e0466f9191eba656118e061630af7053f1cab0b00a5376f1798a5f355bb78479",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 31,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 622,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6728389653159469,
+            "text_sha256": "ee7cbc62f48b47e1e2c7e280dbc71c8cca8b4460563f9684625ddab6d29ca1cf",
+            "text_length": 621
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q19",
+    "question": "In the outlying islands section, during which months do green sea turtles lay eggs on Xiaoliuqiu?",
+    "status": "answered",
+    "citations": [
+      "bdb1add324728b028628d441accff5186f48b896e96012a933756ac01770acf3"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 7227.14,
+    "answer_sha256": "578be0a0b9f03fe4b3911aa7578e4f3fea634cea3f5642fb27c01fd824f4f3d5",
+    "answer_length": 152,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 492,
+          "completion_tokens": 79,
+          "total_tokens": 571,
+          "cost": 7.308e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.308e-05,
+            "upstream_inference_prompt_cost": 5.096e-05,
+            "upstream_inference_completions_cost": 2.212e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 24,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 4844.59
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1004,
+          "completion_tokens": 175,
+          "total_tokens": 1179,
+          "cost": 0.00017164,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00017164,
+            "upstream_inference_prompt_cost": 0.00012264,
+            "upstream_inference_completions_cost": 4.9e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 121,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2259.34
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Xiaoliuqiu green sea turtles lay eggs months",
+        "filter": null,
+        "context_ids": [
+          "bdb1add324728b028628d441accff5186f48b896e96012a933756ac01770acf3",
+          "63ff31c0b1a21d8e6245361258d2a8bc7711c113498f75091039437e5d73055e",
+          "d0bd0775296e50c17d3211f780e616d8fef6bf1a5df7ac508fe907b6182c5504"
+        ],
+        "context_sha256": "3cf7b54e93c631fe02a5e9ba1901f7bd9e494792a78ca88e52b78767f34ebe00",
+        "context_length": 1668,
+        "results": [
+          {
+            "id": "bdb1add324728b028628d441accff5186f48b896e96012a933756ac01770acf3",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 34,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 551,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7211122679047438,
+            "text_sha256": "65e16a1e1b9266f5178ded513335706ac98b5767fa72a3fc05a2432aec7ea06f",
+            "text_length": 550
+          },
+          {
+            "id": "63ff31c0b1a21d8e6245361258d2a8bc7711c113498f75091039437e5d73055e",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 15,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 3253,
+              "language": "en",
+              "start_char": 2989,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.33415840064535196,
+            "text_sha256": "10d59aab790c6ebc0f9a3dfbb8a47c31c23d73d453d412342ea20f858acda3a1",
+            "text_length": 264
+          },
+          {
+            "id": "d0bd0775296e50c17d3211f780e616d8fef6bf1a5df7ac508fe907b6182c5504",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 34,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 1047,
+              "language": "en",
+              "start_char": 551,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3199769067778053,
+            "text_sha256": "87ddbeb7dbdd5eb4e7b3fe3c9b8a3bdbd1dbd22156a44fc539cc1287304f7c10",
+            "text_length": 496
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q20",
+    "question": "How do the stone weirs in Penghu trap fish?",
+    "status": "answered",
+    "citations": [
+      "bce737574c57ec0056a88c82ec8dd3554e8a4d8d27143aa956d45516317b1d2f"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 3594.99,
+    "answer_sha256": "a26e671d73011921bab43b9580db4081ec4e69e083955b13d9a88ffd50ae95ef",
+    "answer_length": 306,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 483,
+          "completion_tokens": 71,
+          "total_tokens": 554,
+          "cost": 6.958e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.958e-05,
+            "upstream_inference_prompt_cost": 4.97e-05,
+            "upstream_inference_completions_cost": 1.988e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 979.1
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 881,
+          "completion_tokens": 223,
+          "total_tokens": 1104,
+          "cost": 0.00013202,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 768,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013202,
+            "upstream_inference_prompt_cost": 6.958e-05,
+            "upstream_inference_completions_cost": 6.244e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 129,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2496.37
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Penghu stone weirs trap fish",
+        "filter": null,
+        "context_ids": [
+          "669f32a6f7b5bdd434be8ffd38b7996ba02f2402f974c7f2a10a2ffe6115a067",
+          "bce737574c57ec0056a88c82ec8dd3554e8a4d8d27143aa956d45516317b1d2f"
+        ],
+        "context_sha256": "e6384fd362e088c38b824e1de002d03f140d6f5ef466372a8cd945bf54840ffa",
+        "context_length": 1361,
+        "results": [
+          {
+            "id": "669f32a6f7b5bdd434be8ffd38b7996ba02f2402f974c7f2a10a2ffe6115a067",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 36,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 1125,
+              "language": "en",
+              "start_char": 635,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7029541488940538,
+            "text_sha256": "ed9a1e6dec2979ae5cbfcd3739a3116d81390ee34e8e97832ba5d1520d42c5d9",
+            "text_length": 489
+          },
+          {
+            "id": "bce737574c57ec0056a88c82ec8dd3554e8a4d8d27143aa956d45516317b1d2f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 36,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 635,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5641874930746867,
+            "text_sha256": "6bbd7d406a146a0b97b280269d76c289bedd35858bbc67eb94754ddadba9f8a2",
+            "text_length": 634
+          },
+          {
+            "id": "e0466f9191eba656118e061630af7053f1cab0b00a5376f1798a5f355bb78479",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 31,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 622,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.38758788182807735,
+            "text_sha256": "ee7cbc62f48b47e1e2c7e280dbc71c8cca8b4460563f9684625ddab6d29ca1cf",
+            "text_length": 621
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q21",
+    "question": "According to the guide, about how many endemic wildlife species live on Taiwan?",
+    "status": "answered",
+    "citations": [
+      "756255e974d2beb25db01620ae4092f28a48bcc6ef0f1f90c06b52f9376ed57b"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2908.84,
+    "answer_sha256": "616871b8986419da9fcd72ac3eb87e7a3274bffbb15934d8aa294a2c6ae72e48",
+    "answer_length": 164,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 485,
+          "completion_tokens": 65,
+          "total_tokens": 550,
+          "cost": 6.818e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.818e-05,
+            "upstream_inference_prompt_cost": 4.998e-05,
+            "upstream_inference_completions_cost": 1.82e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 17,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1790.95
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 822,
+          "completion_tokens": 99,
+          "total_tokens": 921,
+          "cost": 0.00012488,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00012488,
+            "upstream_inference_prompt_cost": 9.716e-05,
+            "upstream_inference_completions_cost": 2.772e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 35,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 997.57
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "endemic wildlife species Taiwan",
+        "filter": null,
+        "context_ids": [
+          "756255e974d2beb25db01620ae4092f28a48bcc6ef0f1f90c06b52f9376ed57b",
+          "1bc8db8c9f02b832661fa5e695b3b7cf3ddd6a885160fe2ff3e058f885fd034c"
+        ],
+        "context_sha256": "709076aa57f5769853ab2d204b8ae108b919c0caf8c8c864cab6c200af2452bb",
+        "context_length": 1251,
+        "results": [
+          {
+            "id": "756255e974d2beb25db01620ae4092f28a48bcc6ef0f1f90c06b52f9376ed57b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 2,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "overview",
+              "end_char": 1037,
+              "language": "en",
+              "start_char": 573,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.8024955031281167,
+            "text_sha256": "745f4fc3583ffe9b79d2886b6271923a16ac3b5ff66cc4e209316dbb9ddf351c",
+            "text_length": 463
+          },
+          {
+            "id": "1bc8db8c9f02b832661fa5e695b3b7cf3ddd6a885160fe2ff3e058f885fd034c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "mountain_tourism",
+              "end_char": 1754,
+              "language": "en",
+              "start_char": 1202,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.549375593662262,
+            "text_sha256": "8238c6ad6dce8181c85f59fa2e035063553095f3d9458c007cf4fd7d09f9c0f5",
+            "text_length": 551
+          },
+          {
+            "id": "d0bd0775296e50c17d3211f780e616d8fef6bf1a5df7ac508fe907b6182c5504",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 34,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 1047,
+              "language": "en",
+              "start_char": 551,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5456235083566014,
+            "text_sha256": "87ddbeb7dbdd5eb4e7b3fe3c9b8a3bdbd1dbd22156a44fc539cc1287304f7c10",
+            "text_length": 496
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q22",
+    "question": "In the transport section, which means of travel can visitors take from the airport to major cities?",
+    "status": "answered",
+    "citations": [
+      "d58f3d28ab4e0359fa81fe6a1a16abd2241fb377b346ae1f5671bb3531cec8d7"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 5369.78,
+    "answer_sha256": "0c66e5dea87b9120e148d1da13702cbfbf670fd306a46b836bd7e24ce810c2ce",
+    "answer_length": 335,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 489,
+          "completion_tokens": 70,
+          "total_tokens": 559,
+          "cost": 7.014e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.014e-05,
+            "upstream_inference_prompt_cost": 5.054e-05,
+            "upstream_inference_completions_cost": 1.96e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 3907.89
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1001,
+          "completion_tokens": 185,
+          "total_tokens": 1186,
+          "cost": 0.00017402,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00017402,
+            "upstream_inference_prompt_cost": 0.00012222,
+            "upstream_inference_completions_cost": 5.18e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 81,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1345.12
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "airport to major cities transport",
+        "filter": null,
+        "context_ids": [
+          "d58f3d28ab4e0359fa81fe6a1a16abd2241fb377b346ae1f5671bb3531cec8d7",
+          "b4cf6fb5bddb1899a758cbe1b0b8a0359a7931c897bd596fbc7ce8748ef0d36f",
+          "ef43b4f43f0737daa74de8bc497dea196b584f7c910ad53cc5206fdeddded966"
+        ],
+        "context_sha256": "8284082130470871b0a5e46d7f9597024b659ff23887623dda27d95239039fac",
+        "context_length": 1637,
+        "results": [
+          {
+            "id": "d58f3d28ab4e0359fa81fe6a1a16abd2241fb377b346ae1f5671bb3531cec8d7",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 4,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 360,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4459151327610016,
+            "text_sha256": "57d5baad2325ad068ccf10dae411d2e13aa4675dd99e55bb489352d75bb15b74",
+            "text_length": 359
+          },
+          {
+            "id": "b4cf6fb5bddb1899a758cbe1b0b8a0359a7931c897bd596fbc7ce8748ef0d36f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 4,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 710,
+              "language": "en",
+              "start_char": 360,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.40090179443359375,
+            "text_sha256": "4c3e0f0eba4530743d0a4c8a8e610939c93c2657ac2e0faff0eeeb2c780f3254",
+            "text_length": 350
+          },
+          {
+            "id": "ef43b4f43f0737daa74de8bc497dea196b584f7c910ad53cc5206fdeddded966",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 1610,
+              "language": "en",
+              "start_char": 1036,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3064255531772646,
+            "text_sha256": "a8206167bbeeab618853c7a55d573ab23449961e96d162e8c01de82f922f0a5b",
+            "text_length": 573
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q23",
+    "question": "In the festivals section, over which bridge are fireworks displayed during the Penghu Fireworks and Music Festival?",
+    "status": "answered",
+    "citations": [
+      "2405fc1d7c8a16bd4037375aab6a2854773c24dfd496c146b1a36cb8b87de683"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 5139.45,
+    "answer_sha256": "95b08d9c3fd6a9fade68a1adcb612330d8f01b60a0d35058b007bd60f546faf3",
+    "answer_length": 170,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 492,
+          "completion_tokens": 89,
+          "total_tokens": 581,
+          "cost": 7.588e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.588e-05,
+            "upstream_inference_prompt_cost": 5.096e-05,
+            "upstream_inference_completions_cost": 2.492e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 36,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 4027.97
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 919,
+          "completion_tokens": 101,
+          "total_tokens": 1020,
+          "cost": 0.00013902,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00013902,
+            "upstream_inference_prompt_cost": 0.00011074,
+            "upstream_inference_completions_cost": 2.828e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 38,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 995.89
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Penghu Fireworks and Music Festival bridge fireworks",
+        "filter": null,
+        "context_ids": [
+          "2405fc1d7c8a16bd4037375aab6a2854773c24dfd496c146b1a36cb8b87de683",
+          "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16"
+        ],
+        "context_sha256": "e2054070b53fc755864542061b4228a4adf3423435f109fa055326373f966a10",
+        "context_length": 1423,
+        "results": [
+          {
+            "id": "2405fc1d7c8a16bd4037375aab6a2854773c24dfd496c146b1a36cb8b87de683",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 10,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1125,
+              "language": "en",
+              "start_char": 575,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7241990134597426,
+            "text_sha256": "fd702c3efde5ea58c1e85f7e39cebb5254420b6faab4f927b62a5c2cc56c8719",
+            "text_length": 549
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5794662237167358,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          },
+          {
+            "id": "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1895,
+              "language": "en",
+              "start_char": 1267,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5164813687514452,
+            "text_sha256": "1191b886ac5a672dad5c1100a6af58c884b183159842a1e911f9e6e84fdf1bee",
+            "text_length": 627
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q24",
+    "question": "In the souvenirs section, which Hakka specialty is named among the gift items?",
+    "status": "answered",
+    "citations": [
+      "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2595.35,
+    "answer_sha256": "4bb2bde9548212525087b495e09ba71d51ba5a130c76ac2d62610de95e19782b",
+    "answer_length": 225,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 486,
+          "completion_tokens": 70,
+          "total_tokens": 556,
+          "cost": 6.972e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.972e-05,
+            "upstream_inference_prompt_cost": 5.012e-05,
+            "upstream_inference_completions_cost": 1.96e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 20,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 773.76
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1040,
+          "completion_tokens": 300,
+          "total_tokens": 1340,
+          "cost": 0.00021168,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00021168,
+            "upstream_inference_prompt_cost": 0.00012768,
+            "upstream_inference_completions_cost": 8.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 219,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1706.18
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Hakka specialty souvenirs gift items",
+        "filter": null,
+        "context_ids": [
+          "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+          "5c4cf01df0df14a843b0d6513489f9d6b75dcdcaa9a3712a73d51a2e0bf94292",
+          "78134720ed7775d41dcb1c41db6c3a5367d000cd3c2a4af087378dbb07c857c1"
+        ],
+        "context_sha256": "1a0820fd803909e84be7fb9d764cf637293c8601d7ad1e53148956280090b857",
+        "context_length": 1723,
+        "results": [
+          {
+            "id": "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 906,
+              "language": "en",
+              "start_char": 422,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6616435848686955,
+            "text_sha256": "ad20c895f5f334b5ef4adaf955fdc49957b31c400fd39a3463859d269d02a4c7",
+            "text_length": 484
+          },
+          {
+            "id": "5c4cf01df0df14a843b0d6513489f9d6b75dcdcaa9a3712a73d51a2e0bf94292",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 2,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "overview",
+              "end_char": 1993,
+              "language": "en",
+              "start_char": 1531,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4691493566365208,
+            "text_sha256": "3d95813fba71e52575d209fb16c817174f2992f83296d9ca8220ba7eb1b43a09",
+            "text_length": 461
+          },
+          {
+            "id": "78134720ed7775d41dcb1c41db6c3a5367d000cd3c2a4af087378dbb07c857c1",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "souvenirs",
+              "end_char": 422,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4613204071544881,
+            "text_sha256": "3ef60e90dff8bf31c125fbf02d8053c2d36b5c5d60e2d87b016faaf4d5b01e75",
+            "text_length": 421
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q25",
+    "question": "In the outlying islands section, during which months does the Kuroshio bring flying fish to the Yami people?",
+    "status": "answered",
+    "citations": [
+      "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2756.88,
+    "answer_sha256": "0f0d42f890a117f103e6dea40583a1202d43f2d5068934b5b1208c485dd5486d",
+    "answer_length": 198,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 494,
+          "completion_tokens": 81,
+          "total_tokens": 575,
+          "cost": 7.392e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.392e-05,
+            "upstream_inference_prompt_cost": 5.124e-05,
+            "upstream_inference_completions_cost": 2.268e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 25,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 814.59
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 866,
+          "completion_tokens": 155,
+          "total_tokens": 1021,
+          "cost": 0.00014672,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00014672,
+            "upstream_inference_prompt_cost": 0.00010332,
+            "upstream_inference_completions_cost": 4.34e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 92,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1823.35
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Kuroshio flying fish Yami people months outlying islands",
+        "filter": null,
+        "context_ids": [
+          "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+          "dcfe626e68f159738e3f348f031784d01119ae12859bdb1d208639bfde676c15"
+        ],
+        "context_sha256": "e425088e499be3af034903f037861c474a8cd7ff930eea67680819bf8a21ad7c",
+        "context_length": 1358,
+        "results": [
+          {
+            "id": "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 584,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.665087600643183,
+            "text_sha256": "5f1a6bff6c6bac1c610be00911694d58fcf6aad0dbc9c230de679590fc660052",
+            "text_length": 583
+          },
+          {
+            "id": "dcfe626e68f159738e3f348f031784d01119ae12859bdb1d208639bfde676c15",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 1122,
+              "language": "en",
+              "start_char": 584,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.4382121003739782,
+            "text_sha256": "8220d37c34f8480c3425d96c06ad388a304c5b430cc9c43ebaebc91ff7e72617",
+            "text_length": 537
+          },
+          {
+            "id": "bdb1add324728b028628d441accff5186f48b896e96012a933756ac01770acf3",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 34,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 551,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.40096441501591185,
+            "text_sha256": "65e16a1e1b9266f5178ded513335706ac98b5767fa72a3fc05a2432aec7ea06f",
+            "text_length": 550
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "q26",
+    "question": "For a self-planned trip using Taiwan Tourist Shuttle, which card provides unlimited rides for one day?",
+    "status": "abstain",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 5201.81,
+    "answer_sha256": "9234620e7fee682b22e64cb70d25b50bb029d7c0a35e40813f89c332a27594a2",
+    "answer_length": 31,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 491,
+          "completion_tokens": 79,
+          "total_tokens": 570,
+          "cost": 7.294e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 7.294e-05,
+            "upstream_inference_prompt_cost": 5.082e-05,
+            "upstream_inference_completions_cost": 2.212e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 26,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2916.35
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 1058,
+          "completion_tokens": 300,
+          "total_tokens": 1358,
+          "cost": 0.00017836,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 768,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00017836,
+            "upstream_inference_prompt_cost": 9.436e-05,
+            "upstream_inference_completions_cost": 8.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 293,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2147.18
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Taiwan Tourist Shuttle unlimited rides one day card",
+        "filter": null,
+        "context_ids": [
+          "f45723485d3772f19a30dd0d7f48af6bcf8c5d09eb5c8b2712990a5963752bb5",
+          "4da40a5b4724f76d972188f63a1a9cefd339ef6ed976aa410701585b0c206924",
+          "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7"
+        ],
+        "context_sha256": "34b1877ca5e5d2df5e76db2519cb5d2c0bfee583650ca48f81630e0d9f86a5af",
+        "context_length": 1775,
+        "results": [
+          {
+            "id": "f45723485d3772f19a30dd0d7f48af6bcf8c5d09eb5c8b2712990a5963752bb5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 2716,
+              "language": "en",
+              "start_char": 2201,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7641472361000053,
+            "text_sha256": "6722de3579ee8faba657f7006d47fd0d2bd2092056d4e9dcab7ee657413230a4",
+            "text_length": 514
+          },
+          {
+            "id": "4da40a5b4724f76d972188f63a1a9cefd339ef6ed976aa410701585b0c206924",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 2201,
+              "language": "en",
+              "start_char": 1610,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6333651165148557,
+            "text_sha256": "c255247f392aef78607bee3eb9516d313faa78d6e2fd73688123c3c49504e91d",
+            "text_length": 590
+          },
+          {
+            "id": "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "transport",
+              "end_char": 3611,
+              "language": "en",
+              "start_char": 3295,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6202437692808006,
+            "text_sha256": "ab87091a0b593c3cb35c8377d169e001ca6952c4b442c7ddf2596fb454f0b253",
+            "text_length": 316
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "f45723485d3772f19a30dd0d7f48af6bcf8c5d09eb5c8b2712990a5963752bb5",
+          "4da40a5b4724f76d972188f63a1a9cefd339ef6ed976aa410701585b0c206924",
+          "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7"
+        ],
+        "attempted_answer_sha256": "496e378975082406a75336d4c5f3e5ee8947763b7610aab0c270abc482385f5e",
+        "attempted_answer_length": 20
+      }
+    ]
+  },
+  {
+    "query_id": "q27",
+    "question": "Can a 60-day visa marked \"No extension will be granted\" be extended directly at a local service center under the guide's rule?",
+    "status": "answered",
+    "citations": [
+      "143e8079aba19474ba1f54cb21e43a5f81f72cd932619784fec7e5cda2b40a56"
+    ],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 2720.19,
+    "answer_sha256": "b5f9c0c7532cb5d0eadaf2950f4a21d15876573beb43538d32faf4ecae2e0e84",
+    "answer_length": 403,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 498,
+          "completion_tokens": 111,
+          "total_tokens": 609,
+          "cost": 8.288e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.288e-05,
+            "upstream_inference_prompt_cost": 5.18e-05,
+            "upstream_inference_completions_cost": 3.108e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 59,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 928.58
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 896,
+          "completion_tokens": 261,
+          "total_tokens": 1157,
+          "cost": 0.0001806,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001806,
+            "upstream_inference_prompt_cost": 0.00010752,
+            "upstream_inference_completions_cost": 7.308e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 149,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1673.52
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "60-day visa no extension will be granted",
+        "filter": null,
+        "context_ids": [
+          "143e8079aba19474ba1f54cb21e43a5f81f72cd932619784fec7e5cda2b40a56",
+          "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59"
+        ],
+        "context_sha256": "214600bd19910c9e5109d3cc212fe32792078c3a7466766fae286957741f7623",
+        "context_length": 1247,
+        "results": [
+          {
+            "id": "143e8079aba19474ba1f54cb21e43a5f81f72cd932619784fec7e5cda2b40a56",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 1013,
+              "language": "en",
+              "start_char": 372,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5464692115783691,
+            "text_sha256": "21dd331a7b732a61226e4e9e6a1347f454c9aa71b74c56bd78f99ea95e66a5bb",
+            "text_length": 640
+          },
+          {
+            "id": "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 372,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.2924776077270508,
+            "text_sha256": "2862e69c6ceb03399fbab5d166ed5ebc9362396110326089867741717c9c2d29",
+            "text_length": 371
+          },
+          {
+            "id": "d9dbe4700440b8d809663cff6137494112d8ea129eb81060e4091abdc958ac59",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 1897,
+              "language": "en",
+              "start_char": 1371,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.24757489562034607,
+            "text_sha256": "0ddc4c9ae601999c5d5d1585f2b313cc9fa071a003f176739f7e4f060f0357da",
+            "text_length": 525
+          }
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ]
+  },
+  {
+    "query_id": "dev_abs_1",
+    "question": "How many people attended the 2025 Taiwan Lantern Festival?",
+    "status": "abstain",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 14285.79,
+    "answer_sha256": "9234620e7fee682b22e64cb70d25b50bb029d7c0a35e40813f89c332a27594a2",
+    "answer_length": 31,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 483,
+          "completion_tokens": 72,
+          "total_tokens": 555,
+          "cost": 6.986e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 6.986e-05,
+            "upstream_inference_prompt_cost": 4.97e-05,
+            "upstream_inference_completions_cost": 2.016e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 22,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1009.33
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 795,
+          "completion_tokens": 125,
+          "total_tokens": 920,
+          "cost": 0.00012838,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00012838,
+            "upstream_inference_prompt_cost": 9.338e-05,
+            "upstream_inference_completions_cost": 3.5e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 71,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1639.66
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 903,
+          "completion_tokens": 125,
+          "total_tokens": 1028,
+          "cost": 0.00010766,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 768,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00010766,
+            "upstream_inference_prompt_cost": 7.266e-05,
+            "upstream_inference_completions_cost": 3.5e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 74,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 2113.24
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 625,
+          "completion_tokens": 300,
+          "total_tokens": 925,
+          "cost": 0.0001715,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001715,
+            "upstream_inference_prompt_cost": 8.75e-05,
+            "upstream_inference_completions_cost": 8.4e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 300,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 9042.98
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "2025 Taiwan Lantern Festival attendance",
+        "filter": null,
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+        ],
+        "context_sha256": "832b203f88bd5decbeafa714036b9bee48ddd7247e604daeedd7d049e4ce3827",
+        "context_length": 1102,
+        "results": [
+          {
+            "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 572,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7942301753622203,
+            "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+            "text_length": 571
+          },
+          {
+            "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1966,
+              "language": "en",
+              "start_char": 1671,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6957161011865091,
+            "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+            "text_length": 295
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6144218444824219,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "2025 Taiwan Lantern Festival attendance number of people",
+        "filter": null,
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+          "9a702ca0cdd5652c5e62eadd2877e7003ebe9c08155e3fcad237049c7cd2b7ee"
+        ],
+        "context_sha256": "2a7e9165d346d65e759831d7dd106cd6de5a35f4a9073a9d6afa588864fb6b41",
+        "context_length": 1355,
+        "results": [
+          {
+            "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 572,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7561677984991314,
+            "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+            "text_length": 571
+          },
+          {
+            "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1966,
+              "language": "en",
+              "start_char": 1671,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6637337608654784,
+            "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+            "text_length": 295
+          },
+          {
+            "id": "9a702ca0cdd5652c5e62eadd2877e7003ebe9c08155e3fcad237049c7cd2b7ee",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1114,
+              "language": "en",
+              "start_char": 980,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.5827672978917006,
+            "text_sha256": "dc53793e8cc72331c323cb22a148b0ce29a1df96883b40d429b9d0e49bb88b30",
+            "text_length": 134
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "2025 Taiwan Lantern Festival attendance",
+        "filter": null,
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+          "9a702ca0cdd5652c5e62eadd2877e7003ebe9c08155e3fcad237049c7cd2b7ee"
+        ],
+        "context_sha256": "2a7e9165d346d65e759831d7dd106cd6de5a35f4a9073a9d6afa588864fb6b41",
+        "context_length": 1355,
+        "results": [
+          {
+            "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 572,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.7942301753622203,
+            "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+            "text_length": 571
+          },
+          {
+            "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 9,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 1966,
+              "language": "en",
+              "start_char": 1671,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6957161011865091,
+            "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+            "text_length": 295
+          },
+          {
+            "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 7,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "festivals",
+              "end_char": 980,
+              "language": "en",
+              "start_char": 342,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.6144218444824219,
+            "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+            "text_length": 637
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+          "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+          "9a702ca0cdd5652c5e62eadd2877e7003ebe9c08155e3fcad237049c7cd2b7ee"
+        ],
+        "attempted_answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "attempted_answer_length": 0
+      }
+    ]
+  },
+  {
+    "query_id": "dev_abs_2",
+    "question": "What was Orchid Island's hotel occupancy rate in 2024?",
+    "status": "abstain",
+    "citations": [],
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "method": "dense",
+    "elapsed_ms": 4866.69,
+    "answer_sha256": "9234620e7fee682b22e64cb70d25b50bb029d7c0a35e40813f89c332a27594a2",
+    "answer_length": 31,
+    "model_calls": [
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 484,
+          "completion_tokens": 110,
+          "total_tokens": 594,
+          "cost": 8.064e-05,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 8.064e-05,
+            "upstream_inference_prompt_cost": 4.984e-05,
+            "upstream_inference_completions_cost": 3.08e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 56,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 935.38
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 993,
+          "completion_tokens": 113,
+          "total_tokens": 1106,
+          "cost": 0.00015274,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 256,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.00015274,
+            "upstream_inference_prompt_cost": 0.0001211,
+            "upstream_inference_completions_cost": 3.164e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 59,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1013.22
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 993,
+          "completion_tokens": 113,
+          "total_tokens": 1106,
+          "cost": 0.0001169,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 768,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001169,
+            "upstream_inference_prompt_cost": 8.526e-05,
+            "upstream_inference_completions_cost": 3.164e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 59,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1033.34
+      },
+      {
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "provider": "Cohere",
+        "usage": {
+          "prompt_tokens": 715,
+          "completion_tokens": 190,
+          "total_tokens": 905,
+          "cost": 0.0001533,
+          "is_byok": false,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "cost_details": {
+            "upstream_inference_cost": 0.0001533,
+            "upstream_inference_prompt_cost": 0.0001001,
+            "upstream_inference_completions_cost": 5.32e-05
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 169,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          }
+        },
+        "elapsed_ms": 1516.03
+      }
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Orchid Island hotel occupancy rate 2024",
+        "filter": null,
+        "context_ids": [
+          "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+          "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+          "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c"
+        ],
+        "context_sha256": "49c488adbf8b1ecdf55fa9a4d6d444d9412a8e29a41addb5dbea5d76c4df71b6",
+        "context_length": 1797,
+        "results": [
+          {
+            "id": "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 584,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3914209967004666,
+            "text_sha256": "5f1a6bff6c6bac1c610be00911694d58fcf6aad0dbc9c230de679590fc660052",
+            "text_length": 583
+          },
+          {
+            "id": "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 3414,
+              "language": "en",
+              "start_char": 3119,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3064431365464253,
+            "text_sha256": "3c07b8b193ea005a884df81d2f8a5624ebd03006642a1052a62ae46ee7f2b7c2",
+            "text_length": 294
+          },
+          {
+            "id": "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 2878,
+              "language": "en",
+              "start_char": 2314,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.28759802653801336,
+            "text_sha256": "eccb1a5c62e709c0476e7c52099bd10080cd4b8024d6297c60c9f33e9d7ddf0e",
+            "text_length": 563
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Orchid Island hotel occupancy rate 2024",
+        "filter": null,
+        "context_ids": [
+          "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+          "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+          "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c"
+        ],
+        "context_sha256": "49c488adbf8b1ecdf55fa9a4d6d444d9412a8e29a41addb5dbea5d76c4df71b6",
+        "context_length": 1797,
+        "results": [
+          {
+            "id": "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 584,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3914209967004666,
+            "text_sha256": "5f1a6bff6c6bac1c610be00911694d58fcf6aad0dbc9c230de679590fc660052",
+            "text_length": 583
+          },
+          {
+            "id": "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 3414,
+              "language": "en",
+              "start_char": 3119,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3064431365464253,
+            "text_sha256": "3c07b8b193ea005a884df81d2f8a5624ebd03006642a1052a62ae46ee7f2b7c2",
+            "text_length": 294
+          },
+          {
+            "id": "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 2878,
+              "language": "en",
+              "start_char": 2314,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.28759802653801336,
+            "text_sha256": "eccb1a5c62e709c0476e7c52099bd10080cd4b8024d6297c60c9f33e9d7ddf0e",
+            "text_length": 563
+          }
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Orchid Island hotel occupancy rate 2024",
+        "filter": null,
+        "context_ids": [
+          "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+          "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+          "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c"
+        ],
+        "context_sha256": "49c488adbf8b1ecdf55fa9a4d6d444d9412a8e29a41addb5dbea5d76c4df71b6",
+        "context_length": 1797,
+        "results": [
+          {
+            "id": "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 584,
+              "language": "en",
+              "start_char": 0,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3914209967004666,
+            "text_sha256": "5f1a6bff6c6bac1c610be00911694d58fcf6aad0dbc9c230de679590fc660052",
+            "text_length": 583
+          },
+          {
+            "id": "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 3,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "travel_information",
+              "end_char": 3414,
+              "language": "en",
+              "start_char": 3119,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.3064431365464253,
+            "text_sha256": "3c07b8b193ea005a884df81d2f8a5624ebd03006642a1052a62ae46ee7f2b7c2",
+            "text_length": 294
+          },
+          {
+            "id": "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+            "source_id": "taiwan-tourism-guide-2020",
+            "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2020,
+              "title": "2020 Taiwan Tourism Guide Book",
+              "category": "outlying_islands",
+              "end_char": 2878,
+              "language": "en",
+              "start_char": 2314,
+              "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+            },
+            "score": 0.28759802653801336,
+            "text_sha256": "eccb1a5c62e709c0476e7c52099bd10080cd4b8024d6297c60c9f33e9d7ddf0e",
+            "text_length": 563
+          }
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations",
+        "attempted_citations": [],
+        "context_ids": [
+          "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+          "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+          "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c"
+        ],
+        "attempted_answer_sha256": "8fe824be62bd588ff69bac3a6e1c11c45bae129930d65dd0e5e71bde46701c16",
+        "attempted_answer_length": 70
+      }
+    ]
+  }
+]

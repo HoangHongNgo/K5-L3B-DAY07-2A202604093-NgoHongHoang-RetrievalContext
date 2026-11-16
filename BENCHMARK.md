@@ -2,6 +2,10 @@
 
 Đây là benchmark phần cơ bản. Thử thách tài liệu từ 100 trang có [benchmark và ngưỡng đạt riêng](ADVANCED.md#2-benchmark). Đánh giá riêng retrieval, context và câu trả lời của agent. Retrieval tốt chưa đảm bảo câu trả lời đúng.
 
+## Bổ sung: trang chỉ có ảnh
+
+`data/day7_ocr_questions.json` là bộ chẩn đoán riêng với 6 câu dev có đáp án, 6 câu test có đáp án và 2 câu thiếu bằng chứng. Mỗi split gồm 4 câu từ trang không có lớp chữ (`ocr_text`) và 2 câu từ vùng ảnh trên trang vẫn có lớp chữ (`ocr_mixed_text`). So sánh trên cùng 48 trang: `text_only` bỏ chunk OCR, `with_ocr` thêm chunk OCR. Chạy `python -m scripts.run_ocr_benchmark`; script kiểm gold có trong chunk OCR rồi ghi Hit@1, Hit@3 và Context Evidence Rate theo split và nhóm. Đối chiếu lại đáp án với trang PDF gốc vì gold là bản chép từ OCR, có thể có lỗi nhận dạng. Đây là phép đo OCR + retrieval, chưa đo đúng sai câu trả lời agent và chưa đáp ứng benchmark nâng cao về hiểu ảnh/sơ đồ.
+
 ## 1. Bộ câu hỏi
 
 | Loại câu | Dev | Test |

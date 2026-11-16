@@ -1,0 +1,51 @@
+{
+  "stage": "selected on dev before running agent test",
+  "criterion": "Use the retrieval choice fixed on dev; among agent configurations prefer more answerable dev questions answered with valid in-context citation IDs, correct refusal on both unanswerable dev questions, then lower model cost and median latency. Semantic support is audited separately.",
+  "model": "deepseek/deepseek-v4-flash-0731",
+  "configs": [
+    {
+      "name": "dense-baseline",
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 1800,
+      "max_searches": 3,
+      "reasoning": "provider default (reasoning tokens observed)",
+      "max_tokens": 300,
+      "dev_answered": "24/27",
+      "dev_unanswerable_abstained": "2/2",
+      "dev_errors": 0,
+      "dev_cost_usd": 0.00756044,
+      "dev_median_ms": 2908.84
+    },
+    {
+      "name": "tfidf-v3",
+      "method": "tfidf",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "reasoning": "provider default (reasoning tokens observed)",
+      "max_tokens": 300,
+      "dev_answered": "26/27",
+      "dev_unanswerable_abstained": "2/2",
+      "dev_errors": 0,
+      "dev_cost_usd": 0.00790663,
+      "dev_median_ms": 11104.74
+    },
+    {
+      "name": "tfidf-v4",
+      "method": "tfidf",
+      "top_k": 3,
+      "budget_chars": 3000,
+      "max_searches": 3,
+      "reasoning": "off",
+      "max_tokens": 300,
+      "dev_answered": "27/27",
+      "dev_unanswerable_abstained": "2/2",
+      "dev_errors": 0,
+      "dev_cost_usd": 0.00660786,
+      "dev_median_ms": 2263.76
+    }
+  ],
+  "selected": "tfidf-v4",
+  "selection_note": "Dev answer status and citation-ID validity are necessary checks, not semantic answer grades. Two dev errors and source support were read manually; test answers will be graded by reading their citations."
+}

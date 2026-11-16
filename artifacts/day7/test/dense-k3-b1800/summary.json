@@ -1,0 +1,13 @@
+{
+  "method": "dense",
+  "split": "test",
+  "top_k": 3,
+  "budget_chars": 1800,
+  "answerable": 5,
+  "unanswerable": 2,
+  "hit1": 3,
+  "hit3": 4,
+  "context_hit": 3,
+  "median_ms": 113.08,
+  "service_cost_usd": 0
+}

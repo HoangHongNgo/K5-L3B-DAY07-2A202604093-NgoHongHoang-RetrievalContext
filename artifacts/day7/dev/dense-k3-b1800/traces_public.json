@@ -1,0 +1,2219 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "What is the maximum stay allowed by a visitor visa?",
+    "filter": null,
+    "context_ids": [
+      "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59",
+      "ef8126182343b19fbfeb85913980f00fddbfee74bdeb4256c9293b52ca64add5",
+      "6f27d5d85182bf87632d3bccdfe9ca800c7f00d2793aeb45b92b9351851bfcbf"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 125.33,
+    "results": [
+      {
+        "id": "0a6b0d92ebe58c3f937d3d83c31242e1fd3ea4e58f814cb19b881b70bce92e59",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 372,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.44882333278656006,
+        "text_sha256": "2862e69c6ceb03399fbab5d166ed5ebc9362396110326089867741717c9c2d29",
+        "text_length": 371
+      },
+      {
+        "id": "ef8126182343b19fbfeb85913980f00fddbfee74bdeb4256c9293b52ca64add5",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 29,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1658,
+          "language": "en",
+          "start_char": 1169,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.19499422937666033,
+        "text_sha256": "25d6de04620b19677afa8c6dd329d90abbe3f87126fb71a2915093b81ed63a99",
+        "text_length": 488
+      },
+      {
+        "id": "6f27d5d85182bf87632d3bccdfe9ca800c7f00d2793aeb45b92b9351851bfcbf",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 9,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1069,
+          "language": "en",
+          "start_char": 487,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.1800980269908905,
+        "text_sha256": "0dd824971bae6ed574951d979d964f920787653acf9d9b8180dbca9c7c07e533",
+        "text_length": 581
+      }
+    ],
+    "context_length": 1796
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How long does the high-speed rail journey from Taipei to Kaohsiung take?",
+    "filter": null,
+    "context_ids": [
+      "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f",
+      "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7",
+      "05fb97679bd869294cecc75037141e2d588e08389c2df7a7a2ecd11a0dbe1a3a"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 123.52,
+    "results": [
+      {
+        "id": "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 1036,
+          "language": "en",
+          "start_char": 478,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7042828798294067,
+        "text_sha256": "33b9eb820f1a63bcff3e03eb9ae9f2026dbd739dfa1a8a781deca7c156214d6d",
+        "text_length": 557
+      },
+      {
+        "id": "82f2d27b2fb6cedf5b96832034b2509ce9fde094f6ae2a48586fae65c717b7d7",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 3611,
+          "language": "en",
+          "start_char": 3295,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5803817683572107,
+        "text_sha256": "ab87091a0b593c3cb35c8377d169e001ca6952c4b442c7ddf2596fb454f0b253",
+        "text_length": 316
+      },
+      {
+        "id": "05fb97679bd869294cecc75037141e2d588e08389c2df7a7a2ecd11a0dbe1a3a",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 478,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5754240408287035,
+        "text_sha256": "5f7d88c90e563b24b387318c306bc148455236ea56363924c76c030826d2903b",
+        "text_length": 477
+      }
+    ],
+    "context_length": 1705
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the festivals section, which city hosted the Taiwan Lantern Festival in 2020?",
+    "filter": null,
+    "context_ids": [
+      "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+      "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 112.79,
+    "results": [
+      {
+        "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 8,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 572,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.851746056921901,
+        "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+        "text_length": 571
+      },
+      {
+        "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 9,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1966,
+          "language": "en",
+          "start_char": 1671,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7527111544397159,
+        "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+        "text_length": 295
+      },
+      {
+        "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 7,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 980,
+          "language": "en",
+          "start_char": 342,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6737360559027215,
+        "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+        "text_length": 637
+      }
+    ],
+    "context_length": 1102
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In which month is the Neimen Songjiang Battle Array competition held?",
+    "filter": null,
+    "context_ids": [
+      "c19069ffa27c4d9aa1c5e745e4ac0e864967c9e4d3583dda2e50e68cae59120c",
+      "d6f0bdd097aa33cc04b3d5a7cc562805014324ea7eb8272a507247a54f221e42"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 115.89,
+    "results": [
+      {
+        "id": "c19069ffa27c4d9aa1c5e745e4ac0e864967c9e4d3583dda2e50e68cae59120c",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 9,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 487,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.8659242631332419,
+        "text_sha256": "2566c8209282a9889d59d16ed761249abf7a8f6325d172ddef0abfa81d240de9",
+        "text_length": 486
+      },
+      {
+        "id": "d6f0bdd097aa33cc04b3d5a7cc562805014324ea7eb8272a507247a54f221e42",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 11,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 2295,
+          "language": "en",
+          "start_char": 1895,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4354199805605431,
+        "text_sha256": "510703d0a97256fce0020e76701ef03abe80bec2521956151d9d09f5c21dd8c8",
+        "text_length": 400
+      },
+      {
+        "id": "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 11,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1895,
+          "language": "en",
+          "start_char": 1267,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4325863501326621,
+        "text_sha256": "1191b886ac5a672dad5c1100a6af58c884b183159842a1e911f9e6e84fdf1bee",
+        "text_length": 627
+      }
+    ],
+    "context_length": 1123
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How long does the Taipei Baosheng Cultural Festival last?",
+    "filter": null,
+    "context_ids": [
+      "9a73e66e3e56c5bf23921c520ca8c376ed769900d71a4a8e69aec471c47d2f4d",
+      "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7",
+      "7a2ac77b0cebc6da3b761ad2db151e0dc42168b52025a008f52aabe42653ec5f"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 119.24,
+    "results": [
+      {
+        "id": "9a73e66e3e56c5bf23921c520ca8c376ed769900d71a4a8e69aec471c47d2f4d",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 10,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 575,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6891188210774183,
+        "text_sha256": "d8572428a40d7a00f64d4a0e693b5bdba43567b3469e433adc6bdebfbd581154",
+        "text_length": 574
+      },
+      {
+        "id": "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 11,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1895,
+          "language": "en",
+          "start_char": 1267,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6741384656264227,
+        "text_sha256": "1191b886ac5a672dad5c1100a6af58c884b183159842a1e911f9e6e84fdf1bee",
+        "text_length": 627
+      },
+      {
+        "id": "7a2ac77b0cebc6da3b761ad2db151e0dc42168b52025a008f52aabe42653ec5f",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 10,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 2443,
+          "language": "en",
+          "start_char": 2246,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6653940281037087,
+        "text_sha256": "78e62cda4cf966ac08b0e0cd85b6e5a2142cb6ed9890ee986fdd4ebe2e38f4af",
+        "text_length": 197
+      }
+    ],
+    "context_length": 1756
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "Which landscapes do Taiwan Cycling Festival routes pass through?",
+    "filter": null,
+    "context_ids": [
+      "bd72b35008e2b85842dba679821a0fc030076400bc3df11279cd49382bc3a7c5",
+      "b201ff4d0d97e583a70ce9919681c4831617e296d6e795b9504faf053fd68298"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 119.84,
+    "results": [
+      {
+        "id": "bd72b35008e2b85842dba679821a0fc030076400bc3df11279cd49382bc3a7c5",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 11,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 641,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.8054375284388627,
+        "text_sha256": "1ebb77180f0e2dfe5dc7a97ce64566fa6ee0115a9ca8fb52b96f48a102fba015",
+        "text_length": 640
+      },
+      {
+        "id": "b201ff4d0d97e583a70ce9919681c4831617e296d6e795b9504faf053fd68298",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 3119,
+          "language": "en",
+          "start_char": 2471,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6579394356120654,
+        "text_sha256": "49e176d7e1b0549223098c2ad451ef855a8a3a285a050cb87aad64c6e11a7cfb",
+        "text_length": 647
+      },
+      {
+        "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 7,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 980,
+          "language": "en",
+          "start_char": 342,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6564833726594834,
+        "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+        "text_length": 637
+      }
+    ],
+    "context_length": 1524
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "About how long is the Sun Moon Lake swimming course?",
+    "filter": null,
+    "context_ids": [
+      "e7f37852c9d9ac15d484a5d425074a0ae6a57fd0d817f3de78b87b57c968429b",
+      "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+      "6445140292783eadf30b7f9d8e13357355fe8202e4ac85612b44445af1125d57"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 113.86,
+    "results": [
+      {
+        "id": "e7f37852c9d9ac15d484a5d425074a0ae6a57fd0d817f3de78b87b57c968429b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 12,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 478,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6151757469668551,
+        "text_sha256": "ef01ca041da16fc1b1353e64dcfcd1013317b1c681ba364a07dc11a69b094b69",
+        "text_length": 477
+      },
+      {
+        "id": "97cc92fec95d109df42ed322fba99b703da976b893d468fdbd9ed47e1b28653c",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 35,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 2878,
+          "language": "en",
+          "start_char": 2314,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.40151644927067176,
+        "text_sha256": "eccb1a5c62e709c0476e7c52099bd10080cd4b8024d6297c60c9f33e9d7ddf0e",
+        "text_length": 563
+      },
+      {
+        "id": "6445140292783eadf30b7f9d8e13357355fe8202e4ac85612b44445af1125d57",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 23,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1941,
+          "language": "en",
+          "start_char": 1739,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.37581031014796373,
+        "text_sha256": "8d16c9c160ddfcd0047fa489a6a0a8f0d18685c2426620d3fea9ef416cd9b85d",
+        "text_length": 202
+      }
+    ],
+    "context_length": 1600
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "What certification does the Taipei International Marathon have?",
+    "filter": null,
+    "context_ids": [
+      "5f2d3c5d88e9f37d015a2ba7470a44ae1ecba124382ef81d376279ae03e60f1c",
+      "f5cf6b2b603d83aff4dd912304ed7fa4040ee11325b5dc2f5a77ced4a8cac286",
+      "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 114.59,
+    "results": [
+      {
+        "id": "5f2d3c5d88e9f37d015a2ba7470a44ae1ecba124382ef81d376279ae03e60f1c",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 13,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 471,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7398141932708987,
+        "text_sha256": "bf9d7e6057b75e4d4df217c68d5b2bc3f87e1805ad8a101796090d92b6014341",
+        "text_length": 470
+      },
+      {
+        "id": "f5cf6b2b603d83aff4dd912304ed7fa4040ee11325b5dc2f5a77ced4a8cac286",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 3788,
+          "language": "en",
+          "start_char": 3414,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4493165076593748,
+        "text_sha256": "93a906321ab91912c01e31ac5dc36afc801877ad013ee83f2e32023cc2c066bc",
+        "text_length": 374
+      },
+      {
+        "id": "980277f290fed37dcfa71be1081bdd8b5c61068d0138879707bdc68b3884996f",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 1036,
+          "language": "en",
+          "start_char": 478,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4427580271507494,
+        "text_sha256": "33b9eb820f1a63bcff3e03eb9ae9f2026dbd739dfa1a8a781deca7c156214d6d",
+        "text_length": 557
+      }
+    ],
+    "context_length": 1757
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the souvenirs section, what is the filling of pineapple cake made from?",
+    "filter": null,
+    "context_ids": [
+      "ce8fc5ce278ab39c54c43421307e52fa200c5f7c8cbe0e61fa7ab100626237d2",
+      "b2408080c106fda4e1de04c3dde421b068b36ac4d144d51f95a81829a9581e9b"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 124.45,
+    "results": [
+      {
+        "id": "ce8fc5ce278ab39c54c43421307e52fa200c5f7c8cbe0e61fa7ab100626237d2",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 15,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 586,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5922981743634845,
+        "text_sha256": "7d67d4f625b853618f80538fac3cf2d31e476db4ade41f07f2df9d08a85d6a73",
+        "text_length": 585
+      },
+      {
+        "id": "b2408080c106fda4e1de04c3dde421b068b36ac4d144d51f95a81829a9581e9b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 15,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 2989,
+          "language": "en",
+          "start_char": 2429,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.49353137689455184,
+        "text_sha256": "86aaa70b7e1773b619a89955e9764e6d1148ebe2f1dbd3493b455de3dcc20a01",
+        "text_length": 559
+      },
+      {
+        "id": "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 14,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 906,
+          "language": "en",
+          "start_char": 422,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.43789219856262207,
+        "text_sha256": "ad20c895f5f334b5ef4adaf955fdc49957b31c400fd39a3463859d269d02a4c7",
+        "text_length": 484
+      }
+    ],
+    "context_length": 1382
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How long is Xiluo soy sauce fermented in jugs?",
+    "filter": null,
+    "context_ids": [
+      "a9abe228b03a2a5e7abdee1ba240ef8e755e33bc52f29b680932908801a59bc8",
+      "639d16403bea789ba1138e15a36950b383d4505e36b35a68968100d7f77f7b31"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 118.14,
+    "results": [
+      {
+        "id": "a9abe228b03a2a5e7abdee1ba240ef8e755e33bc52f29b680932908801a59bc8",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 16,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 556,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5809417963027954,
+        "text_sha256": "279937f5bd57dab5dfd1d76680bb4d787133d1288aea0110d87bb21abe51e01b",
+        "text_length": 555
+      },
+      {
+        "id": "639d16403bea789ba1138e15a36950b383d4505e36b35a68968100d7f77f7b31",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 16,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 2233,
+          "language": "en",
+          "start_char": 1592,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.29708714502530476,
+        "text_sha256": "ed39b7f9273a23e018163bfe7ad8799abb6ed061a7045568e143a8134e1240dd",
+        "text_length": 640
+      },
+      {
+        "id": "101fefbf855c20347c1213a9c9118f4cf74a0723ef6366db1df043cf884cee59",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 12,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1026,
+          "language": "en",
+          "start_char": 478,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.2832614610635369,
+        "text_sha256": "e36fe3f8d13ecbfacb3f46534aa0f85c0e48afac1941802776afef23eb9102db",
+        "text_length": 547
+      }
+    ],
+    "context_length": 1433
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How many days does it take to hike Holy Ridge?",
+    "filter": null,
+    "context_ids": [
+      "4a76d7bbb3e851ad26847b946b63bc43edf8a8be5ef7a0cb07799df4f01632a6",
+      "ad45a2edf3f3f1032cf69fe0e563f5f001ffef15ee3d4f68a5b97041fd65209b",
+      "6445140292783eadf30b7f9d8e13357355fe8202e4ac85612b44445af1125d57"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 116.78,
+    "results": [
+      {
+        "id": "4a76d7bbb3e851ad26847b946b63bc43edf8a8be5ef7a0cb07799df4f01632a6",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 18,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 583,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5240252585380999,
+        "text_sha256": "156f164a3264159fc81703e65737ac66d2676552016fdcc4762b6705515c365f",
+        "text_length": 582
+      },
+      {
+        "id": "ad45a2edf3f3f1032cf69fe0e563f5f001ffef15ee3d4f68a5b97041fd65209b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 33,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1834,
+          "language": "en",
+          "start_char": 1226,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5141476392745972,
+        "text_sha256": "d3a8c97e83cde16cba93b73e4e3f7ad51e917df6b626cf84cdc3f01f894f56cc",
+        "text_length": 607
+      },
+      {
+        "id": "6445140292783eadf30b7f9d8e13357355fe8202e4ac85612b44445af1125d57",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 23,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1941,
+          "language": "en",
+          "start_char": 1739,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.48519006459772296,
+        "text_sha256": "8d16c9c160ddfcd0047fa489a6a0a8f0d18685c2426620d3fea9ef416cd9b85d",
+        "text_length": 202
+      }
+    ],
+    "context_length": 1749
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "Which two places were linked by the Paoma Historic Trail as the only cross-mountain route?",
+    "filter": null,
+    "context_ids": [
+      "1f0639c02441fccf4c5b58c7eff565f97cc9ff6d3a96903ee388f1a5437e84bf",
+      "817d275c0beb407cc9fa2bc4f4404ab233d65425cbcab7714c67b871e4143c76",
+      "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 125.71,
+    "results": [
+      {
+        "id": "1f0639c02441fccf4c5b58c7eff565f97cc9ff6d3a96903ee388f1a5437e84bf",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 20,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 537,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6725865201600492,
+        "text_sha256": "f53f62519f8fe5830bc6b01d17f5b8c5900c9e67c4b1ab5cc230fc154397d505",
+        "text_length": 536
+      },
+      {
+        "id": "817d275c0beb407cc9fa2bc4f4404ab233d65425cbcab7714c67b871e4143c76",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 20,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 969,
+          "language": "en",
+          "start_char": 537,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.608615898572452,
+        "text_sha256": "fbea66d7baa426aa41e3324d5b8db117fd2e0285f1eb9d40d65938d91e7f67af",
+        "text_length": 432
+      },
+      {
+        "id": "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 22,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1951,
+          "language": "en",
+          "start_char": 1651,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5186392642689666,
+        "text_sha256": "ed94958cae5a2f6b54a375acf5a49e078eaa13c52d67569bffcbc94203511060",
+        "text_length": 300
+      }
+    ],
+    "context_length": 1626
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How many Hehuan Mountain peaks are over 3,000 meters high?",
+    "filter": null,
+    "context_ids": [
+      "66d67dac4130781cbd837aa94cefbeeabef8980149fdf525369dc5b9ca1824c8",
+      "4ab651129fcb89bbc4de8068bdd4d7908b9885935ff497cb0295dc29dad65936"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 114.75,
+    "results": [
+      {
+        "id": "66d67dac4130781cbd837aa94cefbeeabef8980149fdf525369dc5b9ca1824c8",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 22,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 493,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6335864881523567,
+        "text_sha256": "9a07758e7651711262a71b6f89968e2c30d90b79ec3142d20d2677f2495772c9",
+        "text_length": 492
+      },
+      {
+        "id": "4ab651129fcb89bbc4de8068bdd4d7908b9885935ff497cb0295dc29dad65936",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 23,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1275,
+          "language": "en",
+          "start_char": 629,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5923597702551162,
+        "text_sha256": "691a41c5023271d33a801d6d138171870ccb6a9f14341a2b4e67df2afadc2d9b",
+        "text_length": 645
+      },
+      {
+        "id": "064dcbb38a930a3487adfb6af1cb59a5fc4e39fdb736f87e5b92e762ab30ee73",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 30,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 2118,
+          "language": "en",
+          "start_char": 1765,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5565149120670662,
+        "text_sha256": "55cab68657dc22f8e1a8f0a953a53f142068a82432f8fade8e60ba2f0565451c",
+        "text_length": 353
+      }
+    ],
+    "context_length": 1375
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "About how high above sea level is Cingjing Farm?",
+    "filter": null,
+    "context_ids": [
+      "a17a860f51e9374d7156417de7e4e0668424325f33798386fe2e3cf3e25df72b",
+      "064dcbb38a930a3487adfb6af1cb59a5fc4e39fdb736f87e5b92e762ab30ee73"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 115.87,
+    "results": [
+      {
+        "id": "a17a860f51e9374d7156417de7e4e0668424325f33798386fe2e3cf3e25df72b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 23,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 629,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6742083825406942,
+        "text_sha256": "34f076d792c0c1459928be979cfd80265c7ed294ec8e048d42bb4f3a007e9366",
+        "text_length": 628
+      },
+      {
+        "id": "064dcbb38a930a3487adfb6af1cb59a5fc4e39fdb736f87e5b92e762ab30ee73",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 30,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 2118,
+          "language": "en",
+          "start_char": 1765,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5074008098362911,
+        "text_sha256": "55cab68657dc22f8e1a8f0a953a53f142068a82432f8fade8e60ba2f0565451c",
+        "text_length": 353
+      },
+      {
+        "id": "d78c3efeaf84b59443fd71fad361413f669a57331694f803b030e180e20aada2",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 17,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 606,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4525716304779085,
+        "text_sha256": "ec85b5d6793374dc11b32bbb4621efc89da382da6319d5c0dd4abc5d070140d6",
+        "text_length": 605
+      }
+    ],
+    "context_length": 1219
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "What is the total length of the Batongguan Trail?",
+    "filter": null,
+    "context_ids": [
+      "14239ac6d9e7bf98196dcc87d4752f2bae64c0f81edfdcf4fc3b1901c361e40a",
+      "6ad6e25591e919feb2d83ddcd99c5504456e90faa21dd23d3fc1ecc41b5b30f2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 114.42,
+    "results": [
+      {
+        "id": "14239ac6d9e7bf98196dcc87d4752f2bae64c0f81edfdcf4fc3b1901c361e40a",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 24,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 587,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.639264664693794,
+        "text_sha256": "5a47931f4ac6437df87b8ad630e52b92a35d60a6a796538b7852d0fcf0487352",
+        "text_length": 586
+      },
+      {
+        "id": "6ad6e25591e919feb2d83ddcd99c5504456e90faa21dd23d3fc1ecc41b5b30f2",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 25,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 634,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5608554744210567,
+        "text_sha256": "c3b752121690f6c33fb703b9eb32bf21231096d3597209560af528c62a1b1fde",
+        "text_length": 633
+      },
+      {
+        "id": "f4f7ca01775e37f1bdc2bd26344766d349066089ba5f516f836b6db98753c457",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 18,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 2155,
+          "language": "en",
+          "start_char": 1726,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5028186733450887,
+        "text_sha256": "088afc4631ed3bec4b036815ebb61cfc4ff7dd96c96975b40c50e0c76c2add02",
+        "text_length": 429
+      }
+    ],
+    "context_length": 1457
+  },
+  {
+    "query_id": "q16",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "What views do visitors seek along the Eryanping Trail?",
+    "filter": null,
+    "context_ids": [
+      "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+      "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948",
+      "f4f7ca01775e37f1bdc2bd26344766d349066089ba5f516f836b6db98753c457"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 117.07,
+    "results": [
+      {
+        "id": "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 29,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 647,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.48644840878863227,
+        "text_sha256": "35ae5c81f612a76833881cbd9a972482620cbd0fb6d270c70673f99463c72d03",
+        "text_length": 646
+      },
+      {
+        "id": "6f0092b341f3fca3228cefd812b6b7a4cb4dece49696206edd50f6492290a948",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 22,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1951,
+          "language": "en",
+          "start_char": 1651,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.48617956289418496,
+        "text_sha256": "ed94958cae5a2f6b54a375acf5a49e078eaa13c52d67569bffcbc94203511060",
+        "text_length": 300
+      },
+      {
+        "id": "f4f7ca01775e37f1bdc2bd26344766d349066089ba5f516f836b6db98753c457",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 18,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 2155,
+          "language": "en",
+          "start_char": 1726,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4737769710224331,
+        "text_sha256": "088afc4631ed3bec4b036815ebb61cfc4ff7dd96c96975b40c50e0c76c2add02",
+        "text_length": 429
+      }
+    ],
+    "context_length": 1733
+  },
+  {
+    "query_id": "q17",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the mountain tourism section, what two landscapes does the Alangyi Historic Trail combine?",
+    "filter": null,
+    "context_ids": [
+      "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+      "dfecb634ac265ed28d4544b047ffe395bf9c3f2095d190c5b23b8dd93b99237b",
+      "1ef4768f57035ff4486b0c36e3dba93991df2f014639c32eeef5a9e0f30bebdf"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 126.83,
+    "results": [
+      {
+        "id": "6c945b2adaa345bbfba74e0d0d0b17403c3f6ad7b4d4b25584c9d4010ac09e1b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 29,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 647,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6188190068926214,
+        "text_sha256": "35ae5c81f612a76833881cbd9a972482620cbd0fb6d270c70673f99463c72d03",
+        "text_length": 646
+      },
+      {
+        "id": "dfecb634ac265ed28d4544b047ffe395bf9c3f2095d190c5b23b8dd93b99237b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 28,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 625,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6058235638352003,
+        "text_sha256": "ce94d164c511c90b5e6ebfcc6adae22a8928a013b3a994302fdae4720031fd48",
+        "text_length": 624
+      },
+      {
+        "id": "1ef4768f57035ff4486b0c36e3dba93991df2f014639c32eeef5a9e0f30bebdf",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 26,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1941,
+          "language": "en",
+          "start_char": 1811,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5437150221380561,
+        "text_sha256": "af9556b32bed435c5bec667301199777079fd51a83ec12cbffe1ebd3c7ca3ff0",
+        "text_length": 130
+      }
+    ],
+    "context_length": 1758
+  },
+  {
+    "query_id": "q18",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How many tunnels does the Baiyang Trail pass through?",
+    "filter": null,
+    "context_ids": [
+      "d2117799f0152c535ed71ab48920a6e77dec04e3a05de657386944e48f9c7b76",
+      "317873dda1ad798256048f78b1229dd02782a07ead2eeee831c7d2997ac8940d"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 118.52,
+    "results": [
+      {
+        "id": "d2117799f0152c535ed71ab48920a6e77dec04e3a05de657386944e48f9c7b76",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 30,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 534,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7198078632354736,
+        "text_sha256": "b9ce99c80c6a70205d2d78d337e58156ceaf32930590d01f504f597c1caafe60",
+        "text_length": 533
+      },
+      {
+        "id": "317873dda1ad798256048f78b1229dd02782a07ead2eeee831c7d2997ac8940d",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 31,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1577,
+          "language": "en",
+          "start_char": 951,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6967459917068481,
+        "text_sha256": "f2d338bd7df7c23b8a04e87706c95d9684030b633104eff413f0d89b2746ada3",
+        "text_length": 625
+      },
+      {
+        "id": "e0466f9191eba656118e061630af7053f1cab0b00a5376f1798a5f355bb78479",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 31,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 622,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6661727428436279,
+        "text_sha256": "ee7cbc62f48b47e1e2c7e280dbc71c8cca8b4460563f9684625ddab6d29ca1cf",
+        "text_length": 621
+      }
+    ],
+    "context_length": 1396
+  },
+  {
+    "query_id": "q19",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the outlying islands section, during which months do green sea turtles lay eggs on Xiaoliuqiu?",
+    "filter": null,
+    "context_ids": [
+      "bdb1add324728b028628d441accff5186f48b896e96012a933756ac01770acf3",
+      "d0bd0775296e50c17d3211f780e616d8fef6bf1a5df7ac508fe907b6182c5504",
+      "3f8cf26bc510850c1eb11b5d87f1ce560c3323e2306b5b8ad9985b9dad070144"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 116.64,
+    "results": [
+      {
+        "id": "bdb1add324728b028628d441accff5186f48b896e96012a933756ac01770acf3",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 34,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 551,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.8355848887214146,
+        "text_sha256": "65e16a1e1b9266f5178ded513335706ac98b5767fa72a3fc05a2432aec7ea06f",
+        "text_length": 550
+      },
+      {
+        "id": "d0bd0775296e50c17d3211f780e616d8fef6bf1a5df7ac508fe907b6182c5504",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 34,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 1047,
+          "language": "en",
+          "start_char": 551,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5225739167586624,
+        "text_sha256": "87ddbeb7dbdd5eb4e7b3fe3c9b8a3bdbd1dbd22156a44fc539cc1287304f7c10",
+        "text_length": 496
+      },
+      {
+        "id": "3f8cf26bc510850c1eb11b5d87f1ce560c3323e2306b5b8ad9985b9dad070144",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 35,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 3252,
+          "language": "en",
+          "start_char": 2878,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.454134559138473,
+        "text_sha256": "4c07197c02e955fbb2fcb45574e6b8bb8596dfac5f86f8ff77f752c51b331794",
+        "text_length": 374
+      }
+    ],
+    "context_length": 1778
+  },
+  {
+    "query_id": "q20",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How do the stone weirs in Penghu trap fish?",
+    "filter": null,
+    "context_ids": [
+      "669f32a6f7b5bdd434be8ffd38b7996ba02f2402f974c7f2a10a2ffe6115a067",
+      "bce737574c57ec0056a88c82ec8dd3554e8a4d8d27143aa956d45516317b1d2f"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 117.95,
+    "results": [
+      {
+        "id": "669f32a6f7b5bdd434be8ffd38b7996ba02f2402f974c7f2a10a2ffe6115a067",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 36,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 1125,
+          "language": "en",
+          "start_char": 635,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6851945298678244,
+        "text_sha256": "ed9a1e6dec2979ae5cbfcd3739a3116d81390ee34e8e97832ba5d1520d42c5d9",
+        "text_length": 489
+      },
+      {
+        "id": "bce737574c57ec0056a88c82ec8dd3554e8a4d8d27143aa956d45516317b1d2f",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 36,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 635,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5868371375300216,
+        "text_sha256": "6bbd7d406a146a0b97b280269d76c289bedd35858bbc67eb94754ddadba9f8a2",
+        "text_length": 634
+      },
+      {
+        "id": "e0466f9191eba656118e061630af7053f1cab0b00a5376f1798a5f355bb78479",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 31,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 622,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.41689554352190905,
+        "text_sha256": "ee7cbc62f48b47e1e2c7e280dbc71c8cca8b4460563f9684625ddab6d29ca1cf",
+        "text_length": 621
+      }
+    ],
+    "context_length": 1361
+  },
+  {
+    "query_id": "q21",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "According to the guide, about how many endemic wildlife species live on Taiwan?",
+    "filter": null,
+    "context_ids": [
+      "756255e974d2beb25db01620ae4092f28a48bcc6ef0f1f90c06b52f9376ed57b",
+      "8731d3931a3ed4ca18453a94e52af50cab0635363b467258a422932fa349e744"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 123.74,
+    "results": [
+      {
+        "id": "756255e974d2beb25db01620ae4092f28a48bcc6ef0f1f90c06b52f9376ed57b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 2,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "overview",
+          "end_char": 1037,
+          "language": "en",
+          "start_char": 573,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7990603210222161,
+        "text_sha256": "745f4fc3583ffe9b79d2886b6271923a16ac3b5ff66cc4e209316dbb9ddf351c",
+        "text_length": 463
+      },
+      {
+        "id": "8731d3931a3ed4ca18453a94e52af50cab0635363b467258a422932fa349e744",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 2,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "overview",
+          "end_char": 2581,
+          "language": "en",
+          "start_char": 1993,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5223907516961851,
+        "text_sha256": "e3d2a2e313920130299e9eda5c8aaaeb12ee98b69fa0b07dd2911ef64a2535ec",
+        "text_length": 588
+      },
+      {
+        "id": "1bc8db8c9f02b832661fa5e695b3b7cf3ddd6a885160fe2ff3e058f885fd034c",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 17,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1754,
+          "language": "en",
+          "start_char": 1202,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5209710883515434,
+        "text_sha256": "8238c6ad6dce8181c85f59fa2e035063553095f3d9458c007cf4fd7d09f9c0f5",
+        "text_length": 551
+      }
+    ],
+    "context_length": 1287
+  },
+  {
+    "query_id": "q22",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the transport section, which means of travel can visitors take from the airport to major cities?",
+    "filter": null,
+    "context_ids": [
+      "d58f3d28ab4e0359fa81fe6a1a16abd2241fb377b346ae1f5671bb3531cec8d7",
+      "ef43b4f43f0737daa74de8bc497dea196b584f7c910ad53cc5206fdeddded966",
+      "4d0c10f0a6db4f7755f2c767ad473ff3b519992d7d3465a344162ee4f9b66481"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 112.42,
+    "results": [
+      {
+        "id": "d58f3d28ab4e0359fa81fe6a1a16abd2241fb377b346ae1f5671bb3531cec8d7",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 4,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 360,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.40873444080352783,
+        "text_sha256": "57d5baad2325ad068ccf10dae411d2e13aa4675dd99e55bb489352d75bb15b74",
+        "text_length": 359
+      },
+      {
+        "id": "ef43b4f43f0737daa74de8bc497dea196b584f7c910ad53cc5206fdeddded966",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 1610,
+          "language": "en",
+          "start_char": 1036,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.36488667935808494,
+        "text_sha256": "a8206167bbeeab618853c7a55d573ab23449961e96d162e8c01de82f922f0a5b",
+        "text_length": 573
+      },
+      {
+        "id": "4d0c10f0a6db4f7755f2c767ad473ff3b519992d7d3465a344162ee4f9b66481",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 29,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 2377,
+          "language": "en",
+          "start_char": 2206,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.35623928047652786,
+        "text_sha256": "77e8ac7d82cf0ed392a81f02038b40f710888f2679622f73a016fe2896dcd864",
+        "text_length": 171
+      }
+    ],
+    "context_length": 1459
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the festivals section, over which bridge are fireworks displayed during the Penghu Fireworks and Music Festival?",
+    "filter": null,
+    "context_ids": [
+      "2405fc1d7c8a16bd4037375aab6a2854773c24dfd496c146b1a36cb8b87de683",
+      "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 115.1,
+    "results": [
+      {
+        "id": "2405fc1d7c8a16bd4037375aab6a2854773c24dfd496c146b1a36cb8b87de683",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 10,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1125,
+          "language": "en",
+          "start_char": 575,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.723370823458335,
+        "text_sha256": "fd702c3efde5ea58c1e85f7e39cebb5254420b6faab4f927b62a5c2cc56c8719",
+        "text_length": 549
+      },
+      {
+        "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 7,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 980,
+          "language": "en",
+          "start_char": 342,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5802503478377861,
+        "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+        "text_length": 637
+      },
+      {
+        "id": "f28be11f8b412c78ea71953263093d665a0128cdfc0dae991e9983aa0698bac7",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 11,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1895,
+          "language": "en",
+          "start_char": 1267,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5280814733408126,
+        "text_sha256": "1191b886ac5a672dad5c1100a6af58c884b183159842a1e911f9e6e84fdf1bee",
+        "text_length": 627
+      }
+    ],
+    "context_length": 1423
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the souvenirs section, which Hakka specialty is named among the gift items?",
+    "filter": null,
+    "context_ids": [
+      "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+      "5c4cf01df0df14a843b0d6513489f9d6b75dcdcaa9a3712a73d51a2e0bf94292",
+      "78134720ed7775d41dcb1c41db6c3a5367d000cd3c2a4af087378dbb07c857c1"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 139.12,
+    "results": [
+      {
+        "id": "a834a2df6fad50ac2216db0535477276f3d28a1d9fd9f80de8ab801a7ab72d1b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 14,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 906,
+          "language": "en",
+          "start_char": 422,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5960277318954468,
+        "text_sha256": "ad20c895f5f334b5ef4adaf955fdc49957b31c400fd39a3463859d269d02a4c7",
+        "text_length": 484
+      },
+      {
+        "id": "5c4cf01df0df14a843b0d6513489f9d6b75dcdcaa9a3712a73d51a2e0bf94292",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 2,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "overview",
+          "end_char": 1993,
+          "language": "en",
+          "start_char": 1531,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4706970488194202,
+        "text_sha256": "3d95813fba71e52575d209fb16c817174f2992f83296d9ca8220ba7eb1b43a09",
+        "text_length": 461
+      },
+      {
+        "id": "78134720ed7775d41dcb1c41db6c3a5367d000cd3c2a4af087378dbb07c857c1",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 14,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "souvenirs",
+          "end_char": 422,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4427160092930814,
+        "text_sha256": "3ef60e90dff8bf31c125fbf02d8053c2d36b5c5d60e2d87b016faaf4d5b01e75",
+        "text_length": 421
+      }
+    ],
+    "context_length": 1723
+  },
+  {
+    "query_id": "q25",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "In the outlying islands section, during which months does the Kuroshio bring flying fish to the Yami people?",
+    "filter": null,
+    "context_ids": [
+      "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+      "dcfe626e68f159738e3f348f031784d01119ae12859bdb1d208639bfde676c15"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 128.64,
+    "results": [
+      {
+        "id": "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 35,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 584,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7029331084569563,
+        "text_sha256": "5f1a6bff6c6bac1c610be00911694d58fcf6aad0dbc9c230de679590fc660052",
+        "text_length": 583
+      },
+      {
+        "id": "dcfe626e68f159738e3f348f031784d01119ae12859bdb1d208639bfde676c15",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 35,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 1122,
+          "language": "en",
+          "start_char": 584,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.4305926346072394,
+        "text_sha256": "8220d37c34f8480c3425d96c06ad388a304c5b430cc9c43ebaebc91ff7e72617",
+        "text_length": 537
+      },
+      {
+        "id": "738b4a1a7b8d6a0554b4d2370976e58175c31e4a7ae53ed1bc44d161d04d1945",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 21,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 1775,
+          "language": "en",
+          "start_char": 1192,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.42542217070792065,
+        "text_sha256": "f052b286c869e89432d118587ace896951cde656408ed37ac5c1e1b63dedfa4a",
+        "text_length": 582
+      }
+    ],
+    "context_length": 1358
+  },
+  {
+    "query_id": "q26",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "For a self-planned trip using Taiwan Tourist Shuttle, which card provides unlimited rides for one day?",
+    "filter": null,
+    "context_ids": [
+      "f45723485d3772f19a30dd0d7f48af6bcf8c5d09eb5c8b2712990a5963752bb5",
+      "4da40a5b4724f76d972188f63a1a9cefd339ef6ed976aa410701585b0c206924"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 133.02,
+    "results": [
+      {
+        "id": "f45723485d3772f19a30dd0d7f48af6bcf8c5d09eb5c8b2712990a5963752bb5",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 2716,
+          "language": "en",
+          "start_char": 2201,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7390320301055908,
+        "text_sha256": "6722de3579ee8faba657f7006d47fd0d2bd2092056d4e9dcab7ee657413230a4",
+        "text_length": 514
+      },
+      {
+        "id": "4da40a5b4724f76d972188f63a1a9cefd339ef6ed976aa410701585b0c206924",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 2201,
+          "language": "en",
+          "start_char": 1610,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.60243821144104,
+        "text_sha256": "c255247f392aef78607bee3eb9516d313faa78d6e2fd73688123c3c49504e91d",
+        "text_length": 590
+      },
+      {
+        "id": "ef43b4f43f0737daa74de8bc497dea196b584f7c910ad53cc5206fdeddded966",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 5,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "transport",
+          "end_char": 1610,
+          "language": "en",
+          "start_char": 1036,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6019436358247031,
+        "text_sha256": "a8206167bbeeab618853c7a55d573ab23449961e96d162e8c01de82f922f0a5b",
+        "text_length": 573
+      }
+    ],
+    "context_length": 1340
+  },
+  {
+    "query_id": "q27",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "Can a 60-day visa marked \"No extension will be granted\" be extended directly at a local service center under the guide's rule?",
+    "filter": null,
+    "context_ids": [
+      "143e8079aba19474ba1f54cb21e43a5f81f72cd932619784fec7e5cda2b40a56",
+      "d9dbe4700440b8d809663cff6137494112d8ea129eb81060e4091abdc958ac59"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true,
+    "elapsed_ms": 135.17,
+    "results": [
+      {
+        "id": "143e8079aba19474ba1f54cb21e43a5f81f72cd932619784fec7e5cda2b40a56",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 1013,
+          "language": "en",
+          "start_char": 372,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5147270253463382,
+        "text_sha256": "21dd331a7b732a61226e4e9e6a1347f454c9aa71b74c56bd78f99ea95e66a5bb",
+        "text_length": 640
+      },
+      {
+        "id": "d9dbe4700440b8d809663cff6137494112d8ea129eb81060e4091abdc958ac59",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 1897,
+          "language": "en",
+          "start_char": 1371,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.2472836823890403,
+        "text_sha256": "0ddc4c9ae601999c5d5d1585f2b313cc9fa071a003f176739f7e4f060f0357da",
+        "text_length": 525
+      },
+      {
+        "id": "baf1ad94b9ad5c948b353c0332d2150b2d4bb6b6e58522a255e7af5738960d9b",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 1371,
+          "language": "en",
+          "start_char": 1013,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.23497143566948941,
+        "text_sha256": "3dc5a492e798223cdc2207b3b6c6ff767c0c341fe7e8c873b1d96149b66e56f6",
+        "text_length": 357
+      }
+    ],
+    "context_length": 1401
+  },
+  {
+    "query_id": "dev_abs_1",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "How many people attended the 2025 Taiwan Lantern Festival?",
+    "filter": null,
+    "context_ids": [
+      "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+      "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 135.59,
+    "results": [
+      {
+        "id": "31f25b64a73d7a09ef13d1217ab851f3c159d6e6ead2019464e687af1d9228d5",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 8,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 572,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.7035543079907527,
+        "text_sha256": "dff83be155d528268103240867babad56ea22570fb7138d223ce6cfa3e9babbf",
+        "text_length": 571
+      },
+      {
+        "id": "83dcf793ede015182ebf1b8245fa9b3fa9d6e3bb20285c3a04c75c917d48017f",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 9,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 1966,
+          "language": "en",
+          "start_char": 1671,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.6639361782150056,
+        "text_sha256": "bf84ab147ecf417d046af767004d1672bbb01adc2b220eb3c9718a2aa63182c7",
+        "text_length": 295
+      },
+      {
+        "id": "49d19a49470eed3cf514ca8f7515ee39a5c8fcd9fa35c7f2a582d082052afc16",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 7,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "festivals",
+          "end_char": 980,
+          "language": "en",
+          "start_char": 342,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.5928878430791005,
+        "text_sha256": "13baa352c027240fb9f996c445c7045c8526b633e3a637240ea4cd2fefe6b436",
+        "text_length": 637
+      }
+    ],
+    "context_length": 1102
+  },
+  {
+    "query_id": "dev_abs_2",
+    "split": "dev",
+    "method": "dense",
+    "config": {
+      "top_k": 3,
+      "budget_chars": 1800
+    },
+    "query": "What was Orchid Island's hotel occupancy rate in 2024?",
+    "filter": null,
+    "context_ids": [
+      "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+      "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+      "ed12f96c9e38637bc7a2458309bfadb04118df57331b1af6069f0b7deee2b1b9"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false,
+    "elapsed_ms": 113.56,
+    "results": [
+      {
+        "id": "e996b156fd4213b5650abe240ba39cd6587df8fe646af662fe982ec9ef966892",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 35,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "outlying_islands",
+          "end_char": 584,
+          "language": "en",
+          "start_char": 0,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.3938647273859551,
+        "text_sha256": "5f1a6bff6c6bac1c610be00911694d58fcf6aad0dbc9c230de679590fc660052",
+        "text_length": 583
+      },
+      {
+        "id": "bb2e4510152f3fc126095ee27c6dcba8318a962dc39caa1f6a9cd178057dce8a",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 3,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "travel_information",
+          "end_char": 3414,
+          "language": "en",
+          "start_char": 3119,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.3510177522291099,
+        "text_sha256": "3c07b8b193ea005a884df81d2f8a5624ebd03006642a1052a62ae46ee7f2b7c2",
+        "text_length": 294
+      },
+      {
+        "id": "ed12f96c9e38637bc7a2458309bfadb04118df57331b1af6069f0b7deee2b1b9",
+        "source_id": "taiwan-tourism-guide-2020",
+        "source": "2020_Taiwan_Tourism_Guide_Book_(E).pdf",
+        "page": 33,
+        "metadata": {
+          "year": 2020,
+          "title": "2020 Taiwan Tourism Guide Book",
+          "category": "mountain_tourism",
+          "end_char": 2366,
+          "language": "en",
+          "start_char": 1834,
+          "license_or_permission": "Official site offers download and hyperlinks; no permission to republish this PDF was identified. Local copy supplied by the user for analysis."
+        },
+        "score": 0.31042104959487915,
+        "text_sha256": "757117ad75dde00ac82bddc562c11edb73a8e7832c96070a1341b2bf7b224dd8",
+        "text_length": 531
+      }
+    ],
+    "context_length": 1765
+  }
+]

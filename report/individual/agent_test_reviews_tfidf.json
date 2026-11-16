@@ -1,0 +1,9 @@
+[
+  {"query_id": "test_1", "answer_grade": 2, "citation_support": [true], "reason": "Page 8 cited chunk says the Yanshui festival followed a cholera outbreak."},
+  {"query_id": "test_2", "answer_grade": 0, "citation_support": [false], "reason": "Agent incorrectly assigned the Cycling Festival's June to December dates to Formosa; the cited page 11 chunk does not support that claim."},
+  {"query_id": "test_3", "answer_grade": 2, "citation_support": [true], "reason": "Page 16 cited chunk names millet mochi as an Amis snack."},
+  {"query_id": "test_4", "answer_grade": 2, "citation_support": [true], "reason": "Page 25 cited chunk states Yunlong Waterfall descends in three stages."},
+  {"query_id": "test_5", "answer_grade": 2, "citation_support": [true], "reason": "Page 35 cited chunk says goats symbolize property in the Yami tribe."},
+  {"query_id": "test_abs_1", "citation_support": [], "abstention_correct": true, "reason": "The 2020 guide has no 2026 fare; agent refused without a factual claim."},
+  {"query_id": "test_abs_2", "citation_support": [], "abstention_correct": true, "reason": "The 2020 guide has no 2025 marathon winner; agent refused without a factual claim."}
+]
